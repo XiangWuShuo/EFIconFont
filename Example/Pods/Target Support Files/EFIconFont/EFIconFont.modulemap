@@ -1,0 +1,6 @@
+framework module EFIconFont {
+  umbrella header "EFIconFont-umbrella.h"
+
+  export *
+  module * { export * }
+}

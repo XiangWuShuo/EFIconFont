@@ -1,0 +1,18 @@
+PODS:
+  - EFIconFont/AntDesign (0.1.0):
+    - EFIconFont/Core
+  - EFIconFont/Core (0.1.0)
+
+DEPENDENCIES:
+  - EFIconFont/AntDesign (from `../`)
+
+EXTERNAL SOURCES:
+  EFIconFont:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EFIconFont: fa8c45c8fb28ab062ca3c4b81bd6c79a81aa8522
+
+PODFILE CHECKSUM: 91a3de22637c4ca4b0695e7038ba9c418ac94507
+
+COCOAPODS: 1.6.1
