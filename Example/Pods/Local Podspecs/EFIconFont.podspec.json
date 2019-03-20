@@ -4,6 +4,11 @@
   "summary": "Yet another stupid wrapper of icon font.",
   "description": "Yet another stupid wrapper of icon font, in Swift.",
   "homepage": "https://github.com/EyreFree/EFIconFont",
+  "screenshots": [
+    "https://github.com/EFPrefix/EFIconFont/blob/master/Assets/1.png?raw=true",
+    "https://github.com/EFPrefix/EFIconFont/blob/master/Assets/2.png?raw=true",
+    "https://github.com/EFPrefix/EFIconFont/blob/master/Assets/3.png?raw=true"
+  ],
   "license": {
     "type": "MIT",
     "file": "LICENSE"

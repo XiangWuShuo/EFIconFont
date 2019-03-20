@@ -28,7 +28,7 @@ import Foundation
 import UIKit
 
 public protocol EFIconFontProtocol {
-    
+
     // `name` is not necessarily equal to .ttf file name
     var name: String { get }
 
@@ -41,7 +41,8 @@ public protocol EFIconFontProtocol {
 
 public extension EFIconFontProtocol {
 
-    public func loaded() -> Bool {
+    // MARK:- Private
+    private func loaded() -> Bool {
         if UIFont.fontNames(forFamilyName: name).isEmpty == false {
             return true
         }
@@ -63,11 +64,12 @@ public extension EFIconFontProtocol {
         return true
     }
 
-    public func font(size fontSize: CGFloat) -> UIFont? {
+    private func font(size fontSize: CGFloat) -> UIFont? {
         if !loaded() { return nil }
         return UIFont(name: self.name, size: fontSize)
     }
 
+    // MARK:- String
     public func attributedString(size fontSize: CGFloat, color: UIColor? = nil) -> NSAttributedString? {
         guard let font = font(size: fontSize) else { return nil }
         var attributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font : font]
@@ -76,7 +78,8 @@ public extension EFIconFontProtocol {
         }
         return NSAttributedString(string: self.unicode, attributes: attributes)
     }
-    
+
+    // MARK:- Image
     public func image(size fontSize: CGFloat, color: UIColor? = nil) -> UIImage? {
         guard let font = font(size: fontSize) else { return nil }
         var attributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font : font]

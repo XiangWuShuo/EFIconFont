@@ -5,36 +5,50 @@
 [![License](https://img.shields.io/cocoapods/l/EFIconFont.svg?style=flat)](https://cocoapods.org/pods/EFIconFont)
 [![Platform](https://img.shields.io/cocoapods/p/EFIconFont.svg?style=flat)](https://cocoapods.org/pods/EFIconFont)
 
-A ordinary icon font package helps you to use icon font more easily in your project.
+一个普通的 icon font 封装，帮助你更便捷地在你的工程中使用 icon font。
 
-> [中文介绍](https://github.com/EFPrefix/EFIconFont/blob/master/README_CN.md)
+> [English Introduction](https://github.com/EFPrefix/EFIconFont/blob/master/README.md)
 
-## Preview
+## 预览
 
 | 1  | 2 | 3 |
 |:-:|:-:|:-:|
 | ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/1.png?raw=true) | ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/2.png?raw=true) | ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/3.png?raw=true) |
 
-## Example
+## 示例
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+1. 利用 `git clone` 命令下载本仓库；
+2. 利用 cd 命令切换到 Example 目录下，执行 `pod install` 命令；
+3. 随后打开 `EFIconFont.xcworkspace` 编译即可。
 
-## Requirements
+或执行以下命令：
+
+```bash
+git clone git@github.com:EFPrefix/EFIconFont.git; cd EFIconFont/Example; pod install; open EFIconFont.xcworkspace
+```
+
+## 需求
 
 - iOS 8.0+
+- Swift 4.2+
 
-## Installation
+## 安装
 
-EFIconFont is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+EFIconFont 可以通过 [CocoaPods](http://cocoapods.org) 进行获取。只需要在你的 Podfile 中添加如下代码就能实现引入：
 
 ```ruby
 pod 'EFIconFont'
 ```
 
-## Custom
+然后，执行如下命令即可：
 
-Use the following `JavaScript` code in Chrome console, you can generate your own `enum` in your project page of `iconfont.cn`:
+```bash
+pod install
+```
+
+## 扩展
+
+在你 `iconfont.cn` 的某个工程页面，打开 Chrome 开发者工具的 Console，在其中执行如下 `JavaScript` 脚本，即可获取对应的枚举结构，如下所示：
 
 ```javascript
 function camelCase(text, separator) {
@@ -64,12 +78,12 @@ console.log(result)
 
 ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/Custom.png?raw=true)
 
-## Author
+## 作者
 
 EyreFree, eyrefree@eyrefree.org
 
-## License
+## 协议
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/License_icon-mit-88x31-2.svg/128px-License_icon-mit-88x31-2.svg.png">
 
-EFIconFont is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+EFIconFont 基于 MIT 协议进行分发和使用，更多信息参见 [协议文件](LICENSE)。
