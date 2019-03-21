@@ -17,7 +17,13 @@ A ordinary icon font package helps you to use icon font more easily in your proj
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project manually, clone the repo, demo is in the 'Example' folder, then open `EFIconFont.xcworkspace` with Xcode and select the target you want, run.
+
+Or you can run the following command in terminal:
+
+```bash
+git clone git@github.com:EFPrefix/EFIconFont.git; cd EFIconFont/Example; pod install; open EFIconFont.xcworkspace
+```
 
 ## Requirements
 
@@ -26,19 +32,83 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-EFIconFont is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+EFIconFont is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'EFIconFont'
 ```
 
-## Extend
+You can get iconfonts of `AntDesign` and `FontAwesome` by the following way:
+
+```ruby
+pod 'EFIconFont', :subspecs => ['Core', 'AntDesign', 'FontAwesome']
+```
+
+Then, run the following command:
+
+```bash
+pod install
+```
+
+## Use
+
+### 1. Core
+
+Objects that implement the `EFIconFontProtocol` protocol can transform themselves into `NSAttributedString` or `UIImage`, which is as follows:
+
+```swift
+public protocol EFIconFontProtocol {
+
+    // `name` is not necessarily equal to .ttf file name
+    var name: String { get }
+
+    // `path` is path of .ttf file
+    var path: String { get }
+
+    // `unicode` is unique identifier of particular icon
+    var unicode: String { get }
+}
+```
+
+- name：Font name, not necessarily equal to .ttf file name, you can use [BirdFont](https://birdfont.org) to see the `Name` attribute of the file;
+- path：Filepath of `.ttf` file;
+- unicode：The unique unicode of an icon.
+
+Objects that implement the protocol can be converted to strings and images by calling the following methods, you can also change the foreground color and size:
+
+```swift
+// MARK:- String
+func attributedString(size fontSize: CGFloat, color: UIColor? = nil) -> NSAttributedString?
+
+// MARK:- Image
+func image(size fontSize: CGFloat, color: UIColor? = nil) -> UIImage?
+func image(size imageSize: CGSize, color: UIColor? = nil) -> UIImage?
+```
+
+### 2. Extend
+
+This pod has integrated the free resources of `AntDesign` and `FontAwesome` in the subspecs of AntDesign and FontAwesome. It can be imported by who need to use it. The usage methods are as follows:
+
+```swift
+EFIconFontAntDesign.addteam.attributedString(size: 24)
+EFIconFontFontAwesomeBrands.adobe.attributedString(size: 32, color: UIColor.blue)
+EFIconFontFontAwesomeRegular.addressBook.image(size: 24, color: UIColor.red)
+EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), color: UIColor.green)
+```
+
+### 3. Other
 
 Use and code generation of some icon font resource sites:
 
 - [iconfont.cn](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/iconfont.md)
 - [fontawesome.com](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/fontawesome.md)
+
+## Packs
+
+| Name | Count | File Size | Description | Preview |
+|:-|:-|:-|:-|:-|
+| AntDesign | 557 | 127KB | AntDesign's icon font | [iconfont.cn](https://www.iconfont.cn/collections/detail?cid=9402) |
+| FontAwesome | 1516 | 356KB | FontAwesome's free icon font | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
 
 ## Author
 

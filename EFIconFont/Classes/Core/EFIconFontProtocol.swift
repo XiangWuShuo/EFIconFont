@@ -64,6 +64,7 @@ public extension EFIconFontProtocol {
         return true
     }
 
+    // MARK:- Font
     private func font(size fontSize: CGFloat) -> UIFont? {
         if !loaded() { return nil }
         return UIFont(name: self.name, size: fontSize)
