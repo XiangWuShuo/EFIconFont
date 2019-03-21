@@ -1,6 +1,6 @@
 # EFIconFont
 
-[![CI Status](https://img.shields.io/travis/EyreFree/EFIconFont.svg?style=flat)](https://travis-ci.org/EyreFree/EFIconFont)
+[![CI Status](https://img.shields.io/travis/EFPrefix/EFIconFont.svg?style=flat)](https://travis-ci.org/EFPrefix/EFIconFont)
 [![Version](https://img.shields.io/cocoapods/v/EFIconFont.svg?style=flat)](https://cocoapods.org/pods/EFIconFont)
 [![License](https://img.shields.io/cocoapods/l/EFIconFont.svg?style=flat)](https://cocoapods.org/pods/EFIconFont)
 [![Platform](https://img.shields.io/cocoapods/p/EFIconFont.svg?style=flat)](https://cocoapods.org/pods/EFIconFont)
