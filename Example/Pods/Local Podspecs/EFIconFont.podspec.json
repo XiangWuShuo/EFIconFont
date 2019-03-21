@@ -45,6 +45,16 @@
 
         ]
       }
+    },
+    {
+      "name": "Octicons",
+      "source_files": "EFIconFont/Classes/Octicons/**/*",
+      "resources": "EFIconFont/Assets/Octicons/**/*",
+      "dependencies": {
+        "EFIconFont/Core": [
+
+        ]
+      }
     }
   ]
 }

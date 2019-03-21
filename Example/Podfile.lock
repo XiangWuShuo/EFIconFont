@@ -4,19 +4,22 @@ PODS:
   - EFIconFont/Core (0.2.0)
   - EFIconFont/FontAwesome (0.2.0):
     - EFIconFont/Core
+  - EFIconFont/Octicons (0.2.0):
+    - EFIconFont/Core
 
 DEPENDENCIES:
   - EFIconFont/AntDesign (from `../`)
   - EFIconFont/Core (from `../`)
   - EFIconFont/FontAwesome (from `../`)
+  - EFIconFont/Octicons (from `../`)
 
 EXTERNAL SOURCES:
   EFIconFont:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EFIconFont: a67c1b8bfd8575486267e9944bcd067e90294edd
+  EFIconFont: bb3bffe931091a5cc443c300dc34f84227bfd816
 
-PODFILE CHECKSUM: 536cd04d4b656a25281744c0c106c90c235922e0
+PODFILE CHECKSUM: 943c26a4fca8d9d70a9671b000f6de35fd242b18
 
 COCOAPODS: 1.6.1

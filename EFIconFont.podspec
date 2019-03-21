@@ -32,4 +32,10 @@ Pod::Spec.new do |s|
         fontawesome.resources = 'EFIconFont/Assets/FontAwesome/**/*'
         fontawesome.dependency 'EFIconFont/Core'
     end
+
+    s.subspec 'Octicons' do |octicons|
+        octicons.source_files = 'EFIconFont/Classes/Octicons/**/*'
+        octicons.resources = 'EFIconFont/Assets/Octicons/**/*'
+        octicons.dependency 'EFIconFont/Core'
+    end
 end
