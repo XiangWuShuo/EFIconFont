@@ -1,8 +1,8 @@
 PODS:
-  - EFIconFont/AntDesign (0.1.1):
+  - EFIconFont/AntDesign (0.2.0):
     - EFIconFont/Core
-  - EFIconFont/Core (0.1.1)
-  - EFIconFont/FontAwesome (0.1.1):
+  - EFIconFont/Core (0.2.0)
+  - EFIconFont/FontAwesome (0.2.0):
     - EFIconFont/Core
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EFIconFont: 4935d93bb1cc8772fda6a732a1a330275b5c0f3c
+  EFIconFont: a67c1b8bfd8575486267e9944bcd067e90294edd
 
 PODFILE CHECKSUM: 536cd04d4b656a25281744c0c106c90c235922e0
 

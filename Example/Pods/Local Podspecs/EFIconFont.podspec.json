@@ -1,6 +1,6 @@
 {
   "name": "EFIconFont",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "summary": "Yet another stupid wrapper of icon font.",
   "description": "Yet another stupid wrapper of icon font, in Swift.",
   "homepage": "https://github.com/EyreFree/EFIconFont",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/EyreFree/EFIconFont.git",
-    "tag": "0.1.1"
+    "tag": "0.2.0"
   },
   "social_media_url": "https://twitter.com/EyreFree777",
   "platforms": {
