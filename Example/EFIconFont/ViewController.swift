@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let textView = UITextView()
         textView.isEditable = false
         let content: NSMutableAttributedString = NSMutableAttributedString()
-        for item in EFIconFontFontAwesomeBrands.allCases {
+        for item in EFIconFontAntDesign.allCases {
             if let attributedString = item.attributedString(size: 32) {
                 content.append(attributedString)
             }
