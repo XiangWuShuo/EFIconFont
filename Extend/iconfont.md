@@ -46,12 +46,24 @@ for(let i = 0, len = items.length; i < len; i++) {
 console.log(result)
 ```
 
-![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/Custom.png?raw=true)
+![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/iconfont.png?raw=true)
 
 ## 4. 字体文件获取
 
 在你 `iconfont.cn` 的某个项目页面，点击“下载至本地”，即可获取字体文件压缩包，解压后我们取其中的 `iconfont.ttf` 即可。
 
-## 5. 最后
+## 5. 获取字体名
+
+这里我们需要用工具查看这个 .ttf 文件对应的字体名称，这里我使用的是 [BirdFont](https://birdfont.org)，详情可参考 [iOS 在 App 中使用自定义字体](https://juejin.im/post/5a3214f36fb9a0451238f744)。
+
+字体文件对应的字体名如下：
+
+```
+iconfont.ttf: iconfont
+```
+
+![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/extend.png?raw=true)
+
+## 6. 最后
 
 本教程思路仅供学习交流，iconfont 上并非所有字体都能够免费商业使用，大家在使用的同时务必注意版权问题，未标明免费商业使用的还请联系对应创作者，否则由此引发的后果将由您自己承担。

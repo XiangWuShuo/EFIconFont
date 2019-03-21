@@ -2,7 +2,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'EFIconFont_Example' do
-  pod 'EFIconFont/AntDesign', :path => '../'
+  pod 'EFIconFont', :subspecs => ['Core', 'AntDesign', 'FontAwesome'], :path => '../'
 
   target 'EFIconFont_Tests' do
     inherit! :search_paths

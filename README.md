@@ -37,7 +37,8 @@ pod 'EFIconFont'
 
 Use and code generation of some icon font resource sites:
 
-- [www.iconfont.cn](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/iconfont.md)
+- [iconfont.cn](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/iconfont.md)
+- [fontawesome.com](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/fontawesome.md)
 
 ## Author
 

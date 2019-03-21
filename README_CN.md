@@ -50,7 +50,8 @@ pod install
 
 一些 icon font 资源站点素材的爬取以及代码生成方式：
 
-- [www.iconfont.cn](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/iconfont.md)
+- [iconfont.cn](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/iconfont.md)
+- [fontawesome.com](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/fontawesome.md)
 
 ## 作者
 
