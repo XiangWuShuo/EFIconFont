@@ -67,22 +67,29 @@ public protocol EFIconFontProtocol {
 
     // `unicode` is unique identifier of particular icon
     var unicode: String { get }
+
+    // `attributes` is style of icon
+    var attributes: [NSAttributedString.Key : Any] { set get }
 }
 ```
 
-- name：Font name, not necessarily equal to .ttf file name, you can use [BirdFont](https://birdfont.org) to see the `Name` attribute of the file;
-- path：Filepath of `.ttf` file;
-- unicode：The unique unicode of an icon.
+- name: Font name, not necessarily equal to .ttf file name, you can use [BirdFont](https://birdfont.org) to see the `Name` attribute of the file;
+- path: Filepath of `.ttf` file;
+- unicode: The unique unicode of an icon;
+- attributes: Default attributes of icon.
 
 Objects that implement the protocol can be converted to strings and images by calling the following methods, you can also change the foreground color and size:
 
 ```swift
 // MARK:- String
-func attributedString(size fontSize: CGFloat, color: UIColor? = nil) -> NSAttributedString?
+func attributedString(size fontSize: CGFloat, attributes: [NSAttributedString.Key : Any]?) -> NSAttributedString?
+func attributedString(size fontSize: CGFloat, foregroundColor: UIColor? = nil, backgroundColor: UIColor? = nil) -> NSAttributedString?
 
 // MARK:- Image
-func image(size fontSize: CGFloat, color: UIColor? = nil) -> UIImage?
-func image(size imageSize: CGSize, color: UIColor? = nil) -> UIImage?
+func image(size fontSize: CGFloat, attributes: [NSAttributedString.Key : Any]?) -> UIImage?
+func image(size fontSize: CGFloat, foregroundColor: UIColor? = nil, backgroundColor: UIColor? = nil) -> UIImage?
+func image(size imageSize: CGSize, attributes: [NSAttributedString.Key : Any]?) -> UIImage?
+func image(size imageSize: CGSize, foregroundColor: UIColor? = nil, backgroundColor: UIColor? = nil) -> UIImage?
 ```
 
 ### 2. Extend
@@ -91,9 +98,9 @@ This pod has integrated the free resources of `AntDesign` and `FontAwesome` in t
 
 ```swift
 EFIconFontAntDesign.addteam.attributedString(size: 24)
-EFIconFontFontAwesomeBrands.adobe.attributedString(size: 32, color: UIColor.blue)
-EFIconFontFontAwesomeRegular.addressBook.image(size: 24, color: UIColor.red)
-EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), color: UIColor.green)
+EFIconFontFontAwesomeBrands.adobe.attributedString(size: 32, foregroundColor: UIColor.white, backgroundColor: UIColor.green)
+EFIconFontFontAwesomeRegular.addressBook.image(size: 24, foregroundColor: UIColor.red)
+EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), foregroundColor: UIColor.white)
 ```
 
 ### 3. Other

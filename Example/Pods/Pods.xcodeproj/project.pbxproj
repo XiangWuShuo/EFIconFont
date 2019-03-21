@@ -49,18 +49,18 @@
 		016EAE6971EF0EC078AA6329867DB039 /* Pods-EFIconFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFIconFont_Tests-dummy.m"; sourceTree = "<group>"; };
 		03B04D30ACDB4CD09A880EBFCBFC1790 /* Pods-EFIconFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFIconFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0F49F6F57ECB07EA7D03041F01FF1A26 /* Pods_EFIconFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFIconFont_Tests.framework; path = "Pods-EFIconFont_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14A9B183ACF8F4216E65407CFC1F9B86 /* EFIconFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EFIconFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		19500E563E6490499F32E8FD1FC5DBFD /* Pods-EFIconFont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFIconFont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20E0FF0D34EF40FFD3F6634207CAA62D /* EFIconFontAntDesign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontAntDesign.swift; path = EFIconFont/Classes/AntDesign/EFIconFontAntDesign.swift; sourceTree = "<group>"; };
 		2102C6E49A84AE611B582EC2E1F3CBBA /* fa-regular-400.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-regular-400.ttf"; path = "EFIconFont/Assets/FontAwesome/fa-regular-400.ttf"; sourceTree = "<group>"; };
 		22D3950CC1C119F5ABC886B38232DEAD /* fa-solid-900.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-solid-900.ttf"; path = "EFIconFont/Assets/FontAwesome/fa-solid-900.ttf"; sourceTree = "<group>"; };
 		231B939DC1FED1CF2B1A41CF8CBD3BB7 /* Pods-EFIconFont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFIconFont_Tests.modulemap"; sourceTree = "<group>"; };
+		2C17942D45DAE2C79B045AE9A2919FDE /* EFIconFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EFIconFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3C26EA927DC0DE723BAFDF983065E3F9 /* EFIconFontProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontProtocol.swift; path = EFIconFont/Classes/Core/EFIconFontProtocol.swift; sourceTree = "<group>"; };
-		423640370CCCD1E1ADC697E0716E4254 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5C8D06B391D025FFB293A770F28B5A86 /* EFIconFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFIconFont.modulemap; sourceTree = "<group>"; };
 		61BA5947C573C4697B5E1D5F77E64B93 /* Pods-EFIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
 		633C6723437EC050C8F5F66411D0C0B6 /* EFIconFontFontAwesomeSolid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontFontAwesomeSolid.swift; path = EFIconFont/Classes/FontAwesome/EFIconFontFontAwesomeSolid.swift; sourceTree = "<group>"; };
 		69408759385723E43BA207C1C4E34AB0 /* Pods-EFIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EBF96D3CB8A58663864AA6E16C75B4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6F2814C75206B78611E5246A94162D7A /* EFIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFont.swift; path = EFIconFont/Classes/Core/EFIconFont.swift; sourceTree = "<group>"; };
 		73F94D6EDCBEBE4638A327C8767F239D /* EFIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFIconFont.framework; path = EFIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		768B053E997384064DE6AD99C6E3D362 /* Pods_EFIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFIconFont_Example.framework; path = "Pods-EFIconFont_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +71,7 @@
 		9DF2CEA5117AA1DD41ABFD02937E2B87 /* EFIconFontFontAwesomeRegular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontFontAwesomeRegular.swift; path = EFIconFont/Classes/FontAwesome/EFIconFontFontAwesomeRegular.swift; sourceTree = "<group>"; };
 		A106AD80CBB27527D747C751345F9389 /* Pods-EFIconFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFIconFont_Example-umbrella.h"; sourceTree = "<group>"; };
 		AE4269F11B491BB47A9A81F312B3D388 /* EFIconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFIconFont-dummy.m"; sourceTree = "<group>"; };
+		B21D8DF8029245FDD419FFDF35C8EF55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B6CDDD0831950C0CE27CF1E3767B5CCD /* Pods-EFIconFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFIconFont_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C1E7021ACB6BD098E80DA4CFE903DF3E /* EFIconFontFontAwesomeBrands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontFontAwesomeBrands.swift; path = EFIconFont/Classes/FontAwesome/EFIconFontFontAwesomeBrands.swift; sourceTree = "<group>"; };
 		C2445C44DF4237B1B766821FE72F86CD /* EFIconFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFIconFont-umbrella.h"; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		DCFEEE4C66A4072418E94A24BAE146D7 /* fa-brands-400.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "fa-brands-400.ttf"; path = "EFIconFont/Assets/FontAwesome/fa-brands-400.ttf"; sourceTree = "<group>"; };
 		DD3DBE7A6CA8D4C732CF151400866BF7 /* EFIconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFIconFont.xcconfig; sourceTree = "<group>"; };
 		E0354BA6BE502C51306EC63232848C4C /* iconfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = iconfont.ttf; path = EFIconFont/Assets/AntDesign/iconfont.ttf; sourceTree = "<group>"; };
-		E572D9E10884D3FB264FF67FBE9854C9 /* README_CN.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README_CN.md; sourceTree = "<group>"; };
 		E9EE80524C23117A0324FB34483449AF /* Pods-EFIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EA3326E2969F277880FA5057599089DB /* Pods-EFIconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F1D0576E32F70E5ED20B6F8CFC384359 /* Pods-EFIconFont_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIconFont_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -184,12 +184,12 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		44FF9DC92927A44250C767E19B0C4F7A /* Pod */ = {
+		53C45D033AE54BB7E1DA55B3C7C6ABF6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				14A9B183ACF8F4216E65407CFC1F9B86 /* EFIconFont.podspec */,
-				423640370CCCD1E1ADC697E0716E4254 /* LICENSE */,
-				E572D9E10884D3FB264FF67FBE9854C9 /* README_CN.md */,
+				2C17942D45DAE2C79B045AE9A2919FDE /* EFIconFont.podspec */,
+				6EBF96D3CB8A58663864AA6E16C75B4C /* LICENSE */,
+				B21D8DF8029245FDD419FFDF35C8EF55 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 				3E006114C5A8D95ACEE1138095DC7C05 /* AntDesign */,
 				1396800A6948F0B311D0C69744B1CD29 /* Core */,
 				AF982831DBD6B2BB25F1A013FB0A3A68 /* FontAwesome */,
-				44FF9DC92927A44250C767E19B0C4F7A /* Pod */,
+				53C45D033AE54BB7E1DA55B3C7C6ABF6 /* Pod */,
 				153A26E8025D1BCDF43BF752B715D7B5 /* Support Files */,
 			);
 			name = EFIconFont;

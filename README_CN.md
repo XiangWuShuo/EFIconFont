@@ -70,22 +70,29 @@ public protocol EFIconFontProtocol {
 
     // `unicode` is unique identifier of particular icon
     var unicode: String { get }
+
+    // `attributes` is style of icon
+    var attributes: [NSAttributedString.Key : Any] { set get }
 }
 ```
 
 - name：字体名，与 .ttf 文件名并不一定相等，可通过 [BirdFont](https://birdfont.org) 查看其 Name 属性取得；
 - path：.ttf 文件路径；
-- unicode：某符号的 unicode。
+- unicode：某符号的 unicode；
+- attributes: 默认样式。
 
 实现该协议的对象，可通过调用下列方法进行转换输出为字符串和图片，可改变前景色和大小：
 
 ```swift
 // MARK:- String
-func attributedString(size fontSize: CGFloat, color: UIColor? = nil) -> NSAttributedString?
+func attributedString(size fontSize: CGFloat, attributes: [NSAttributedString.Key : Any]?) -> NSAttributedString?
+func attributedString(size fontSize: CGFloat, foregroundColor: UIColor? = nil, backgroundColor: UIColor? = nil) -> NSAttributedString?
 
 // MARK:- Image
-func image(size fontSize: CGFloat, color: UIColor? = nil) -> UIImage?
-func image(size imageSize: CGSize, color: UIColor? = nil) -> UIImage?
+func image(size fontSize: CGFloat, attributes: [NSAttributedString.Key : Any]?) -> UIImage?
+func image(size fontSize: CGFloat, foregroundColor: UIColor? = nil, backgroundColor: UIColor? = nil) -> UIImage?
+func image(size imageSize: CGSize, attributes: [NSAttributedString.Key : Any]?) -> UIImage?
+func image(size imageSize: CGSize, foregroundColor: UIColor? = nil, backgroundColor: UIColor? = nil) -> UIImage?
 ```
 
 ### 2. 扩展
@@ -94,9 +101,9 @@ func image(size imageSize: CGSize, color: UIColor? = nil) -> UIImage?
 
 ```swift
 EFIconFontAntDesign.addteam.attributedString(size: 24)
-EFIconFontFontAwesomeBrands.adobe.attributedString(size: 32, color: UIColor.blue)
-EFIconFontFontAwesomeRegular.addressBook.image(size: 24, color: UIColor.red)
-EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), color: UIColor.green)
+EFIconFontFontAwesomeBrands.adobe.attributedString(size: 32, foregroundColor: UIColor.white, backgroundColor: UIColor.green)
+EFIconFontFontAwesomeRegular.addressBook.image(size: 24, foregroundColor: UIColor.red)
+EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), foregroundColor: UIColor.white)
 ```
 
 ### 3. 其它
