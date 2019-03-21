@@ -2,6 +2,12 @@
 
 -----
 
+## [0.2.1](https://github.com/EFPrefix/EFIconFont/releases/tag/0.2.1) (2019-03-21)
+
+- Add Octicons.
+
+---
+
 ## [0.2.0](https://github.com/EFPrefix/EFIconFont/releases/tag/0.2.0) (2019-03-21)
 
 - Add backgroundColor.

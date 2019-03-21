@@ -116,6 +116,7 @@ Use and code generation of some icon font resource sites:
 |:-|:-|:-|:-|:-|
 | AntDesign | 557 | 127KB | AntDesign's icon font | [iconfont.cn](https://www.iconfont.cn/collections/detail?cid=9402) |
 | FontAwesome | 1516 | 356KB | FontAwesome's free icon font | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
+| Octicons | 184 | 34KB | GitHub's icon font, see [GitHub logo guidelines](https://github.com/logos). | [octicons.github.com](https://octicons.github.com/) |
 
 ## Author
 
