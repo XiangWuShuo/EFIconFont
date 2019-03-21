@@ -22,6 +22,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 - iOS 8.0+
+- Swift 4.2+
 
 ## Installation
 
@@ -32,37 +33,11 @@ it, simply add the following line to your Podfile:
 pod 'EFIconFont'
 ```
 
-## Custom
+## Extend
 
-Use the following `JavaScript` code in Chrome console, you can generate your own `enum` in your project page of `iconfont.cn`:
+Use and code generation of some icon font resource sites:
 
-```javascript
-function camelCase(text, separator) {
-	var arr = text.split(separator);
-	for(var i = 1; i < arr.length; i++) {
-		var s = arr[i].slice(0, 1).toUpperCase(); 
-		var h = arr[i].slice(1);
-		arr[i] = s + h;
-	}
-	return arr.join('')
-}
-
-var items = document.getElementsByClassName('icon-item')
-var result = ""
-for(let i = 0, len = items.length; i < len; i++) {
-	let item = items[i]
-	var name = item.getElementsByClassName('icon-name')[0].innerHTML
-	name = camelCase(name, ' ')
-	name = camelCase(name, '-')
-	var code = item.getElementsByClassName('icon-code')[0].innerHTML
-	code = code.replace('&amp;#x', '')
-	code = code.replace(';', '')
-	result = result + "case " + name + " = " + "\"\\u{" + code + "}\"" + "\n"
-}
-console.log(result)
-```
-
-![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/Custom.png?raw=true)
+- [www.iconfont.cn](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/iconfont.md)
 
 ## Author
 

@@ -48,35 +48,9 @@ pod install
 
 ## 扩展
 
-在你 `iconfont.cn` 的某个工程页面，打开 Chrome 开发者工具的 Console，在其中执行如下 `JavaScript` 脚本，即可获取对应的枚举结构，如下所示：
+一些 icon font 资源站点素材的爬取以及代码生成方式：
 
-```javascript
-function camelCase(text, separator) {
-	var arr = text.split(separator);
-	for(var i = 1; i < arr.length; i++) {
-		var s = arr[i].slice(0, 1).toUpperCase(); 
-		var h = arr[i].slice(1);
-		arr[i] = s + h;
-	}
-	return arr.join('')
-}
-
-var items = document.getElementsByClassName('icon-item')
-var result = ""
-for(let i = 0, len = items.length; i < len; i++) {
-	let item = items[i]
-	var name = item.getElementsByClassName('icon-name')[0].innerHTML
-	name = camelCase(name, ' ')
-	name = camelCase(name, '-')
-	var code = item.getElementsByClassName('icon-code')[0].innerHTML
-	code = code.replace('&amp;#x', '')
-	code = code.replace(';', '')
-	result = result + "case " + name + " = " + "\"\\u{" + code + "}\"" + "\n"
-}
-console.log(result)
-```
-
-![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/Custom.png?raw=true)
+- [www.iconfont.cn](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/iconfont.md)
 
 ## 作者
 
