@@ -18,16 +18,22 @@ class ViewController: UIViewController {
     }
 
     func setupControls() {
+        let colors: [UIColor] = [UIColor.black, UIColor.white, UIColor.blue, UIColor.red, UIColor.green, UIColor.purple, UIColor.orange, UIColor.yellow, UIColor.gray]
         let textView = UITextView()
         textView.isEditable = false
         let content: NSMutableAttributedString = NSMutableAttributedString()
-        for item in EFIconFontAntDesign.allCases {
-            if let attributedString = item.attributedString(size: 32) {
+        for (index, item) in EFIconFontAntDesign.allCases.enumerated() {
+            if let attributedString = item.attributedString(size: 32, foregroundColor: colors[index % colors.count], backgroundColor: colors[(index + 1) % colors.count]) {
                 content.append(attributedString)
             }
         }
         textView.attributedText = content
-        self.view.addSubview(textView)
         textView.frame = CGRect(origin: CGPoint.zero, size: UIScreen.main.bounds.size)
+        self.view.addSubview(textView)
+
+        // let imageView = UIImageView()
+        // imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        // imageView.image = EFIconFontFontAwesomeBrands.adobe.image(size: CGSize(width: 100, height: 100), foregroundColor: UIColor.white, backgroundColor: UIColor.green)
+        // self.view.addSubview(imageView)
     }
 }

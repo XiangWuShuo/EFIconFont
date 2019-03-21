@@ -26,6 +26,21 @@
 
 import Foundation
 
+extension EFIconFontFontAwesomeRegular: EFIconFontProtocol, CaseIterable {
+
+    public var name: String {
+        return "Font Awesome 5 Free"
+    }
+
+    public var path: String {
+        return Bundle(for: EFIconFont.self).path(forResource: "fa-regular-400", ofType: "ttf") ?? ""
+    }
+
+    public var unicode: String {
+        return self.rawValue
+    }
+}
+
 public enum EFIconFontFontAwesomeRegular: String {
     case addressBook = "\u{f2b9}"
     case addressCard = "\u{f2bb}"
@@ -179,19 +194,4 @@ public enum EFIconFontFontAwesomeRegular: String {
     case windowMaximize = "\u{f2d0}"
     case windowMinimize = "\u{f2d1}"
     case windowRestore = "\u{f2d2}"
-}
-
-extension EFIconFontFontAwesomeRegular: EFIconFontProtocol, CaseIterable {
-
-    public var name: String {
-        return "Font Awesome 5 Free"
-    }
-
-    public var path: String {
-        return Bundle(for: EFIconFont.self).path(forResource: "fa-regular-400", ofType: "ttf") ?? ""
-    }
-
-    public var unicode: String {
-        return self.rawValue
-    }
 }

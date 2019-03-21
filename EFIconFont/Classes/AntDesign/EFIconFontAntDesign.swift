@@ -26,6 +26,21 @@
 
 import Foundation
 
+extension EFIconFontAntDesign: EFIconFontProtocol, CaseIterable {
+
+    public var name: String {
+        return "iconfont"
+    }
+
+    public var path: String {
+        return Bundle(for: EFIconFont.self).path(forResource: "iconfont", ofType: "ttf") ?? ""
+    }
+
+    public var unicode: String {
+        return self.rawValue
+    }
+}
+
 public enum EFIconFontAntDesign: String {
     case plus = "\u{e9a9}"
     case woman = "\u{e9a8}"
@@ -584,19 +599,4 @@ public enum EFIconFontAntDesign: String {
     case Dollar = "\u{e77f}"
     case CI = "\u{e77e}"
     case checkCircle = "\u{e77d}"
-}
-
-extension EFIconFontAntDesign: EFIconFontProtocol, CaseIterable {
-
-    public var name: String {
-        return "iconfont"
-    }
-
-    public var path: String {
-        return Bundle(for: EFIconFont.self).path(forResource: "iconfont", ofType: "ttf") ?? ""
-    }
-
-    public var unicode: String {
-        return self.rawValue
-    }
 }

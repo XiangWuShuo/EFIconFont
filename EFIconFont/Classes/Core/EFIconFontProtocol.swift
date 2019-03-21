@@ -27,6 +27,10 @@
 import Foundation
 import UIKit
 
+fileprivate struct AssociatedKeys {
+    static var attributes = "attributes"
+}
+
 public protocol EFIconFontProtocol {
 
     // `name` is not necessarily equal to .ttf file name
@@ -37,6 +41,9 @@ public protocol EFIconFontProtocol {
 
     // `unicode` is unique identifier of particular icon
     var unicode: String { get }
+
+    // `attributes` is style of icon
+    var attributes: [NSAttributedString.Key : Any] { set get }
 }
 
 public extension EFIconFontProtocol {
@@ -64,67 +71,110 @@ public extension EFIconFontProtocol {
         return true
     }
 
-    // MARK:- Font
-    private func font(size fontSize: CGFloat) -> UIFont? {
+    private func attributesWith(size fontSize: CGFloat, attributes: [NSAttributedString.Key : Any]?) -> [NSAttributedString.Key : Any] {
+        guard let font = font(size: fontSize) else { return [:] }
+        var attributesCombine: [NSAttributedString.Key : Any] = self.attributes
+        if let attributes = attributes {
+            for attribute in attributes {
+                attributesCombine.updateValue(attribute.value, forKey: attribute.key)
+            }
+        }
+        attributesCombine.updateValue(font, forKey: NSAttributedString.Key.font)
+        return attributesCombine
+    }
+
+    // Mark:- Style
+    var attributes: [NSAttributedString.Key : Any] {
+        get {
+            return objc_getAssociatedObject(self, &AssociatedKeys.attributes) as? [NSAttributedString.Key : Any] ?? [:]
+        }
+        set {
+            objc_setAssociatedObject(self, &AssociatedKeys.attributes, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+    }
+
+    var foregroundColor: UIColor? {
+        get {
+            return attributes[NSAttributedString.Key.foregroundColor] as? UIColor
+        }
+        set {
+            if let newValue = newValue {
+                attributes.updateValue(newValue, forKey: NSAttributedString.Key.foregroundColor)
+            } else {
+                attributes.removeValue(forKey: NSAttributedString.Key.foregroundColor)
+            }
+        }
+    }
+
+    var backgroundColor: UIColor? {
+        get {
+            return attributes[NSAttributedString.Key.backgroundColor] as? UIColor
+        }
+        set {
+            if let newValue = newValue {
+                attributes.updateValue(newValue, forKey: NSAttributedString.Key.backgroundColor)
+            } else {
+                attributes.removeValue(forKey: NSAttributedString.Key.backgroundColor)
+            }
+        }
+    }
+
+    // Mark:- Font
+    public func font(size fontSize: CGFloat) -> UIFont? {
         if !loaded() { return nil }
         return UIFont(name: self.name, size: fontSize)
     }
 
     // MARK:- String
-    public func attributedString(size fontSize: CGFloat, color: UIColor? = nil) -> NSAttributedString? {
-        guard let font = font(size: fontSize) else { return nil }
-        var attributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font : font]
-        if let color = color {
-            attributes.updateValue(color, forKey: NSAttributedString.Key.foregroundColor)
-        }
+    public func attributedString(size fontSize: CGFloat, attributes: [NSAttributedString.Key : Any]?) -> NSAttributedString? {
+        let attributes = attributesWith(size: fontSize, attributes: attributes)
         return NSAttributedString(string: self.unicode, attributes: attributes)
     }
 
-    // MARK:- Image
-    public func image(size fontSize: CGFloat, color: UIColor? = nil) -> UIImage? {
-        guard let font = font(size: fontSize) else { return nil }
-        var attributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font : font]
-        if let color = color {
-            attributes.updateValue(color, forKey: NSAttributedString.Key.foregroundColor)
+    public func attributedString(size fontSize: CGFloat, foregroundColor: UIColor? = nil, backgroundColor: UIColor? = nil) -> NSAttributedString? {
+        var attributesCombine: [NSAttributedString.Key : Any] = [:]
+        if let foregroundColor = foregroundColor {
+            attributesCombine.updateValue(foregroundColor, forKey: NSAttributedString.Key.foregroundColor)
         }
-        let attributedString = NSAttributedString(string: unicode, attributes: attributes)
-        let rect = attributedString.boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: fontSize), options: .usesLineFragmentOrigin, context: nil)
+        if let backgroundColor = backgroundColor {
+            attributesCombine.updateValue(backgroundColor, forKey: NSAttributedString.Key.backgroundColor)
+        }
+        return attributedString(size: fontSize, attributes: attributesCombine)
+    }
+
+    // MARK:- Image
+    public func image(size fontSize: CGFloat, foregroundColor: UIColor? = nil, backgroundColor: UIColor? = nil) -> UIImage? {
+        guard let imageString: NSAttributedString = attributedString(size: fontSize, foregroundColor: foregroundColor, backgroundColor: backgroundColor) else { return nil }
+        let rect = imageString.boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: fontSize), options: .usesLineFragmentOrigin, context: nil)
         let imageSize: CGSize = rect.size
         UIGraphicsBeginImageContextWithOptions(imageSize, false, UIScreen.main.scale)
-        attributedString.draw(in: rect)
+        imageString.draw(in: rect)
         let image: UIImage? = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return image
     }
 
-    public func image(size imageSize: CGSize, color: UIColor? = nil) -> UIImage? {
-        guard let font = self.font(size: 1) else { return nil }
-        var attributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font : font]
-        if let color = color {
-            attributes.updateValue(color, forKey: NSAttributedString.Key.foregroundColor)
-        }
-        var attributedString = NSAttributedString(string: unicode, attributes: attributes)
-        let rect = attributedString.boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: 1), options: .usesLineFragmentOrigin, context: nil)
+    public func image(size imageSize: CGSize, foregroundColor: UIColor? = nil, backgroundColor: UIColor? = nil) -> UIImage? {
+        guard let imageString: NSAttributedString = attributedString(size: 1, foregroundColor: foregroundColor, backgroundColor: backgroundColor) else { return nil }
+        let rect = imageString.boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: 1), options: .usesLineFragmentOrigin, context: nil)
         let widthScale = imageSize.width / rect.width
         let heightScale = imageSize.height / rect.height
         let scale = (widthScale < heightScale) ? widthScale : heightScale
         let scaledWidth = rect.width * scale
         let scaledHeight = rect.height * scale
         var anchorPoint = CGPoint.zero
-        if(widthScale < heightScale){
+        if widthScale < heightScale {
             anchorPoint.y = (imageSize.height - scaledHeight) / 2
-        } else if(widthScale > heightScale) {
+        } else if widthScale > heightScale {
             anchorPoint.x = (imageSize.width - scaledWidth) / 2
         }
         var anchorRect = CGRect.zero
         anchorRect.origin = anchorPoint
         anchorRect.size.width = scaledWidth
         anchorRect.size.height = scaledHeight
-        guard let fontScale = self.font(size: scale) else { return nil }
-        attributes[NSAttributedString.Key.font] = fontScale
-        attributedString = NSAttributedString(string: unicode, attributes: attributes)
+        guard let imageStringScale: NSAttributedString = attributedString(size: scale, foregroundColor: foregroundColor, backgroundColor: backgroundColor) else { return nil }
         UIGraphicsBeginImageContextWithOptions(imageSize, false, UIScreen.main.scale)
-        attributedString.draw(in: anchorRect)
+        imageStringScale.draw(in: anchorRect)
         let image: UIImage? = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return image

@@ -26,6 +26,21 @@
 
 import Foundation
 
+extension EFIconFontFontAwesomeBrands: EFIconFontProtocol, CaseIterable {
+
+    public var name: String {
+        return "Font Awesome 5 Brands"
+    }
+
+    public var path: String {
+        return Bundle(for: EFIconFont.self).path(forResource: "fa-brands-400", ofType: "ttf") ?? ""
+    }
+
+    public var unicode: String {
+        return self.rawValue
+    }
+}
+
 public enum EFIconFontFontAwesomeBrands: String {
     case _500px = "\u{f26e}"
     case accessibleIcon = "\u{f368}"
@@ -454,19 +469,4 @@ public enum EFIconFontFontAwesomeBrands: String {
     case youtube = "\u{f167}"
     case youtubeSquare = "\u{f431}"
     case zhihu = "\u{f63f}"
-}
-
-extension EFIconFontFontAwesomeBrands: EFIconFontProtocol, CaseIterable {
-
-    public var name: String {
-        return "Font Awesome 5 Brands"
-    }
-
-    public var path: String {
-        return Bundle(for: EFIconFont.self).path(forResource: "fa-brands-400", ofType: "ttf") ?? ""
-    }
-
-    public var unicode: String {
-        return self.rawValue
-    }
 }

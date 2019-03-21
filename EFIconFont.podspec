@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     DESC
     
     s.homepage         = 'https://github.com/EyreFree/EFIconFont'
-    s.screenshots     = 'https://github.com/EFPrefix/EFIconFont/blob/master/Assets/1.png?raw=true', 'https://github.com/EFPrefix/EFIconFont/blob/master/Assets/2.png?raw=true', 'https://github.com/EFPrefix/EFIconFont/blob/master/Assets/3.png?raw=true'
+    s.screenshots     = 'https://github.com/EFPrefix/EFIconFont/blob/master/Assets/1.png?raw=true'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'EyreFree' => 'eyrefree@eyrefree.org' }
     s.source           = { :git => 'https://github.com/EyreFree/EFIconFont.git', :tag => s.version.to_s }

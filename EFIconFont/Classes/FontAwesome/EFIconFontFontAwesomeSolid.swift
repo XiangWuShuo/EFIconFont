@@ -26,6 +26,21 @@
 
 import Foundation
 
+extension EFIconFontFontAwesomeSolid: EFIconFontProtocol, CaseIterable {
+
+    public var name: String {
+        return "Font Awesome 5 Free"
+    }
+
+    public var path: String {
+        return Bundle(for: EFIconFont.self).path(forResource: "fa-solid-900", ofType: "ttf") ?? ""
+    }
+
+    public var unicode: String {
+        return self.rawValue
+    }
+}
+
 public enum EFIconFontFontAwesomeSolid: String {
     case ad = "\u{f641}"
     case addressBook = "\u{f2b9}"
@@ -964,19 +979,4 @@ public enum EFIconFontFontAwesomeSolid: String {
     case xRay = "\u{f497}"
     case yenSign = "\u{f157}"
     case yinYang = "\u{f6ad}"
-}
-
-extension EFIconFontFontAwesomeSolid: EFIconFontProtocol, CaseIterable {
-
-    public var name: String {
-        return "Font Awesome 5 Free"
-    }
-
-    public var path: String {
-        return Bundle(for: EFIconFont.self).path(forResource: "fa-solid-900", ofType: "ttf") ?? ""
-    }
-
-    public var unicode: String {
-        return self.rawValue
-    }
 }
