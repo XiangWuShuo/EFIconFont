@@ -84,7 +84,7 @@ public extension EFIconFontProtocol {
     }
 
     // Mark:- Style
-    var attributes: [NSAttributedString.Key : Any] {
+    public var attributes: [NSAttributedString.Key : Any] {
         get {
             return objc_getAssociatedObject(self, &AssociatedKeys.attributes) as? [NSAttributedString.Key : Any] ?? [:]
         }
@@ -93,7 +93,7 @@ public extension EFIconFontProtocol {
         }
     }
 
-    var foregroundColor: UIColor? {
+    public var foregroundColor: UIColor? {
         get {
             return attributes[NSAttributedString.Key.foregroundColor] as? UIColor
         }
@@ -106,7 +106,7 @@ public extension EFIconFontProtocol {
         }
     }
 
-    var backgroundColor: UIColor? {
+    public var backgroundColor: UIColor? {
         get {
             return attributes[NSAttributedString.Key.backgroundColor] as? UIColor
         }
