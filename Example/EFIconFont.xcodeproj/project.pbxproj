@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A4AB342245228B003A811F /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A4AB332245228A003A811F /* SubViewController.swift */; };
 		26DF1772D0190684DA2BE765 /* Pods_EFIconFont_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEBAD6B00651D405D82F932 /* Pods_EFIconFont_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		0FEDA834429814FC7822588F /* EFIconFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EFIconFont.podspec; path = ../EFIconFont.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		12A4AB292244ADAE003A811F /* README_CN.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README_CN.md; path = ../README_CN.md; sourceTree = "<group>"; };
+		12A4AB332245228A003A811F /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		1F42E4C17FD47D6C623654A9 /* Pods-EFIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFIconFont_Example.release.xcconfig"; path = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
 		44E4152BF7C8A9057EBD9C49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5E1D99298753E047EF7A0617 /* Pods-EFIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFIconFont_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EFIconFont_Tests/Pods-EFIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				12A4AB332245228A003A811F /* SubViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -336,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A4AB342245228B003A811F /* SubViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
