@@ -119,6 +119,7 @@ EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), 
 |:-|:-|:-|:-|:-|:-|:-|
 | AntDesign | | 557 | 127KB | AntDesign 所属图标库 | [MIT](https://github.com/ant-design/ant-design/blob/master/LICENSE) | [iconfont.cn](https://www.iconfont.cn/collections/detail?cid=9402) |
 | FontAwesome | 5.8.1 | 1516 | 356KB | FontAwesome 所属的免费图标库 | [Font Awesome Free License](https://fontawesome.com/license/free) | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
+| Ionicons | 4.5.5 | 696 | 143KB | Ionicons 免费图标库 | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE) | [ionicons.com](https://ionicons.com/) |
 | Octicons | 8.4.2 | 184 | 34KB | GitHub 所属图标库 | [GitHub Logos and Usage](https://github.com/logos) | [octicons.github.com](https://octicons.github.com/) |
 
 ## 作者

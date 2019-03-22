@@ -2,6 +2,13 @@
 
 -----
 
+## [0.2.2](https://github.com/EFPrefix/EFIconFont/releases/tag/0.2.2) (2019-03-22)
+
+- Add Ionicons;
+- Make style properties public.
+
+---
+
 ## [0.2.1](https://github.com/EFPrefix/EFIconFont/releases/tag/0.2.1) (2019-03-21)
 
 - Add Octicons.

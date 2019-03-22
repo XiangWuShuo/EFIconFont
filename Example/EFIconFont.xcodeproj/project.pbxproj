@@ -29,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0FEDA834429814FC7822588F /* EFIconFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EFIconFont.podspec; path = ../EFIconFont.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		12A4AB292244ADAE003A811F /* README_CN.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README_CN.md; path = ../README_CN.md; sourceTree = "<group>"; };
 		1F42E4C17FD47D6C623654A9 /* Pods-EFIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFIconFont_Example.release.xcconfig"; path = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
 		44E4152BF7C8A9057EBD9C49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5E1D99298753E047EF7A0617 /* Pods-EFIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFIconFont_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EFIconFont_Tests/Pods-EFIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				0FEDA834429814FC7822588F /* EFIconFont.podspec */,
+				12A4AB292244ADAE003A811F /* README_CN.md */,
 				44E4152BF7C8A9057EBD9C49 /* README.md */,
 				BF81359B8056F9EA2EC290A1 /* LICENSE */,
 			);
