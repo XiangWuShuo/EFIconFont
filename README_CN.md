@@ -115,11 +115,11 @@ EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), 
 
 ## 字体包
 
-| 名称 | 数量 | 文件大小 | 描述 | 预览 |
-|:-|:-|:-|:-|:-|
-| AntDesign | 557 | 127KB | AntDesign 所属图标库 | [iconfont.cn](https://www.iconfont.cn/collections/detail?cid=9402) |
-| FontAwesome | 1516 | 356KB | FontAwesome 所属的免费图标库 | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
-| Octicons | 184 | 34KB | GitHub 所属图标库，查看 [GitHub 图标手册](https://github.com/logos) | [octicons.github.com](https://octicons.github.com/) |
+| 名称 | 版本 | 数量 | 文件大小 | 描述 | 使用规范 | 预览 |
+|:-|:-|:-|:-|:-|:-|:-|
+| AntDesign | | 557 | 127KB | AntDesign 所属图标库 | [MIT](https://github.com/ant-design/ant-design/blob/master/LICENSE) | [iconfont.cn](https://www.iconfont.cn/collections/detail?cid=9402) |
+| FontAwesome | 5.8.1 | 1516 | 356KB | FontAwesome 所属的免费图标库 | [Font Awesome Free License](https://fontawesome.com/license/free) | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
+| Octicons | 8.4.2 | 184 | 34KB | GitHub 所属图标库 | [GitHub Logos and Usage](https://github.com/logos) | [octicons.github.com](https://octicons.github.com/) |
 
 ## 作者
 

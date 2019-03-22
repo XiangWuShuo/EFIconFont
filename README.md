@@ -112,11 +112,11 @@ Use and code generation of some icon font resource sites:
 
 ## Packs
 
-| Name | Count | File Size | Description | Preview |
-|:-|:-|:-|:-|:-|
-| AntDesign | 557 | 127KB | AntDesign's icon font | [iconfont.cn](https://www.iconfont.cn/collections/detail?cid=9402) |
-| FontAwesome | 1516 | 356KB | FontAwesome's free icon font | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
-| Octicons | 184 | 34KB | GitHub's icon font, see [GitHub logo guidelines](https://github.com/logos). | [octicons.github.com](https://octicons.github.com/) |
+| Name | Version | Count | File Size | Description | License | Preview |
+|:-|:-|:-|:-|:-|:-|:-|
+| AntDesign | | 557 | 127KB | Ant Design | [MIT](https://github.com/ant-design/ant-design/blob/master/LICENSE) | [iconfont.cn](https://www.iconfont.cn/collections/detail?cid=9402) |
+| FontAwesome | 5.8.1 | 1516 | 356KB | Font Awesome | [Font Awesome Free License](https://fontawesome.com/license/free) | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
+| Octicons | 8.4.2 | 184 | 34KB | GitHub | [GitHub Logos and Usage](https://github.com/logos) | [octicons.github.com](https://octicons.github.com/) |
 
 ## Author
 
