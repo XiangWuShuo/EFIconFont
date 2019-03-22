@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'EFIconFont'
-    s.version          = '0.2.3'
+    s.version          = '0.3.0'
     s.summary          = 'Yet another stupid wrapper of icon font.'
     
     s.description      = <<-DESC
@@ -25,6 +25,12 @@ Pod::Spec.new do |s|
         antdesign.source_files = 'EFIconFont/Classes/AntDesign/**/*'
         antdesign.resources = 'EFIconFont/Assets/AntDesign/**/*'
         antdesign.dependency 'EFIconFont/Core'
+    end
+
+    s.subspec 'ElusiveIcons' do |elusiveicons|
+        elusiveicons.source_files = 'EFIconFont/Classes/ElusiveIcons/**/*'
+        elusiveicons.resources = 'EFIconFont/Assets/ElusiveIcons/**/*'
+        elusiveicons.dependency 'EFIconFont/Core'
     end
 
     s.subspec 'FontAwesome' do |fontawesome|

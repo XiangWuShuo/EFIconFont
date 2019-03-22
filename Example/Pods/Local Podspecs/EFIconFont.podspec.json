@@ -1,6 +1,6 @@
 {
   "name": "EFIconFont",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "summary": "Yet another stupid wrapper of icon font.",
   "description": "Yet another stupid wrapper of icon font, in Swift.",
   "homepage": "https://github.com/EyreFree/EFIconFont",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/EyreFree/EFIconFont.git",
-    "tag": "0.2.2"
+    "tag": "0.3.0"
   },
   "social_media_url": "https://twitter.com/EyreFree777",
   "platforms": {
@@ -30,6 +30,16 @@
       "name": "AntDesign",
       "source_files": "EFIconFont/Classes/AntDesign/**/*",
       "resources": "EFIconFont/Assets/AntDesign/**/*",
+      "dependencies": {
+        "EFIconFont/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "ElusiveIcons",
+      "source_files": "EFIconFont/Classes/ElusiveIcons/**/*",
+      "resources": "EFIconFont/Assets/ElusiveIcons/**/*",
       "dependencies": {
         "EFIconFont/Core": [
 

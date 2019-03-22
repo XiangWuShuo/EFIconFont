@@ -117,6 +117,7 @@ Use and code generation of some icon font resource sites:
 | Name | Version | Count | File Size | Description | License | Preview |
 |:-|:-|:-|:-|:-|:-|:-|
 | AntDesign | | 557 | 127KB | Ant Design | [MIT](https://github.com/ant-design/ant-design/blob/master/LICENSE) | [iconfont.cn](https://www.iconfont.cn/collections/detail?cid=9402) |
+| ElusiveIcons | 2.0.0 | 304 | 53KB | ElusiveIcons | [OFL](http://elusiveicons.com/license/) | [http://elusiveicons.com/icons/](http://elusiveicons.com/icons/) |
 | FontAwesome | 5.8.1 | 1516 | 356KB | Font Awesome | [Font Awesome Free License](https://fontawesome.com/license/free) | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
 | Ionicons | 4.5.5 | 696 | 143KB | Ionicons | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE) | [ionicons.com](https://ionicons.com/) |
 | Octicons | 8.4.2 | 184 | 34KB | GitHub's icons | [GitHub Logos and Usage](https://github.com/logos) | [octicons.github.com](https://octicons.github.com/) |
