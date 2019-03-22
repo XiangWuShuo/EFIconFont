@@ -34,7 +34,7 @@ public extension EFIconFont {
 extension EFIconFontOcticons: EFIconFontProtocol, CaseIterable {
 
     public var name: String {
-        return "iconfont"
+        return "octicons"
     }
 
     public var path: String {

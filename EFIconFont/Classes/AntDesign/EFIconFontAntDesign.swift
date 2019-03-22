@@ -34,11 +34,11 @@ public extension EFIconFont {
 extension EFIconFontAntDesign: EFIconFontProtocol, CaseIterable {
 
     public var name: String {
-        return "iconfont"
+        return "antdesign"
     }
 
     public var path: String {
-        return Bundle(for: EFIconFont.self).path(forResource: "iconfont", ofType: "ttf") ?? ""
+        return Bundle(for: EFIconFont.self).path(forResource: "antdesign", ofType: "ttf") ?? ""
     }
 
     public var unicode: String {
