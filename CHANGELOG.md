@@ -2,6 +2,12 @@
 
 -----
 
+## [0.2.4](https://github.com/EFPrefix/EFIconFont/releases/tag/0.2.4) (2019-03-22)
+
+- Add ElusiveIcons.
+
+---
+
 ## [0.2.3](https://github.com/EFPrefix/EFIconFont/releases/tag/0.2.3) (2019-03-22)
 
 - Add dictionary.
