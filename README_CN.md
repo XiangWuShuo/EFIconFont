@@ -106,6 +106,8 @@ EFIconFontFontAwesomeRegular.addressBook.image(size: 24, foregroundColor: UIColo
 EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), foregroundColor: UIColor.white)
 ```
 
+备注：请自行确保您的使用方式遵循字库原始作者的使用协议规范。
+
 ### 3. 其它
 
 一些 icon font 资源站点素材的爬取以及代码生成方式：
