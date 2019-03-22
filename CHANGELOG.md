@@ -2,6 +2,12 @@
 
 -----
 
+## [0.2.3](https://github.com/EFPrefix/EFIconFont/releases/tag/0.2.3) (2019-03-22)
+
+- Add dictionary.
+
+---
+
 ## [0.2.2](https://github.com/EFPrefix/EFIconFont/releases/tag/0.2.2) (2019-03-22)
 
 - Add Ionicons;
