@@ -26,6 +26,11 @@
 
 import Foundation
 
+public extension EFIconFont {
+
+    public static let ionicons = EFIconFontIonicons.self
+}
+
 extension EFIconFontIonicons: EFIconFontProtocol, CaseIterable {
 
     public var name: String {

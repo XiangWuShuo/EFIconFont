@@ -26,6 +26,11 @@
 
 import Foundation
 
+public extension EFIconFont {
+
+    public static let octicons = EFIconFontOcticons.self
+}
+
 extension EFIconFontOcticons: EFIconFontProtocol, CaseIterable {
 
     public var name: String {

@@ -26,6 +26,6 @@
 
 import Foundation
 
-class EFIconFont {
+public class EFIconFont {
 
 }

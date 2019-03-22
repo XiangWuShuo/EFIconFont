@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         let textView = UITextView()
         textView.isEditable = false
         let content: NSMutableAttributedString = NSMutableAttributedString()
-        for (index, item) in EFIconFontElusiveIcons.allCases.enumerated() {
+        for (index, item) in EFIconFont.antDesign.allCases.enumerated() {
             if let attributedString = item.attributedString(size: 32, foregroundColor: colors[index % colors.count], backgroundColor: colors[(index + 1) % colors.count]) {
                 content.append(attributedString)
             }

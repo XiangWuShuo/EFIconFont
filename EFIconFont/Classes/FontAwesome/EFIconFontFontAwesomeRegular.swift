@@ -26,6 +26,11 @@
 
 import Foundation
 
+public extension EFIconFont {
+
+    public static let awesomeRegular = EFIconFontFontAwesomeRegular.self
+}
+
 extension EFIconFontFontAwesomeRegular: EFIconFontProtocol, CaseIterable {
 
     public var name: String {

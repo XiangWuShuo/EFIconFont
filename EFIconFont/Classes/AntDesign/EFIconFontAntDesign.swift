@@ -26,6 +26,11 @@
 
 import Foundation
 
+public extension EFIconFont {
+
+    public static let antDesign = EFIconFontAntDesign.self
+}
+
 extension EFIconFontAntDesign: EFIconFontProtocol, CaseIterable {
 
     public var name: String {

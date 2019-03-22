@@ -26,6 +26,11 @@
 
 import Foundation
 
+public extension EFIconFont {
+
+    public static let elusiveIcons = EFIconFontElusiveIcons.self
+}
+
 extension EFIconFontElusiveIcons: EFIconFontProtocol, CaseIterable {
 
     public var name: String {
