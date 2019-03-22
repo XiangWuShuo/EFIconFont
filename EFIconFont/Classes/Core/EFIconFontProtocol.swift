@@ -71,8 +71,8 @@ public extension EFIconFontProtocol {
         return true
     }
 
-    private func attributesWith(size fontSize: CGFloat, attributes: [NSAttributedString.Key : Any]?) -> [NSAttributedString.Key : Any] {
-        guard let font = font(size: fontSize) else { return [:] }
+    private func attributesWith(size fontSize: CGFloat, attributes: [NSAttributedString.Key : Any]?) -> [NSAttributedString.Key : Any]? {
+        guard let font = font(size: fontSize) else { return nil }
         var attributesCombine: [NSAttributedString.Key : Any] = self.attributes
         if let attributes = attributes {
             for attribute in attributes {
@@ -127,7 +127,7 @@ public extension EFIconFontProtocol {
 
     // MARK:- String
     public func attributedString(size fontSize: CGFloat, attributes: [NSAttributedString.Key : Any]?) -> NSAttributedString? {
-        let attributes = attributesWith(size: fontSize, attributes: attributes)
+        guard let attributes = attributesWith(size: fontSize, attributes: attributes) else { return nil }
         return NSAttributedString(string: self.unicode, attributes: attributes)
     }
 
