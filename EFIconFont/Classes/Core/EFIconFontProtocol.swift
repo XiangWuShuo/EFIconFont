@@ -86,7 +86,12 @@ public extension EFIconFontProtocol {
     // Mark:- Style
     public var attributes: [NSAttributedString.Key : Any] {
         get {
-            return objc_getAssociatedObject(self, &AssociatedKeys.attributes) as? [NSAttributedString.Key : Any] ?? [:]
+            if let attributes = objc_getAssociatedObject(self, &AssociatedKeys.attributes) as? [NSAttributedString.Key : Any] {
+                return attributes
+            }
+            let newAttributes: [NSAttributedString.Key : Any] = [:]
+            objc_setAssociatedObject(self, &AssociatedKeys.attributes, newAttributes, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            return newAttributes
         }
         set {
             objc_setAssociatedObject(self, &AssociatedKeys.attributes, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
