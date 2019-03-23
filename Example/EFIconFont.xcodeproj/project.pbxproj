@@ -10,6 +10,7 @@
 		12A4AB342245228B003A811F /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A4AB332245228A003A811F /* SubViewController.swift */; };
 		12A4AB3C22467457003A811F /* CGFloat+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A4AB3B22467457003A811F /* CGFloat+.swift */; };
 		12A4AB3E224674A0003A811F /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A4AB3D224674A0003A811F /* UIDevice+.swift */; };
+		12C6769D2246945D00284C0C /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C6769C2246945D00284C0C /* GalleryViewController.swift */; };
 		26DF1772D0190684DA2BE765 /* Pods_EFIconFont_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEBAD6B00651D405D82F932 /* Pods_EFIconFont_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 		12A4AB332245228A003A811F /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		12A4AB3B22467457003A811F /* CGFloat+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+.swift"; sourceTree = "<group>"; };
 		12A4AB3D224674A0003A811F /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
+		12C6769C2246945D00284C0C /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		1F42E4C17FD47D6C623654A9 /* Pods-EFIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFIconFont_Example.release.xcconfig"; path = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
 		44E4152BF7C8A9057EBD9C49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5E1D99298753E047EF7A0617 /* Pods-EFIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFIconFont_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EFIconFont_Tests/Pods-EFIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				12A4AB332245228A003A811F /* SubViewController.swift */,
+				12C6769C2246945D00284C0C /* GalleryViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -348,6 +351,7 @@
 				12A4AB3C22467457003A811F /* CGFloat+.swift in Sources */,
 				12A4AB3E224674A0003A811F /* UIDevice+.swift in Sources */,
 				12A4AB342245228B003A811F /* SubViewController.swift in Sources */,
+				12C6769D2246945D00284C0C /* GalleryViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

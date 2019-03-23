@@ -31,9 +31,18 @@ class SubViewController: UIViewController, UITableViewDataSource, UITableViewDel
     }
     
     func setupControls() {
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(
+            image: EFIconFontFontAwesomeSolid.th.image(size: CGSize(width: 24, height: 24)),
+            style: UIBarButtonItem.Style.plain,
+            target: self,
+            action: #selector(rightBarButtonClicked)
+        )
+
         if #available(iOS 11.0, *) {
             tableView.contentInsetAdjustmentBehavior = .never
         }
+        tableView.contentInset = UIEdgeInsets(top: CGFloat.statusAndNavigationHeight, left: 0, bottom: 0, right: 0)
+        tableView.contentOffset = CGPoint(x: 0, y: -CGFloat.statusAndNavigationHeight)
         tableView.estimatedRowHeight = 0
         tableView.estimatedSectionHeaderHeight = 0
         tableView.estimatedSectionFooterHeight = 0
@@ -41,6 +50,14 @@ class SubViewController: UIViewController, UITableViewDataSource, UITableViewDel
         tableView.dataSource = self
         tableView.frame = CGRect(x: 0, y: 0, width: CGFloat.screenWidth, height: CGFloat.screenHeight)
         self.view.addSubview(tableView)
+    }
+
+    @objc func rightBarButtonClicked() {
+        let galleryViewController: GalleryViewController = GalleryViewController(
+            title: navigationItem.title ?? "",
+            dictionary: icons
+        )
+        self.navigationController?.pushViewController(galleryViewController, animated: true)
     }
 
     // MARK:- UITableView

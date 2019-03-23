@@ -120,7 +120,7 @@ EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), 
 | 名称 | 版本 | 数量 | 文件大小 | 描述 | 使用规范 | 预览 |
 |:-|:-|:-|:-|:-|:-|:-|
 | AntDesign | | 557 | 127KB | AntDesign 所属图标库 | [MIT](https://github.com/ant-design/ant-design/blob/master/LICENSE) | [iconfont.cn](https://www.iconfont.cn/collections/detail?cid=9402) |
-| ElusiveIcons | 2.0.0 | 304 | 53KB | Elusive Icons | [OFL](http://elusiveicons.com/license/) | [http://elusiveicons.com/icons/](http://elusiveicons.com/icons/) |
+| ElusiveIcons | 2.0.0 | 304 | 53KB | Elusive Icons | [OFL](http://elusiveicons.com/license/) | [elusiveicons.com/](http://elusiveicons.com/icons/) |
 | FontAwesome | 5.8.1 | 1516 | 356KB | FontAwesome 所属的免费图标库 | [Font Awesome Free License](https://fontawesome.com/license/free) | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
 | Ionicons | 4.5.5 | 696 | 143KB | Ionicons 免费图标库 | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE) | [ionicons.com](https://ionicons.com/) |
 | Octicons | 8.4.2 | 184 | 34KB | GitHub 所属图标库 | [GitHub Logos and Usage](https://github.com/logos) | [octicons.github.com](https://octicons.github.com/) |
