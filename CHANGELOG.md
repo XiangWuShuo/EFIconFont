@@ -2,6 +2,13 @@
 
 -----
 
+## [0.3.0](https://github.com/EFPrefix/EFIconFont/releases/tag/0.3.0) (2019-03-23)
+
+- Make EFIconFont public;
+- Change dictionary type.
+
+---
+
 ## [0.2.4](https://github.com/EFPrefix/EFIconFont/releases/tag/0.2.4) (2019-03-22)
 
 - Add ElusiveIcons.
