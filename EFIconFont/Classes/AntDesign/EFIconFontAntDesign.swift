@@ -37,10 +37,6 @@ extension EFIconFontAntDesign: EFIconFontProtocol, CaseIterable {
         return "antdesign"
     }
 
-    public var path: String {
-        return Bundle(for: EFIconFont.self).path(forResource: "antdesign", ofType: "ttf") ?? ""
-    }
-
     public var unicode: String {
         return self.rawValue
     }

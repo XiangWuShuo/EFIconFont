@@ -37,10 +37,6 @@ extension EFIconFontElusiveIcons: EFIconFontProtocol, CaseIterable {
         return "elusiveicons"
     }
 
-    public var path: String {
-        return Bundle(for: EFIconFont.self).path(forResource: "elusiveicons", ofType: "ttf") ?? ""
-    }
-
     public var unicode: String {
         return self.rawValue
     }

@@ -37,10 +37,6 @@ extension EFIconFontOcticons: EFIconFontProtocol, CaseIterable {
         return "octicons"
     }
 
-    public var path: String {
-        return Bundle(for: EFIconFont.self).path(forResource: "octicons", ofType: "ttf") ?? ""
-    }
-
     public var unicode: String {
         return self.rawValue
     }

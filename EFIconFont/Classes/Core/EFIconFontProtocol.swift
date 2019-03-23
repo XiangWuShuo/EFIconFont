@@ -44,9 +44,17 @@ public protocol EFIconFontProtocol {
 
     // `attributes` is style of icon
     var attributes: [NSAttributedString.Key : Any] { set get }
+
+    // `dictionary` is all icons in [name : unicode]
+    static var dictionary: [String : EFIconFontProtocol]? { get }
 }
 
 public extension EFIconFontProtocol {
+
+    // MARK:- Default
+    public var path: String {
+        return Bundle(for: EFIconFont.self).path(forResource: name, ofType: "ttf") ?? ""
+    }
 
     // MARK:- Private
     private func loaded() -> Bool {
@@ -83,7 +91,7 @@ public extension EFIconFontProtocol {
         return attributesCombine
     }
 
-    // Mark:- Style
+    // MARK:- Style
     public var attributes: [NSAttributedString.Key : Any] {
         get {
             if let attributes = objc_getAssociatedObject(self, &AssociatedKeys.attributes) as? [NSAttributedString.Key : Any] {

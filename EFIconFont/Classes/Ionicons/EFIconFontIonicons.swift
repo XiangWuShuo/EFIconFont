@@ -37,10 +37,6 @@ extension EFIconFontIonicons: EFIconFontProtocol, CaseIterable {
         return "ionicons"
     }
 
-    public var path: String {
-        return Bundle(for: EFIconFont.self).path(forResource: "ionicons", ofType: "ttf") ?? ""
-    }
-
     public var unicode: String {
         return self.rawValue
     }
