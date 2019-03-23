@@ -46,10 +46,5 @@ class GalleryViewController: UIViewController {
         textView.attributedText = content
         textView.frame = CGRect(origin: CGPoint.zero, size: UIScreen.main.bounds.size)
         self.view.addSubview(textView)
-
-        // let imageView = UIImageView()
-        // imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
-        // imageView.image = EFIconFontFontAwesomeBrands.adobe.image(size: CGSize(width: 100, height: 100), foregroundColor: UIColor.white, backgroundColor: UIColor.green)
-        // self.view.addSubview(imageView)
     }
 }

@@ -84,6 +84,9 @@ class SubViewController: UIViewController, UITableViewDataSource, UITableViewDel
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        
+
+        let item = icons[indexPath.row]
+        let detailViewController: DetailViewController = DetailViewController(title: item.key, icon: item.value)
+        self.navigationController?.pushViewController(detailViewController, animated: true)
     }
 }
