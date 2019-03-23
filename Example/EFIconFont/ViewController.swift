@@ -12,14 +12,14 @@ import EFIconFont
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     let tableView: UITableView = UITableView()
-    let iconfonts: [String] = [
-        "AntDesign",
-        "AwesomeBrands",
-        "AwesomeRegular",
-        "AwesomeSolid",
-        "ElusiveIcons",
-        "Ionicons",
-        "Octicons"
+    let iconfonts: [(name: String, `enum`: Any)] = [
+        ("AntDesign", EFIconFont.antDesign),
+        ("AwesomeBrands", EFIconFont.awesomeBrands),
+        ("AwesomeRegular", EFIconFont.awesomeRegular),
+        ("AwesomeSolid", EFIconFont.awesomeSolid),
+        ("ElusiveIcons", EFIconFont.elusiveIcons),
+        ("Ionicons", EFIconFont.ionicons),
+        ("Octicons", EFIconFont.octicons)
     ]
 
     override func viewDidLoad() {
@@ -48,7 +48,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let reuseIdentifier: String = "Title"
         let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) ?? UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: reuseIdentifier)
-        cell.textLabel?.text = iconfonts[indexPath.row]
+        cell.textLabel?.text = iconfonts[indexPath.row].name
         return cell
     }
 
@@ -79,7 +79,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 return (UIFont.systemFont(ofSize: 32), [:])
             }
         }()
-        let title: String = iconfonts[indexPath.row]
+        let title: String = "\(iconfonts[indexPath.row].enum)"
         let subViewController: SubViewController = SubViewController(title: title, font: items.font, dictionary: items.icons)
         self.navigationController?.pushViewController(subViewController, animated: true)
     }

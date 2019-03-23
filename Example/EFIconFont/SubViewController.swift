@@ -53,7 +53,7 @@ class SubViewController: UIViewController, UITableViewDataSource, UITableViewDel
         let reuseIdentifier: String = "Title"
         let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) ?? UITableViewCell(style: UITableViewCell.CellStyle.value1, reuseIdentifier: reuseIdentifier)
         cell.detailTextLabel?.font = font
-        cell.textLabel?.text = icons[indexPath.row].key
+        cell.textLabel?.text = ".\(icons[indexPath.row].key)"
         cell.detailTextLabel?.text = icons[indexPath.row].value
         return cell
     }
