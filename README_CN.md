@@ -195,6 +195,8 @@ public enum EFIconFontOcticons: String {
 }
 ```
 
+有人要问这个巨长无比的枚举是怎么手打出来的？当然是代码生成的了...先把 `.svg` 图片上传到 `iconfont.cn`，然后看 [这里](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/iconfont.md)。
+
 #### (3) 调用
 
 同上自带图标库的使用。

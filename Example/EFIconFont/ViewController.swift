@@ -19,6 +19,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         ("AwesomeSolid", EFIconFont.awesomeSolid),
         ("ElusiveIcons", EFIconFont.elusiveIcons),
         ("Ionicons", EFIconFont.ionicons),
+        ("MaterialIcons", EFIconFont.materialIcons),
         ("Octicons", EFIconFont.octicons)
     ]
     
@@ -82,6 +83,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             case 5:
                 return EFIconFont.ionicons.dictionary
             case 6:
+                return EFIconFont.materialIcons.dictionary
+            case 7:
                 return EFIconFont.octicons.dictionary
             default:
                 return [:]

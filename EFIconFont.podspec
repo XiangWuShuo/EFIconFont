@@ -45,11 +45,18 @@ Pod::Spec.new do |s|
         ionicons.dependency 'EFIconFont/Core'
     end
 
+    s.subspec 'MaterialIcons' do |materialicons|
+        materialicons.source_files = 'EFIconFont/Classes/MaterialIcons/**/*'
+        materialicons.resources = 'EFIconFont/Assets/MaterialIcons/**/*'
+        materialicons.dependency 'EFIconFont/Core'
+    end
+
     s.subspec 'Complete' do |complete|
         complete.dependency 'EFIconFont/Core'
         complete.dependency 'EFIconFont/AntDesign'
         complete.dependency 'EFIconFont/ElusiveIcons'
         complete.dependency 'EFIconFont/FontAwesome'
         complete.dependency 'EFIconFont/Ionicons'
+        complete.dependency 'EFIconFont/MaterialIcons'
     end
 end
