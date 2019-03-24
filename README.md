@@ -64,7 +64,7 @@ pod 'EFIconFont'
 You can get built-in iconfonts with `subspecs`, for example you will get icons of `AntDesign` and `FontAwesome` by the following way:
 
 ```ruby
-pod 'EFIconFont', :subspecs => ['Core', 'AntDesign', 'FontAwesome']
+pod 'EFIconFont', :subspecs => ['AntDesign', 'FontAwesome']
 ```
 
 You can also choose to get all built-in packs by using `Complete` subspec:
@@ -205,7 +205,7 @@ The `Octicons` icon library in this project is owned by GitHub. This is only a d
 
 | Name | Version | Count | File Size | Description | License | Preview |
 |:-|:-|:-|:-|:-|:-|:-|
-| Octicons | 8.4.2 | 184 | 34KB | GitHub 所属图标库 | [GitHub Logos and Usage](https://github.com/logos) | [octicons.github.com](https://octicons.github.com/) |
+| Octicons | 8.4.2 | 184 | 34KB | GitHub‘s icons | [GitHub Logos and Usage](https://github.com/logos) | [octicons.github.com](https://octicons.github.com/) |
 
 ### 4. Other
 

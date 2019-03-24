@@ -4,9 +4,12 @@
 
 ## [0.4.0](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.0) (2019-03-24)
 
-- Remove dictionary from protocol;
-- Add function to find icon named;
-- Add `Complete` subspec.
+- Add function to find icon by name;
+- Add `Complete` subspec;
+- Add `EFIconFontCaseIterableProtocol`;
+- Update FontAwesome with `iconfont.cn`;
+- Remove pack `Octicons`;
+- Remove dictionary from `EFIconFontProtocol`.
 
 ---
 
