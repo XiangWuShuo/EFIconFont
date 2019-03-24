@@ -134,7 +134,7 @@ func image(size imageSize: CGSize, foregroundColor: UIColor? = nil, backgroundCo
 EFIconFontAntDesign.addteam
 ```
 
-使用方式如下：
+可通过遵循 `EFIconFontProtocol` 协议的对象获取 `NSAttributedString` 和 `UIImage`：
 
 ```swift
 EFIconFontAntDesign.addteam.attributedString(size: 24)
@@ -154,19 +154,19 @@ EFIconFont.antDesign.dictionary
 | 名称 | 版本 | 数量 | 文件大小 | 描述 | 使用规范 | 预览 |
 |:-|:-|:-|:-|:-|:-|:-|
 | AntDesign | | 557 | 127KB | AntDesign 所属图标库 | [MIT](https://github.com/ant-design/ant-design/blob/master/LICENSE) | [iconfont.cn](https://www.iconfont.cn/collections/detail?cid=9402) |
-| ElusiveIcons | 2.0.0 | 304 | 53KB | Elusive Icons | [OFL](http://elusiveicons.com/license/) | [elusiveicons.com/](http://elusiveicons.com/icons/) |
+| ElusiveIcons | 2.0.0 | 304 | 53KB | Elusive Icons | [OFL](http://elusiveicons.com/license/) | [elusiveicons.com](http://elusiveicons.com/icons/) |
 | FontAwesome | 5.8.1 | 1516 | 356KB | FontAwesome 所属的免费图标库 | [Font Awesome Free License](https://fontawesome.com/license/free) | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
 | Ionicons | 4.5.5 | 696 | 143KB | Ionicons 免费图标库 | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE) | [ionicons.com](https://ionicons.com/) |
 
 ### 3. 自定义图标库
 
-#### 1. 字体文件引入
+#### (1) 字体文件引入
 
 将我们通过各种方式获取的图标库的 `.ttf` 文件拖入 Xcode 工程中，并确保 `Build Phases` 中的 `Copy Bundle Resources` 列表中包含这个字体文件（默认拖入工程就会被包含在内）。
 
 另外，此文件会在运行时按需加载，无需添加到 `Info.plist` 文件中的 `Fonts provided by application` 项内。
 
-#### 2. 实现 `EFIconFontCaseIterableProtocol` 
+#### (2) 实现 `EFIconFontCaseIterableProtocol` 
 
 可通过实现 [EFIconFontCaseIterableProtocol](https://github.com/EFPrefix/EFIconFont/blob/master/EFIconFont/Classes/Core/EFIconFontCaseIterableProtocol.swift) 协议实现图标库的封装，本项目中 Example 以 GitHub 所有的 Octicons 为例 [演示](https://github.com/EFPrefix/EFIconFont/blob/master/Example/EFIconFont/EFIconFontOcticons.swift) 了自定义方式：
 
@@ -195,15 +195,15 @@ public enum EFIconFontOcticons: String {
 }
 ```
 
-#### 3. 调用
+#### (3) 调用
 
 同上自带图标库的使用。
 
 ```swift
-EFIconFontAntDesign.addteam
+EFIconFontOcticons.thumbsup
 ```
 
-#### 4. 注意事项
+#### (4) 注意事项
 
 本项目 Example 中的 Octicons 图标库为 GitHub 所有，此处仅为演示，请勿用于任何违反其所有者所定规范的场合：
 
