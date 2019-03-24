@@ -31,7 +31,7 @@
     </a>
 </p>
 
-一个普通的 icon font 封装，帮助你更便捷地在你的工程中使用 icon font。
+一个用 Swift 实现的普通的 IconFont 封装，帮助你更便捷地在你的工程中使用 IconFont，同时集成了一系列可免费使用的第三方图标库。
 
 > [English Introduction](https://github.com/EFPrefix/EFIconFont/blob/master/README.md)
 
@@ -60,16 +60,22 @@ git clone git@github.com:EFPrefix/EFIconFont.git; cd EFIconFont/Example; pod ins
 
 ## 安装
 
-EFIconFont 可以通过 [CocoaPods](http://cocoapods.org) 进行获取。只需要在你的 Podfile 中添加如下代码就能实现引入：
+EFIconFont 可以通过 [CocoaPods](http://cocoapods.org) 进行获取。只需要在你的 Podfile 中添加如下代码就能实现引入，默认只包含 `Core` 部分，不含字体包：
 
 ```ruby
 pod 'EFIconFont'
 ```
 
-可以通过 subspecs 方式引入本库已集成的 AntDesign 和 FontAwesome 资源：
+可以通过 subspecs 方式引入本库已集成的图标库资源，如下示例引用了 AntDesign 和 FontAwesome 资源：
 
 ```ruby
-pod 'EFIconFont', :subspecs => ['Core', 'AntDesign', 'FontAwesome']
+pod 'EFIconFont', :subspecs => ['AntDesign', 'FontAwesome']
+```
+
+也可以通过 `Complete` 引入本库已集成的所有图标库资源，示例：
+
+```ruby
+pod 'EFIconFont', :subspecs => ['Complete']
 ```
 
 然后，执行如下命令即可：
@@ -101,8 +107,8 @@ public protocol EFIconFontProtocol {
 }
 ```
 
-- name：字体名，与 .ttf 文件名并不一定相等，可通过 [BirdFont](https://birdfont.org) 查看其 Name 属性取得；
-- path：.ttf 文件路径；
+- name：字体名，与 .ttf 文件名并不一定相等，可通过 [BirdFont](https://birdfont.org) 等字体文件处理工具查看其 `Name` 属性取得；
+- path：.ttf 文件路径，一般通过形如 `Bundle.main.path(forResource: name, ofType: "ttf")` 的方式获取；
 - unicode：某符号的 unicode；
 - attributes: 默认样式。
 

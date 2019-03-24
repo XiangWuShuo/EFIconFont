@@ -27,6 +27,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         self.navigationItem.title = "EFIconFont"
         setupControls()
+
+        EFIconFont.antDesign.backgroundColor = UIColor.red
     }
     
     func setupControls() {

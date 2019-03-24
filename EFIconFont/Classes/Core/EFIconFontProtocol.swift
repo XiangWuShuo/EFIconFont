@@ -50,7 +50,7 @@ public extension EFIconFontProtocol {
 
     // MARK:- Default
     public var path: String {
-        return Bundle(for: EFIconFont.self).path(forResource: name, ofType: "ttf") ?? ""
+        return Bundle(for: EFIconFont.self).path(forResource: name, ofType: "ttf") ?? Bundle.main.path(forResource: name, ofType: "ttf") ?? ""
     }
 
     // MARK:- Private

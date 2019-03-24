@@ -31,7 +31,9 @@ public extension EFIconFont {
     public static let ionicons = EFIconFontIonicons.self
 }
 
-extension EFIconFontIonicons: EFIconFontProtocol, CaseIterable {
+extension EFIconFontIonicons: EFIconFontCaseIterableProtocol {
+
+    public static var attributes: [NSAttributedString.Key : Any] = [:]
 
     public var name: String {
         return "ionicons"

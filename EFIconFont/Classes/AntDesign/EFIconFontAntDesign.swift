@@ -31,7 +31,9 @@ public extension EFIconFont {
     public static let antDesign = EFIconFontAntDesign.self
 }
 
-extension EFIconFontAntDesign: EFIconFontProtocol, CaseIterable {
+extension EFIconFontAntDesign: EFIconFontCaseIterableProtocol {
+
+    public static var attributes: [NSAttributedString.Key : Any] = [:]
 
     public var name: String {
         return "antdesign"

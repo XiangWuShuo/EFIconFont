@@ -31,7 +31,9 @@ public extension EFIconFont {
     public static let awesomeBrands = EFIconFontFontAwesomeBrands.self
 }
 
-extension EFIconFontFontAwesomeBrands: EFIconFontProtocol, CaseIterable {
+extension EFIconFontFontAwesomeBrands: EFIconFontCaseIterableProtocol {
+
+    public static var attributes: [NSAttributedString.Key : Any] = [:]
 
     public var name: String {
         return "Font Awesome 5 Brands"

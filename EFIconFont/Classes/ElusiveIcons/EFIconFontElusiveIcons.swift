@@ -31,7 +31,9 @@ public extension EFIconFont {
     public static let elusiveIcons = EFIconFontElusiveIcons.self
 }
 
-extension EFIconFontElusiveIcons: EFIconFontProtocol, CaseIterable {
+extension EFIconFontElusiveIcons: EFIconFontCaseIterableProtocol {
+
+    public static var attributes: [NSAttributedString.Key : Any] = [:]
 
     public var name: String {
         return "elusiveicons"

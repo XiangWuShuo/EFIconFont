@@ -31,7 +31,9 @@ public extension EFIconFont {
     public static let awesomeRegular = EFIconFontFontAwesomeRegular.self
 }
 
-extension EFIconFontFontAwesomeRegular: EFIconFontProtocol, CaseIterable {
+extension EFIconFontFontAwesomeRegular: EFIconFontCaseIterableProtocol {
+
+    public static var attributes: [NSAttributedString.Key : Any] = [:]
 
     public var name: String {
         return "Font Awesome 5 Free"

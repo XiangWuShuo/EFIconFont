@@ -39,7 +39,7 @@ class DetailViewController: UIViewController {
             width: CGFloat.screenWidth - 24,
             height: CGFloat.screenHeight - CGFloat.statusAndNavigationHeight * 2
         )
-        imageView.image = icon.image(size: imageView.frame.size, foregroundColor: UIColor.black, backgroundColor: UIColor.white)
+        imageView.image = icon.image(size: imageView.frame.size, foregroundColor: UIColor.black)
         imageView.contentMode = .scaleAspectFit
         self.view.addSubview(imageView)
     }

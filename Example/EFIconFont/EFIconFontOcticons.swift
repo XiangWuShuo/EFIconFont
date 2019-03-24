@@ -32,7 +32,9 @@ public extension EFIconFont {
     public static let octicons = EFIconFontOcticons.self
 }
 
-extension EFIconFontOcticons: EFIconFontProtocol, CaseIterable {
+extension EFIconFontOcticons: EFIconFontCaseIterableProtocol {
+
+    public static var attributes: [NSAttributedString.Key : Any] = [:]
 
     public var name: String {
         return "octicons"
