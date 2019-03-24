@@ -63,7 +63,6 @@ public extension EFIconFontCaseIterableProtocol {
         return Self.dictionary[name]
     }
 
-    // MARK:- Default
     public static var path: String {
         return Bundle(for: EFIconFont.self).path(forResource: Self.name, ofType: "ttf") ?? Bundle.main.path(forResource: Self.name, ofType: "ttf") ?? ""
     }

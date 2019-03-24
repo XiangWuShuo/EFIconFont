@@ -30,11 +30,13 @@ public class EFIconFont: EFIconFontProtocol {
 
     public let icon: String
     public let name: String
+    public let path: String
     public let unicode: String
 
-    public init(name fontName: String, icon: String, unicode: String) {
+    public init(name fontName: String, icon iconName: String, path filePath: String? = nil, unicode: String) {
         self.name = fontName
         self.unicode = unicode
-        self.icon = icon
+        self.icon = iconName
+        self.path = filePath ?? Bundle(for: EFIconFont.self).path(forResource: fontName, ofType: "ttf") ?? Bundle.main.path(forResource: fontName, ofType: "ttf") ?? ""
     }
 }

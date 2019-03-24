@@ -99,18 +99,18 @@ public protocol EFIconFontProtocol {
     // `path` is path of .ttf file
     var path: String { get }
 
-    // `unicode` is unique identifier of particular icon
-    var unicode: String { get }
-
     // `attributes` is style of icon
     var attributes: [NSAttributedString.Key : Any] { set get }
+
+    // `unicode` is unique identifier of particular icon
+    var unicode: String { get }
 }
 ```
 
 - name：字体名，与 .ttf 文件名并不一定相等，可通过 [BirdFont](https://birdfont.org) 等字体文件处理工具查看其 `Name` 属性取得；
-- path：.ttf 文件路径，一般通过形如 `Bundle.main.path(forResource: name, ofType: "ttf")` 的方式获取；
-- unicode：某符号的 unicode；
-- attributes: 默认样式。
+- path：.ttf 文件路径，一般通过形如 `Bundle.main.path(forResource: name, ofType: "ttf")` 的方式获取（若文件名和 name 相同，则无须实现该属性，使用默认实现即可）；
+- attributes: 某 icon 的样式（若无特殊需求，使用默认实现即可）；
+- unicode：某符号的 unicode。
 
 实现该协议的对象，可通过调用下列方法进行转换输出为字符串和图片，可改变前景色和大小：
 
@@ -126,9 +126,15 @@ func image(size imageSize: CGSize, attributes: [NSAttributedString.Key : Any]?) 
 func image(size imageSize: CGSize, foregroundColor: UIColor? = nil, backgroundColor: UIColor? = nil) -> UIImage?
 ```
 
-### 2. 扩展
+### 2. 自带图标库
 
-本库已在 AntDesign 与 FontAwesome 这两个 subspec 中集成了 AntDesign 与 FontAwesome 的免费资源，需要使用的同学引入即可，使用方式如下：
+本库已集成了 AntDesign、FontAwesome 等免费图标库资源，需要使用的同学引入即可，如下所示，会得到一个 `EFIconFontProtocol` 类型的返回值：
+
+```swift
+EFIconFontAntDesign.addteam
+```
+
+使用方式如下：
 
 ```swift
 EFIconFontAntDesign.addteam.attributedString(size: 24)
@@ -137,16 +143,13 @@ EFIconFontFontAwesomeRegular.addressBook.image(size: 24, foregroundColor: UIColo
 EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), foregroundColor: UIColor.white)
 ```
 
-备注：请自行确保您的使用方式遵循字库原始作者的使用协议规范。
+可通过如下方式获取某个图标库的全部项目，他会返回 `[String : EFIconFontProtocol]` 类型的 Dictionary：
 
-### 3. 其它
+```swift
+EFIconFont.antDesign.dictionary
+```
 
-一些 icon font 资源站点素材的爬取以及代码生成方式：
-
-- [iconfont.cn](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/iconfont.md)
-- [fontawesome.com](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/fontawesome.md)
-
-## 字体包
+备注：虽为免费图标库，但还请自行确保您的使用方式遵循字库原始作者的使用协议规范：
 
 | 名称 | 版本 | 数量 | 文件大小 | 描述 | 使用规范 | 预览 |
 |:-|:-|:-|:-|:-|:-|:-|
@@ -154,7 +157,66 @@ EFIconFontFontAwesomeSolid.alignLeft.image(size: CGSize(width: 36, height: 48), 
 | ElusiveIcons | 2.0.0 | 304 | 53KB | Elusive Icons | [OFL](http://elusiveicons.com/license/) | [elusiveicons.com/](http://elusiveicons.com/icons/) |
 | FontAwesome | 5.8.1 | 1516 | 356KB | FontAwesome 所属的免费图标库 | [Font Awesome Free License](https://fontawesome.com/license/free) | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
 | Ionicons | 4.5.5 | 696 | 143KB | Ionicons 免费图标库 | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE) | [ionicons.com](https://ionicons.com/) |
+
+### 3. 自定义图标库
+
+#### 1. 字体文件引入
+
+将我们通过各种方式获取的图标库的 `.ttf` 文件拖入 Xcode 工程中，并确保 `Build Phases` 中的 `Copy Bundle Resources` 列表中包含这个字体文件（默认拖入工程就会被包含在内）。
+
+另外，此文件会在运行时按需加载，无需添加到 `Info.plist` 文件中的 `Fonts provided by application` 项内。
+
+#### 2. 实现 `EFIconFontCaseIterableProtocol` 
+
+可通过实现 [EFIconFontCaseIterableProtocol](https://github.com/EFPrefix/EFIconFont/blob/master/EFIconFont/Classes/Core/EFIconFontCaseIterableProtocol.swift) 协议实现图标库的封装，本项目中 Example 以 GitHub 所有的 Octicons 为例 [演示](https://github.com/EFPrefix/EFIconFont/blob/master/Example/EFIconFont/EFIconFontOcticons.swift) 了自定义方式：
+
+```swift
+import EFIconFont
+
+public extension EFIconFont {
+    public static let octicons = EFIconFontOcticons.self
+}
+
+extension EFIconFontOcticons: EFIconFontCaseIterableProtocol {
+    public static var name: String {
+        return "octicons"
+    }
+    public var unicode: String {
+        return self.rawValue
+    }
+}
+
+public enum EFIconFontOcticons: String {
+    case thumbsup = "\u{e6d7}"
+    case unverified = "\u{e6d6}"
+    case unfold = "\u{e6d5}"
+    case verified = "\u{e6d4}"
+    // ...
+}
+```
+
+#### 3. 调用
+
+同上自带图标库的使用。
+
+```swift
+EFIconFontAntDesign.addteam
+```
+
+#### 4. 注意事项
+
+本项目 Example 中的 Octicons 图标库为 GitHub 所有，此处仅为演示，请勿用于任何违反其所有者所定规范的场合：
+
+| 名称 | 版本 | 数量 | 文件大小 | 描述 | 使用规范 | 预览 |
+|:-|:-|:-|:-|:-|:-|:-|
 | Octicons | 8.4.2 | 184 | 34KB | GitHub 所属图标库 | [GitHub Logos and Usage](https://github.com/logos) | [octicons.github.com](https://octicons.github.com/) |
+
+### 4. 其它
+
+一些 IconFont 资源站点素材的爬取以及代码生成方式：
+
+- [iconfont.cn](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/iconfont.md)
+- [fontawesome.com](https://github.com/EFPrefix/EFIconFont/blob/master/Extend/fontawesome.md)
 
 ## 作者
 
