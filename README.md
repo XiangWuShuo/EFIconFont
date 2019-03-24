@@ -34,9 +34,9 @@ A ordinary icon font package helps you to use icon font more easily in your proj
 
 ## Preview
 
-| 1  | 2 | 3 |
-|:-:|:-:|:-:|
-| ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/1.png?raw=true) | ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/2.png?raw=true) | ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/3.png?raw=true) |
+| 1 | 2 | 3 | 4 |
+|:-:|:-:|:-:|:-:|
+| ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/1.png?raw=true) | ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/2.png?raw=true) | ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/3.png?raw=true) | ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/4.png?raw=true) |
 
 ## Example
 
