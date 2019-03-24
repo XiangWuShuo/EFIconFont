@@ -33,8 +33,6 @@ public extension EFIconFont {
 
 extension EFIconFontIonicons: EFIconFontCaseIterableProtocol {
 
-    public static var attributes: [NSAttributedString.Key : Any] = [:]
-
     public var name: String {
         return "ionicons"
     }

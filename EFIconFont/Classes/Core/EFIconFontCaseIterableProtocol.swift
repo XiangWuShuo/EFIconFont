@@ -6,9 +6,11 @@
 //
 
 import Foundation
+import UIKit
 
-fileprivate struct AssociatedKeys {
-    static var dictionary = "dictionary"
+fileprivate struct Anchor {
+    static var dictionaryDictionaries: [String: [String : EFIconFontProtocol]] = [:]
+    static var attributesDictionaries: [String: [NSAttributedString.Key : Any]] = [:]
 }
 
 public protocol EFIconFontCaseIterableProtocol: EFIconFontProtocol, CaseIterable {
@@ -33,11 +35,12 @@ public extension EFIconFontCaseIterableProtocol {
 
     public static var dictionary: [String : EFIconFontProtocol] {
         get {
-            if let attributes = objc_getAssociatedObject(self, &AssociatedKeys.dictionary) as? [String : EFIconFontProtocol] {
+            let key: String = String(describing: Self.self)
+            if let attributes = Anchor.dictionaryDictionaries[key] {
                 return attributes
             }
             let newAttributes: [String : EFIconFontProtocol] = generateDictionary()
-            objc_setAssociatedObject(self, &AssociatedKeys.dictionary, newAttributes, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            Anchor.dictionaryDictionaries.updateValue(newAttributes, forKey: key)
             return newAttributes
         }
     }
@@ -52,6 +55,18 @@ public extension EFIconFontCaseIterableProtocol {
 
     public func icon(named name: String) -> EFIconFontProtocol? {
         return Self.dictionary[name]
+    }
+
+    // MARK:- Static Style
+    public static var attributes: [NSAttributedString.Key : Any] {
+        get {
+            let key: String = String(describing: Self.self)
+            return Anchor.attributesDictionaries[key] ?? [:]
+        }
+        set {
+            let key: String = String(describing: Self.self)
+            Anchor.attributesDictionaries.updateValue(newValue, forKey: key)
+        }
     }
 
     public static var foregroundColor: UIColor? {

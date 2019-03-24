@@ -34,8 +34,6 @@ public extension EFIconFont {
 
 extension EFIconFontOcticons: EFIconFontCaseIterableProtocol {
 
-    public static var attributes: [NSAttributedString.Key : Any] = [:]
-
     public var name: String {
         return "octicons"
     }

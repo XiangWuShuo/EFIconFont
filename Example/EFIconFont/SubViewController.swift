@@ -15,7 +15,9 @@ class SubViewController: UIViewController, UITableViewDataSource, UITableViewDel
     let icons: [(key: String, value: EFIconFontProtocol)]
 
     init(title: String, dictionary: [String : EFIconFontProtocol]) {
-        self.icons = Array(dictionary)
+        self.icons = Array(dictionary).sorted(by: { (left, right) -> Bool in
+            return left.key < right.key
+        })
         super.init(nibName: nil, bundle: nil)
         self.navigationItem.title = title
     }

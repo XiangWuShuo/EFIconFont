@@ -33,8 +33,6 @@ public extension EFIconFont {
 
 extension EFIconFontFontAwesomeBrands: EFIconFontCaseIterableProtocol {
 
-    public static var attributes: [NSAttributedString.Key : Any] = [:]
-
     public var name: String {
         return "Font Awesome 5 Brands"
     }
