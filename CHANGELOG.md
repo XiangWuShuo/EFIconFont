@@ -2,6 +2,12 @@
 
 -----
 
+## [0.4.1](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.1) (2019-03-24)
+
+- Add MaterialIcons.
+
+---
+
 ## [0.4.0](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.0) (2019-03-24)
 
 - Add function to find icon by name;
