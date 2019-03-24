@@ -25,6 +25,7 @@
 //  THE SOFTWARE.
 
 import Foundation
+import EFIconFont
 
 public extension EFIconFont {
 

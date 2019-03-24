@@ -67,16 +67,6 @@
       }
     },
     {
-      "name": "Octicons",
-      "source_files": "EFIconFont/Classes/Octicons/**/*",
-      "resources": "EFIconFont/Assets/Octicons/**/*",
-      "dependencies": {
-        "EFIconFont/Core": [
-
-        ]
-      }
-    },
-    {
       "name": "Complete",
       "dependencies": {
         "EFIconFont/Core": [
@@ -92,9 +82,6 @@
 
         ],
         "EFIconFont/Ionicons": [
-
-        ],
-        "EFIconFont/Octicons": [
 
         ]
       }
