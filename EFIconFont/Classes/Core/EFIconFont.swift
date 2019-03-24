@@ -32,8 +32,6 @@ public class EFIconFont: EFIconFontProtocol {
     public let name: String
     public let unicode: String
 
-    public static let dictionary: [String : EFIconFontProtocol]? = nil
-
     public init(name fontName: String, icon: String, unicode: String) {
         self.name = fontName
         self.unicode = unicode

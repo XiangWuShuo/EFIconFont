@@ -32,7 +32,7 @@ fileprivate struct AssociatedKeys {
 
 public extension EFIconFontProtocol where Self : CaseIterable {
 
-    public static var dictionary: [String : EFIconFontProtocol]? {
+    public static var dictionary: [String : EFIconFontProtocol] {
         get {
             if let attributes = objc_getAssociatedObject(self, &AssociatedKeys.dictionary) as? [String : EFIconFontProtocol] {
                 return attributes
@@ -43,11 +43,15 @@ public extension EFIconFontProtocol where Self : CaseIterable {
         }
     }
 
-    public static func generateDictionary() -> [String : EFIconFontProtocol] {
+    private static func generateDictionary() -> [String : EFIconFontProtocol] {
         var dictionary: [String : EFIconFontProtocol] = [String : EFIconFontProtocol]()
         for item in Self.allCases {
             dictionary.updateValue(item, forKey: "\(item)")
         }
         return dictionary
+    }
+
+    public func icon(named name: String) -> EFIconFontProtocol? {
+        return Self.dictionary[name]
     }
 }

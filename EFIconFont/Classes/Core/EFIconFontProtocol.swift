@@ -44,9 +44,6 @@ public protocol EFIconFontProtocol {
 
     // `attributes` is style of icon
     var attributes: [NSAttributedString.Key : Any] { set get }
-
-    // `dictionary` is all icons in [name : unicode]
-    static var dictionary: [String : EFIconFontProtocol]? { get }
 }
 
 public extension EFIconFontProtocol {

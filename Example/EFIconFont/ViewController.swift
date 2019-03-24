@@ -67,7 +67,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        let items: [String : EFIconFontProtocol]? = {
+        let items: [String : EFIconFontProtocol] = {
             switch indexPath.row {
             case 0:
                 return EFIconFont.antDesign.dictionary
@@ -88,7 +88,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             }
         }()
         let title: String = "\(iconfonts[indexPath.row].enum)"
-        let subViewController: SubViewController = SubViewController(title: title, dictionary: items ?? [:])
+        let subViewController: SubViewController = SubViewController(title: title, dictionary: items)
         self.navigationController?.pushViewController(subViewController, animated: true)
     }
 }
