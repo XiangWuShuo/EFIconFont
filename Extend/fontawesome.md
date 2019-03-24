@@ -1,6 +1,6 @@
 # FontAwesome 资源利用
 
-[FontAwesome](https://fontawesome.com) 上也有众多 icon font 资源，我们可以通过如下步骤将我们需要的素材批量获取。
+[FontAwesome](https://fontawesome.com) 上也有众多 IconFont 资源，我们可以通过如下步骤将我们需要的素材批量获取。
 
 ## 1. 查找免费图标
 

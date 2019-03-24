@@ -33,7 +33,7 @@ public extension EFIconFont {
 
 extension EFIconFontAntDesign: EFIconFontCaseIterableProtocol {
 
-    public var name: String {
+    public static var name: String {
         return "antdesign"
     }
 

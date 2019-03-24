@@ -21,6 +21,12 @@ public protocol EFIconFontCaseIterableProtocol: EFIconFontProtocol, CaseIterable
     // `icon` is used to find icon by name
     func icon(named name: String) -> EFIconFontProtocol?
 
+    // `name` is not necessarily equal to .ttf file name
+    static var name: String { get }
+
+    // `path` is path of .ttf file
+    static var path: String { get }
+
     // `attributes` is style of all icons
     static var attributes: [NSAttributedString.Key : Any] { set get }
 
@@ -57,7 +63,11 @@ public extension EFIconFontCaseIterableProtocol {
         return Self.dictionary[name]
     }
 
-    // MARK:- Static Style
+    // MARK:- Default
+    public static var path: String {
+        return Bundle(for: EFIconFont.self).path(forResource: Self.name, ofType: "ttf") ?? Bundle.main.path(forResource: Self.name, ofType: "ttf") ?? ""
+    }
+
     public static var attributes: [NSAttributedString.Key : Any] {
         get {
             let key: String = String(describing: Self.self)
@@ -96,6 +106,18 @@ public extension EFIconFontCaseIterableProtocol {
     }
 
     // MARK:- EFIconFontProtocol
+    public var name: String {
+        get {
+            return Self.name
+        }
+    }
+
+    public var path: String {
+        get {
+            return Self.path
+        }
+    }
+
     public var attributes: [NSAttributedString.Key : Any] {
         get {
             return Self.attributes

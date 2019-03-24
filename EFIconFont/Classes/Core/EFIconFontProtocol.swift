@@ -39,11 +39,11 @@ public protocol EFIconFontProtocol {
     // `path` is path of .ttf file
     var path: String { get }
 
-    // `unicode` is unique identifier of particular icon
-    var unicode: String { get }
-
     // `attributes` is style of icon
     var attributes: [NSAttributedString.Key : Any] { set get }
+
+    // `unicode` is unique identifier of particular icon
+    var unicode: String { get }
 }
 
 public extension EFIconFontProtocol {

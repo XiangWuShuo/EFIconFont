@@ -1,6 +1,6 @@
 # iconfont 资源利用
 
-阿里 [iconfont.cn](https://www.iconfont.cn/) 上有众多 icon font 资源，我们可以通过如下步骤将我们需要的素材批量获取。
+阿里 [iconfont.cn](https://www.iconfont.cn/) 上有众多 IconFont 资源，我们可以通过如下步骤将我们需要的素材批量获取。
 
 ## 1. 批量加入购物车
 
@@ -15,6 +15,8 @@ var icon=document.getElementsByClassName('icon-gouwuche1');for(var i=0;i<icon.le
 ## 2. 建立个人项目
 
 打开购物车，点击“添加到项目”按钮可以将购车中图标全部加入某个个人项目中（当前没有项目的话点击右侧“加号”可以创建新项目），为接下来的代码生成和字体文件获取做准备。
+
+这一步中项目设置里的 `Font Family` 一项即为之后生成的 .ttf 文件的字体 Name，注意不要与项目中其他字体名重复，以免造成一些不必要的使用问题。这里推荐全英文小写命名，且将之后下载得到的 .ttf 文件也重命名为与此处设置的 `Font Family` 一样，便于管理（项目中存在文件名相同的 .ttf 文件会冲突，所以重命名是必要的）。
 
 ## 3. Swift 代码生成
 
@@ -59,7 +61,7 @@ console.log(result)
 字体文件对应的字体名如下：
 
 ```
-iconfont.ttf: iconfont
+iconfont.ttf: {之前建立项目时设置的 `Font Family` 内容}
 ```
 
 ![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/extend.png?raw=true)
