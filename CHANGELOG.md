@@ -2,6 +2,14 @@
 
 -----
 
+## [0.4.0](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.0) (2019-03-24)
+
+- Remove dictionary from protocol;
+- Add function to find icon named;
+- Add `Complete` subspec.
+
+---
+
 ## [0.3.0](https://github.com/EFPrefix/EFIconFont/releases/tag/0.3.0) (2019-03-23)
 
 - Make EFIconFont public;
