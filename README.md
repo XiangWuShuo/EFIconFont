@@ -1,9 +1,32 @@
-# EFIconFont
+![](https://github.com/EFPrefix/EFIconFont/blob/master/Assets/EFIconFont.png?raw=true)
 
-[![CI Status](https://img.shields.io/travis/EFPrefix/EFIconFont.svg?style=flat)](https://travis-ci.org/EFPrefix/EFIconFont)
-[![Version](https://img.shields.io/cocoapods/v/EFIconFont.svg?style=flat)](https://cocoapods.org/pods/EFIconFont)
-[![License](https://img.shields.io/cocoapods/l/EFIconFont.svg?style=flat)](https://cocoapods.org/pods/EFIconFont)
-[![Platform](https://img.shields.io/cocoapods/p/EFIconFont.svg?style=flat)](https://cocoapods.org/pods/EFIconFont)
+<p align="center">
+    <a href="https://travis-ci.org/EFPrefix/EFIconFont">
+    	<img src="https://api.travis-ci.org/EFPrefix/EFIconFont.svg?branch=master">
+    </a>
+    <a href="http://cocoapods.org/pods/EFIconFont">
+    	<img src="https://img.shields.io/cocoapods/v/EFIconFont.svg?style=flat">
+    </a>
+    <a href="http://cocoapods.org/pods/EFIconFont">
+    	<img src="https://img.shields.io/cocoapods/p/EFIconFont.svg?style=flat">
+    </a>
+    <a href="https://github.com/apple/swift">
+    	<img src="https://img.shields.io/badge/language-swift-orange.svg">
+    </a>
+    <a href="https://codebeat.co/projects/github-com-efprefix-eficonfont-master">
+        <img src="https://codebeat.co/badges/4cbadc4d-e8f9-4f5b-8ee5-676ba6380383" />
+    </a>
+    <a href="https://raw.githubusercontent.com/EFPrefix/EFIconFont/master/LICENSE">
+    	<img src="https://img.shields.io/cocoapods/l/EFIconFont.svg?style=flat">
+    </a>
+    <a href="https://twitter.com/EyreFree777">
+    	<img src="https://img.shields.io/badge/twitter-@EyreFree777-blue.svg?style=flat">
+    </a>
+    <a href="http://weibo.com/eyrefree777">
+    	<img src="https://img.shields.io/badge/weibo-@EyreFree-red.svg?style=flat">
+    </a>
+    <img src="https://img.shields.io/badge/made%20with-%3C3-orange.svg">
+</p>
 
 A ordinary icon font package helps you to use icon font more easily in your project.
 
