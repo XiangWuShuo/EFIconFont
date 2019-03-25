@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'EFIconFont'
-    s.version          = '0.4.1'
+    s.version          = '0.4.2'
     s.summary          = 'Yet another stupid wrapper of icon font.'
     
     s.description      = <<-DESC
@@ -51,6 +51,12 @@ Pod::Spec.new do |s|
         materialicons.dependency 'EFIconFont/Core'
     end
 
+    s.subspec 'Typicons' do |typicons|
+        typicons.source_files = 'EFIconFont/Classes/Typicons/**/*'
+        typicons.resources = 'EFIconFont/Assets/Typicons/**/*'
+        typicons.dependency 'EFIconFont/Core'
+    end
+
     s.subspec 'Complete' do |complete|
         complete.dependency 'EFIconFont/Core'
         complete.dependency 'EFIconFont/AntDesign'
@@ -58,5 +64,6 @@ Pod::Spec.new do |s|
         complete.dependency 'EFIconFont/FontAwesome'
         complete.dependency 'EFIconFont/Ionicons'
         complete.dependency 'EFIconFont/MaterialIcons'
+        complete.dependency 'EFIconFont/Typicons'
     end
 end

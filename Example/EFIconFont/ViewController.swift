@@ -20,7 +20,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         ("ElusiveIcons", EFIconFont.elusiveIcons),
         ("Ionicons", EFIconFont.ionicons),
         ("MaterialIcons", EFIconFont.materialIcons),
-        ("Octicons", EFIconFont.octicons)
+        ("Octicons", EFIconFont.octicons),
+        ("Typicons", EFIconFont.typicons)
     ]
     
     override func viewDidLoad() {
@@ -86,6 +87,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 return EFIconFont.materialIcons.dictionary
             case 7:
                 return EFIconFont.octicons.dictionary
+            case 8:
+                return EFIconFont.typicons.dictionary
             default:
                 return [:]
             }
