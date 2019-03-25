@@ -158,6 +158,7 @@ EFIconFont.antDesign.dictionary
 | FontAwesome | 5.8.1 | 1516 | 356KB | FontAwesome 所属的免费图标库 | [Font Awesome Free License](https://fontawesome.com/license/free) | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
 | Ionicons | 4.5.5 | 696 | 143KB | Ionicons 免费图标库 | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE) | [ionicons.com](https://ionicons.com/) |
 | MaterialIcons | 3.0.1 | 932 | 128KB | Google 的 Material 图标库 | [Apache-2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | [material.io](https://material.io/tools/icons) |
+| Typicons | 2.0.9 | 336 | 82KB | 336 个矢量图标集合在一个库内 | [OFL](https://github.com/stephenhutchings/typicons.font/blob/master/README.md) | [s-ings.com/typicons](https://www.s-ings.com/typicons/) |
 
 ### 3. 自定义图标库
 
