@@ -2,6 +2,12 @@
 
 -----
 
+## [0.4.3](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.3) (2019-03-26)
+
+- Add OpenIconic.
+
+---
+
 ## [0.4.2](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.2) (2019-03-25)
 
 - Add Typicons.
