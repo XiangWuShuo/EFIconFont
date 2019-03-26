@@ -12,16 +12,17 @@ import EFIconFont
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     let tableView: UITableView = UITableView()
-    let iconfonts: [(name: String, `enum`: Any)] = [
-        ("AntDesign", EFIconFont.antDesign),
-        ("AwesomeBrands", EFIconFont.awesomeBrands),
-        ("AwesomeRegular", EFIconFont.awesomeRegular),
-        ("AwesomeSolid", EFIconFont.awesomeSolid),
-        ("ElusiveIcons", EFIconFont.elusiveIcons),
-        ("Ionicons", EFIconFont.ionicons),
-        ("MaterialIcons", EFIconFont.materialIcons),
-        ("Octicons", EFIconFont.octicons),
-        ("Typicons", EFIconFont.typicons)
+    let iconfonts: [(name: String, `enum`: String, dictionary: [String : EFIconFontProtocol])] = [
+        ("AntDesign", "\(EFIconFont.antDesign)", EFIconFont.antDesign.dictionary),
+        ("AwesomeBrands", "\(EFIconFont.awesomeBrands)", EFIconFont.awesomeBrands.dictionary),
+        ("AwesomeRegular", "\(EFIconFont.awesomeRegular)", EFIconFont.awesomeRegular.dictionary),
+        ("AwesomeSolid", "\(EFIconFont.awesomeSolid)", EFIconFont.awesomeSolid.dictionary),
+        ("ElusiveIcons", "\(EFIconFont.elusiveIcons)", EFIconFont.elusiveIcons.dictionary),
+        ("Ionicons", "\(EFIconFont.ionicons)", EFIconFont.ionicons.dictionary),
+        ("MaterialIcons", "\(EFIconFont.materialIcons)", EFIconFont.materialIcons.dictionary),
+        ("Octicons", "\(EFIconFont.octicons)", EFIconFont.octicons.dictionary),
+        ("OpenIconic", "\(EFIconFont.openIconic)", EFIconFont.openIconic.dictionary),
+        ("Typicons", "\(EFIconFont.typicons)", EFIconFont.typicons.dictionary)
     ]
     
     override func viewDidLoad() {
@@ -69,32 +70,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        let items: [String : EFIconFontProtocol] = {
-            switch indexPath.row {
-            case 0:
-                return EFIconFont.antDesign.dictionary
-            case 1:
-                return EFIconFont.awesomeBrands.dictionary
-            case 2:
-                return EFIconFont.awesomeRegular.dictionary
-            case 3:
-                return EFIconFont.awesomeSolid.dictionary
-            case 4:
-                return EFIconFont.elusiveIcons.dictionary
-            case 5:
-                return EFIconFont.ionicons.dictionary
-            case 6:
-                return EFIconFont.materialIcons.dictionary
-            case 7:
-                return EFIconFont.octicons.dictionary
-            case 8:
-                return EFIconFont.typicons.dictionary
-            default:
-                return [:]
-            }
-        }()
-        let title: String = "\(iconfonts[indexPath.row].enum)"
-        let subViewController: SubViewController = SubViewController(title: title, dictionary: items)
+        let item = iconfonts[indexPath.row]
+        let title: String = item.enum
+        let subViewController: SubViewController = SubViewController(title: title, dictionary: item.dictionary)
         self.navigationController?.pushViewController(subViewController, animated: true)
     }
 }

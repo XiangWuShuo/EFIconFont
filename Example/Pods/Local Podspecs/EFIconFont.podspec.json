@@ -1,6 +1,6 @@
 {
   "name": "EFIconFont",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "summary": "Yet another stupid wrapper of icon font.",
   "description": "An ordinary iconfont cocoaapods package helps you to use iconfont more easily in your project, in Swift.",
   "homepage": "https://github.com/EyreFree/EFIconFont",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/EyreFree/EFIconFont.git",
-    "tag": "0.4.2"
+    "tag": "0.4.3"
   },
   "social_media_url": "https://twitter.com/EyreFree777",
   "platforms": {
@@ -77,6 +77,16 @@
       }
     },
     {
+      "name": "OpenIconic",
+      "source_files": "EFIconFont/Classes/OpenIconic/**/*",
+      "resources": "EFIconFont/Assets/OpenIconic/**/*",
+      "dependencies": {
+        "EFIconFont/Core": [
+
+        ]
+      }
+    },
+    {
       "name": "Typicons",
       "source_files": "EFIconFont/Classes/Typicons/**/*",
       "resources": "EFIconFont/Assets/Typicons/**/*",
@@ -105,6 +115,9 @@
 
         ],
         "EFIconFont/MaterialIcons": [
+
+        ],
+        "EFIconFont/OpenIconic": [
 
         ],
         "EFIconFont/Typicons": [

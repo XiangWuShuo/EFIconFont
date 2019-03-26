@@ -1,24 +1,27 @@
 PODS:
-  - EFIconFont/AntDesign (0.4.2):
+  - EFIconFont/AntDesign (0.4.3):
     - EFIconFont/Core
-  - EFIconFont/Complete (0.4.2):
+  - EFIconFont/Complete (0.4.3):
     - EFIconFont/AntDesign
     - EFIconFont/Core
     - EFIconFont/ElusiveIcons
     - EFIconFont/FontAwesome
     - EFIconFont/Ionicons
     - EFIconFont/MaterialIcons
+    - EFIconFont/OpenIconic
     - EFIconFont/Typicons
-  - EFIconFont/Core (0.4.2)
-  - EFIconFont/ElusiveIcons (0.4.2):
+  - EFIconFont/Core (0.4.3)
+  - EFIconFont/ElusiveIcons (0.4.3):
     - EFIconFont/Core
-  - EFIconFont/FontAwesome (0.4.2):
+  - EFIconFont/FontAwesome (0.4.3):
     - EFIconFont/Core
-  - EFIconFont/Ionicons (0.4.2):
+  - EFIconFont/Ionicons (0.4.3):
     - EFIconFont/Core
-  - EFIconFont/MaterialIcons (0.4.2):
+  - EFIconFont/MaterialIcons (0.4.3):
     - EFIconFont/Core
-  - EFIconFont/Typicons (0.4.2):
+  - EFIconFont/OpenIconic (0.4.3):
+    - EFIconFont/Core
+  - EFIconFont/Typicons (0.4.3):
     - EFIconFont/Core
 
 DEPENDENCIES:
@@ -29,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EFIconFont: ca5095d8cd424ad71d09c22b2ae3110e713083c7
+  EFIconFont: db538bc870e414ca701656e12da4b9a2c7e0a39a
 
 PODFILE CHECKSUM: 377b34526d3e9857b28e9885a58c59c640f11ab8
 
