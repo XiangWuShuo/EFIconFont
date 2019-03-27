@@ -2,6 +2,12 @@
 
 -----
 
+## [0.4.4](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.4) (2019-03-27)
+
+- Add MetrizeIcons.
+
+---
+
 ## [0.4.3](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.3) (2019-03-26)
 
 - Add OpenIconic.

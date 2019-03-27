@@ -153,6 +153,7 @@ PS: Although the libraries below are all free, please make sure that your way of
 | FontAwesome | 5.8.1 | 1516 | 356KB | Font Awesome | [Font Awesome Free License](https://fontawesome.com/license/free) | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
 | Ionicons | 4.5.5 | 696 | 143KB | Ionicons | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE) | [ionicons.com](https://ionicons.com/) |
 | MaterialIcons | 3.0.1 | 932 | 128KB | Google's material design icons | [Apache-2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | [material.io](https://material.io/tools/icons) |
+| MetrizeIcons | 1.0 | 300 | 74KB | Free Collection of 300 Metro-Style Icons for Designers and Developers | [Free](http://www.alessioatzeni.com/metrize-icons/) | [alessioatzeni.com/metrize-icons](http://www.alessioatzeni.com/metrize-icons/) |
 | OpenIconic | 1.1.1 | 223 | 33KB | An open source icon set with 223 marks in SVG | [OFL](https://github.com/iconic/open-iconic/blob/master/FONT-LICENSE) | [useiconic.com/open](https://useiconic.com/open/) |
 | Typicons | 2.0.9 | 336 | 82KB | 336 pixel perfect, all-purpose vector icons in a kit | [OFL](https://github.com/stephenhutchings/typicons.font/blob/master/README.md) | [s-ings.com/typicons](https://www.s-ings.com/typicons/) |
 
