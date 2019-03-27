@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'EFIconFont'
-    s.version          = '0.4.3'
+    s.version          = '0.4.4'
     s.summary          = 'Yet another stupid wrapper of icon font.'
     
     s.description      = <<-DESC
@@ -51,6 +51,12 @@ Pod::Spec.new do |s|
         materialicons.dependency 'EFIconFont/Core'
     end
 
+    s.subspec 'MetrizeIcons' do |metrizeicons|
+        metrizeicons.source_files = 'EFIconFont/Classes/MetrizeIcons/**/*'
+        metrizeicons.resources = 'EFIconFont/Assets/MetrizeIcons/**/*'
+        metrizeicons.dependency 'EFIconFont/Core'
+    end
+
     s.subspec 'OpenIconic' do |openiconic|
         openiconic.source_files = 'EFIconFont/Classes/OpenIconic/**/*'
         openiconic.resources = 'EFIconFont/Assets/OpenIconic/**/*'
@@ -70,6 +76,7 @@ Pod::Spec.new do |s|
         complete.dependency 'EFIconFont/FontAwesome'
         complete.dependency 'EFIconFont/Ionicons'
         complete.dependency 'EFIconFont/MaterialIcons'
+        complete.dependency 'EFIconFont/MetrizeIcons'
         complete.dependency 'EFIconFont/OpenIconic'
         complete.dependency 'EFIconFont/Typicons'
     end

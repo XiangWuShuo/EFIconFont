@@ -1,6 +1,6 @@
 {
   "name": "EFIconFont",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "summary": "Yet another stupid wrapper of icon font.",
   "description": "An ordinary iconfont cocoaapods package helps you to use iconfont more easily in your project, in Swift.",
   "homepage": "https://github.com/EyreFree/EFIconFont",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/EyreFree/EFIconFont.git",
-    "tag": "0.4.3"
+    "tag": "0.4.4"
   },
   "social_media_url": "https://twitter.com/EyreFree777",
   "platforms": {
@@ -77,6 +77,16 @@
       }
     },
     {
+      "name": "MetrizeIcons",
+      "source_files": "EFIconFont/Classes/MetrizeIcons/**/*",
+      "resources": "EFIconFont/Assets/MetrizeIcons/**/*",
+      "dependencies": {
+        "EFIconFont/Core": [
+
+        ]
+      }
+    },
+    {
       "name": "OpenIconic",
       "source_files": "EFIconFont/Classes/OpenIconic/**/*",
       "resources": "EFIconFont/Assets/OpenIconic/**/*",
@@ -115,6 +125,9 @@
 
         ],
         "EFIconFont/MaterialIcons": [
+
+        ],
+        "EFIconFont/MetrizeIcons": [
 
         ],
         "EFIconFont/OpenIconic": [
