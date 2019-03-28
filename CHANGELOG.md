@@ -2,6 +2,12 @@
 
 -----
 
+## [0.4.5](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.5) (2019-03-28)
+
+- Add Meteocons.
+
+---
+
 ## [0.4.4](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.4) (2019-03-27)
 
 - Add MetrizeIcons.
