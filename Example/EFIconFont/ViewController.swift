@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         ("ElusiveIcons", "\(EFIconFont.elusiveIcons)", EFIconFont.elusiveIcons.dictionary),
         ("Ionicons", "\(EFIconFont.ionicons)", EFIconFont.ionicons.dictionary),
         ("MaterialIcons", "\(EFIconFont.materialIcons)", EFIconFont.materialIcons.dictionary),
+        ("Meteocons", "\(EFIconFont.meteocons)", EFIconFont.meteocons.dictionary),
         ("MetrizeIcons", "\(EFIconFont.metrizeIcons)", EFIconFont.metrizeIcons.dictionary),
         ("Octicons", "\(EFIconFont.octicons)", EFIconFont.octicons.dictionary),
         ("OpenIconic", "\(EFIconFont.openIconic)", EFIconFont.openIconic.dictionary),
