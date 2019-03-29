@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.summary          = 'Yet another stupid wrapper of icon font.'
     
     s.description      = <<-DESC
-    An ordinary iconfont cocoaapods package helps you to use iconfont more easily in your project, in Swift.
+    An ordinary iconfont cocoapods package helps you to use iconfont more easily in your project, in Swift.
     DESC
     
     s.homepage         = 'https://github.com/EyreFree/EFIconFont'

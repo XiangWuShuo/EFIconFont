@@ -4,10 +4,10 @@
     <a href="https://travis-ci.org/EFPrefix/EFIconFont">
     	<img src="https://api.travis-ci.org/EFPrefix/EFIconFont.svg?branch=master">
     </a>
-    <a href="http://cocoapods.org/pods/EFIconFont">
+    <a href="https://cocoapods.org/pods/EFIconFont">
     	<img src="https://img.shields.io/cocoapods/v/EFIconFont.svg?style=flat">
     </a>
-    <a href="http://cocoapods.org/pods/EFIconFont">
+    <a href="https://cocoapods.org/pods/EFIconFont">
     	<img src="https://img.shields.io/cocoapods/p/EFIconFont.svg?style=flat">
     </a>
     <a href="https://github.com/apple/swift">
@@ -22,13 +22,13 @@
     <a href="https://twitter.com/EyreFree777">
     	<img src="https://img.shields.io/badge/twitter-@EyreFree777-blue.svg?style=flat">
     </a>
-    <a href="http://weibo.com/eyrefree777">
+    <a href="https://weibo.com/eyrefree777">
     	<img src="https://img.shields.io/badge/weibo-@EyreFree-red.svg?style=flat">
     </a>
     <img src="https://img.shields.io/badge/made%20with-%3C3-orange.svg">
 </p>
 
-An ordinary iconfont cocoaapods package helps you to use iconfont more easily in your project, in Swift.
+An ordinary iconfont cocoapods package helps you to use iconfont more easily in your project, in Swift.
 
 > [中文介绍](https://github.com/EFPrefix/EFIconFont/blob/master/README_CN.md)
 
@@ -153,8 +153,8 @@ PS: Although the libraries below are all free, please make sure that your way of
 | FontAwesome | 5.8.1 | 1516 | 356KB | Font Awesome | [Font Awesome Free License](https://fontawesome.com/license/free) | [fontawesome.com](https://fontawesome.com/icons?d=gallery&m=free) |
 | Ionicons | 4.5.5 | 696 | 143KB | Ionicons | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE) | [ionicons.com](https://ionicons.com/) |
 | MaterialIcons | 3.0.1 | 932 | 128KB | Google's material design icons | [Apache-2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | [material.io](https://material.io/tools/icons) |
-| Meteocons |  | 47 | 15KB | A set of weather icons, it containing 40+ icons | [Free](http://www.alessioatzeni.com/meteocons/) | [alessioatzeni.com/meteocons](http://www.alessioatzeni.com/meteocons/) |
-| MetrizeIcons | 1.0 | 300 | 74KB | Free Collection of 300 Metro-Style Icons for Designers and Developers | [Free](http://www.alessioatzeni.com/metrize-icons/) | [alessioatzeni.com/metrize-icons](http://www.alessioatzeni.com/metrize-icons/) |
+| Meteocons |  | 47 | 15KB | A set of weather icons, it containing 40+ icons | [Free](https://www.alessioatzeni.com/meteocons/) | [alessioatzeni.com/meteocons](https://www.alessioatzeni.com/meteocons/) |
+| MetrizeIcons | 1.0 | 300 | 74KB | Free Collection of 300 Metro-Style Icons for Designers and Developers | [Free](https://www.alessioatzeni.com/metrize-icons/) | [alessioatzeni.com/metrize-icons](https://www.alessioatzeni.com/metrize-icons/) |
 | OpenIconic | 1.1.1 | 223 | 33KB | An open source icon set with 223 marks in SVG | [OFL](https://github.com/iconic/open-iconic/blob/master/FONT-LICENSE) | [useiconic.com/open](https://useiconic.com/open/) |
 | Typicons | 2.0.9 | 336 | 82KB | 336 pixel perfect, all-purpose vector icons in a kit | [OFL](https://github.com/stephenhutchings/typicons.font/blob/master/README.md) | [s-ings.com/typicons](https://www.s-ings.com/typicons/) |
 
