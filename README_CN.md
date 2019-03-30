@@ -55,8 +55,10 @@ git clone git@github.com:EFPrefix/EFIconFont.git; cd EFIconFont/Example; pod ins
 
 ## 需求
 
-- iOS 8.0+
-- Swift 5.0+
+| 版本   | 需求                                   |
+|:-------|:--------------------------------------|
+| <0.5   | Xcode 10.0+<br>Swift 4.2+<br>iOS 8.0+ |
+| >=0.5  | Xcode 10.2+<br>Swift 5.0+<br>iOS 8.0+ |
 
 ## 安装
 
