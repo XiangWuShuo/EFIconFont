@@ -29,7 +29,7 @@ import EFIconFont
 
 public extension EFIconFont {
 
-    public static let octicons = EFIconFontOcticons.self
+    static let octicons = EFIconFontOcticons.self
 }
 
 extension EFIconFontOcticons: EFIconFontCaseIterableProtocol {

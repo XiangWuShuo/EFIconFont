@@ -28,7 +28,7 @@ import Foundation
 
 public extension EFIconFont {
 
-    public static let ionicons = EFIconFontIonicons.self
+    static let ionicons = EFIconFontIonicons.self
 }
 
 extension EFIconFontIonicons: EFIconFontCaseIterableProtocol {

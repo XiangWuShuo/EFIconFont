@@ -909,7 +909,7 @@
 			};
 			name = Release;
 		};
-		8F786E1174F4D74810FDE600222341C7 /* Debug */ = {
+		DC7B2D3CF71F56336AFA81A5118BDD9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F9B0078B27B4811F2EBA5000EBC0FE1 /* EFIconFont.xcconfig */;
 			buildSettings = {
@@ -933,44 +933,44 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D8D13FBF99B352F6C4934FA2662847DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F9B0078B27B4811F2EBA5000EBC0FE1 /* EFIconFont.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EFIconFont/EFIconFont-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EFIconFont/EFIconFont-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EFIconFont/EFIconFont.modulemap";
-				PRODUCT_MODULE_NAME = EFIconFont;
-				PRODUCT_NAME = EFIconFont;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		F01924E5930F5263D4D5EC7F6BC6F68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9B0078B27B4811F2EBA5000EBC0FE1 /* EFIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFIconFont/EFIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFIconFont/EFIconFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFIconFont/EFIconFont.modulemap";
+				PRODUCT_MODULE_NAME = EFIconFont;
+				PRODUCT_NAME = EFIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1005,8 +1005,8 @@
 		E0C379EDE4F1D96A2D1B3D334C67AFAB /* Build configuration list for PBXNativeTarget "EFIconFont" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F786E1174F4D74810FDE600222341C7 /* Debug */,
-				D8D13FBF99B352F6C4934FA2662847DD /* Release */,
+				F01924E5930F5263D4D5EC7F6BC6F68D /* Debug */,
+				DC7B2D3CF71F56336AFA81A5118BDD9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

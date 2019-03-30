@@ -28,7 +28,7 @@ import Foundation
 
 public extension EFIconFont {
 
-    public static let elusiveIcons = EFIconFontElusiveIcons.self
+    static let elusiveIcons = EFIconFontElusiveIcons.self
 }
 
 extension EFIconFontElusiveIcons: EFIconFontCaseIterableProtocol {

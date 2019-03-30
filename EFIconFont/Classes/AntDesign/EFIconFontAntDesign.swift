@@ -28,7 +28,7 @@ import Foundation
 
 public extension EFIconFont {
 
-    public static let antDesign = EFIconFontAntDesign.self
+    static let antDesign = EFIconFontAntDesign.self
 }
 
 extension EFIconFontAntDesign: EFIconFontCaseIterableProtocol {

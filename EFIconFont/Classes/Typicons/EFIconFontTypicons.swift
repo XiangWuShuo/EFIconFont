@@ -28,7 +28,7 @@ import Foundation
 
 public extension EFIconFont {
 
-    public static let typicons = EFIconFontTypicons.self
+    static let typicons = EFIconFontTypicons.self
 }
 
 extension EFIconFontTypicons: EFIconFontCaseIterableProtocol {

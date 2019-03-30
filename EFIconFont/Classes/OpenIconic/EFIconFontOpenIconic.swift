@@ -28,7 +28,7 @@ import Foundation
 
 public extension EFIconFont {
 
-    public static let openIconic = EFIconFontOpenIconic.self
+    static let openIconic = EFIconFontOpenIconic.self
 }
 
 extension EFIconFontOpenIconic: EFIconFontCaseIterableProtocol {

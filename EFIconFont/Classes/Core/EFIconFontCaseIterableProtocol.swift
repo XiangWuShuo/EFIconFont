@@ -39,7 +39,7 @@ public protocol EFIconFontCaseIterableProtocol: EFIconFontProtocol, CaseIterable
 
 public extension EFIconFontCaseIterableProtocol {
 
-    public static var dictionary: [String : EFIconFontProtocol] {
+    static var dictionary: [String : EFIconFontProtocol] {
         get {
             let key: String = String(describing: Self.self)
             if let attributes = Anchor.dictionaryDictionaries[key] {
@@ -59,15 +59,15 @@ public extension EFIconFontCaseIterableProtocol {
         return dictionary
     }
 
-    public func icon(named name: String) -> EFIconFontProtocol? {
+    func icon(named name: String) -> EFIconFontProtocol? {
         return Self.dictionary[name]
     }
 
-    public static var path: String {
+    static var path: String {
         return Bundle(for: EFIconFont.self).path(forResource: Self.name, ofType: "ttf") ?? Bundle.main.path(forResource: Self.name, ofType: "ttf") ?? ""
     }
 
-    public static var attributes: [NSAttributedString.Key : Any] {
+    static var attributes: [NSAttributedString.Key : Any] {
         get {
             let key: String = String(describing: Self.self)
             return Anchor.attributesDictionaries[key] ?? [:]
@@ -78,7 +78,7 @@ public extension EFIconFontCaseIterableProtocol {
         }
     }
 
-    public static var foregroundColor: UIColor? {
+    static var foregroundColor: UIColor? {
         get {
             return Self.attributes[NSAttributedString.Key.foregroundColor] as? UIColor
         }
@@ -91,7 +91,7 @@ public extension EFIconFontCaseIterableProtocol {
         }
     }
 
-    public static var backgroundColor: UIColor? {
+    static var backgroundColor: UIColor? {
         get {
             return Self.attributes[NSAttributedString.Key.backgroundColor] as? UIColor
         }
@@ -105,19 +105,19 @@ public extension EFIconFontCaseIterableProtocol {
     }
 
     // MARK:- EFIconFontProtocol
-    public var name: String {
+    var name: String {
         get {
             return Self.name
         }
     }
 
-    public var path: String {
+    var path: String {
         get {
             return Self.path
         }
     }
 
-    public var attributes: [NSAttributedString.Key : Any] {
+    var attributes: [NSAttributedString.Key : Any] {
         get {
             return Self.attributes
         }
@@ -126,11 +126,11 @@ public extension EFIconFontCaseIterableProtocol {
         }
     }
 
-    public var foregroundColor: UIColor? {
+    var foregroundColor: UIColor? {
         return Self.foregroundColor
     }
 
-    public var backgroundColor: UIColor? {
+    var backgroundColor: UIColor? {
         return Self.backgroundColor
     }
 }

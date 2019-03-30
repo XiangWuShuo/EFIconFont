@@ -28,7 +28,7 @@ import Foundation
 
 public extension EFIconFont {
 
-    public static let meteocons = EFIconFontMeteocons.self
+    static let meteocons = EFIconFontMeteocons.self
 }
 
 extension EFIconFontMeteocons: EFIconFontCaseIterableProtocol {

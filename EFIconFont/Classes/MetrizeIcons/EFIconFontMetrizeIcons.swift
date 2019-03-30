@@ -28,7 +28,7 @@ import Foundation
 
 public extension EFIconFont {
 
-    public static let metrizeIcons = EFIconFontMetrizeIcons.self
+    static let metrizeIcons = EFIconFontMetrizeIcons.self
 }
 
 extension EFIconFontMetrizeIcons: EFIconFontCaseIterableProtocol {
