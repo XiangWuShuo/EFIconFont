@@ -2,6 +2,13 @@
 
 -----
 
+## [0.5.0](https://github.com/EFPrefix/EFIconFont/releases/tag/0.5.0) (2019-03-30)
+
+- Update to Swift 5.0;
+- Fix some typos.
+
+---
+
 ## [0.4.5](https://github.com/EFPrefix/EFIconFont/releases/tag/0.4.5) (2019-03-28)
 
 - Add Meteocons.

@@ -51,7 +51,7 @@ git clone git@github.com:EFPrefix/EFIconFont.git; cd EFIconFont/Example; pod ins
 ## Requirements
 
 - iOS 8.0+
-- Swift 4.2+
+- Swift 5.0+
 
 ## Installation
 
