@@ -2,6 +2,12 @@
 
 -----
 
+## [0.5.1](https://github.com/EFPrefix/EFIconFont/releases/tag/0.5.1) (2019-08-26)
+
+- Add IcoMoon.
+
+---
+
 ## [0.5.0](https://github.com/EFPrefix/EFIconFont/releases/tag/0.5.0) (2019-03-30)
 
 - Update to Swift 5.0;
