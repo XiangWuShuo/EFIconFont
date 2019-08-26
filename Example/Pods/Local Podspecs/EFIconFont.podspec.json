@@ -1,6 +1,6 @@
 {
   "name": "EFIconFont",
-  "version": "0.4.5",
+  "version": "0.5.1",
   "summary": "Yet another stupid wrapper of icon font.",
   "description": "An ordinary iconfont cocoapods package helps you to use iconfont more easily in your project, in Swift.",
   "homepage": "https://github.com/EyreFree/EFIconFont",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/EyreFree/EFIconFont.git",
-    "tag": "0.4.5"
+    "tag": "0.5.1"
   },
   "social_media_url": "https://twitter.com/EyreFree777",
   "platforms": {
@@ -50,6 +50,16 @@
       "name": "FontAwesome",
       "source_files": "EFIconFont/Classes/FontAwesome/**/*",
       "resources": "EFIconFont/Assets/FontAwesome/**/*",
+      "dependencies": {
+        "EFIconFont/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "IcoMoon",
+      "source_files": "EFIconFont/Classes/IcoMoon/**/*",
+      "resources": "EFIconFont/Assets/IcoMoon/**/*",
       "dependencies": {
         "EFIconFont/Core": [
 
@@ -129,6 +139,9 @@
 
         ],
         "EFIconFont/FontAwesome": [
+
+        ],
+        "EFIconFont/IcoMoon": [
 
         ],
         "EFIconFont/Ionicons": [

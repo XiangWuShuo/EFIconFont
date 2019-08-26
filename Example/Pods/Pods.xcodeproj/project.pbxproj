@@ -7,362 +7,380 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12ECAEE56A012AE24271545EFB0CC726 /* EFIconFontTypicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB4D86EF84045AF36FFD53379CDB18 /* EFIconFontTypicons.swift */; };
-		15FD26965ACA74E2E6F0781B826917B7 /* fontawesomeregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47F5133DCF9EA1AF3C1297849D556873 /* fontawesomeregular.ttf */; };
-		25ADEAB5371D5E564540C3118DD04AAA /* EFIconFontIonicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE97115E4DBB08BEC23E680A30E492E /* EFIconFontIonicons.swift */; };
-		2C5406543C72988A6E16C9D3FC5CD038 /* EFIconFontElusiveIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C913027A3132D704B47038C000C0699D /* EFIconFontElusiveIcons.swift */; };
-		333C8E0C7F4C6856B2FAA01033F832AA /* fontawesomesolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D37086F99251012EA0185862E3CB0EDA /* fontawesomesolid.ttf */; };
-		33B29473C3A10EC4EF24057D661E3768 /* EFIconFontMetrizeIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F54D950C3EF5011086247D33E4655E /* EFIconFontMetrizeIcons.swift */; };
-		3727CC00853C03E1A8022EE6E1B22CD5 /* EFIconFontProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6228168324730D4925AE62D005BFBE0D /* EFIconFontProtocol.swift */; };
-		3AFEA8ADFBFD126010EB1057D627FE18 /* EFIconFontMaterialIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4741888BD2D6AAD7793530E5A2EE8D /* EFIconFontMaterialIcons.swift */; };
-		3D8A8CF0EF74E729C113FE2CBD686C4C /* EFIconFontFontAwesomeSolid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D2436E220C58EBA025BD112BD173B /* EFIconFontFontAwesomeSolid.swift */; };
-		41EABF7059830277593657169BE39B36 /* meteocons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 294BB5954C6CFBBBDB9546B4E045A9BC /* meteocons.ttf */; };
-		4652721541BBE0F7200C37CE2EE50C82 /* EFIconFontCaseIterableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCEDA43544A445A8C667DD555C02C6C /* EFIconFontCaseIterableProtocol.swift */; };
-		4B8969B2FA3A47D2328BD60953355CEB /* EFIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4B59D72436D9C6D0423B90B90EA77 /* EFIconFont.swift */; };
-		5BA9518D17CA84C743C9547493C3A554 /* antdesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09A8991E2AC1ECF95759FEFEFC594CFF /* antdesign.ttf */; };
-		67B11240AF6036813D2897EAF92523EB /* Material Icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C46BD78A160A47E46CACD1AAED8877A5 /* Material Icons.ttf */; };
-		7F463F2DEB621C0C68DA6451F1D7F720 /* EFIconFontOpenIconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AF5AEDA0870467151993AA87C2E205 /* EFIconFontOpenIconic.swift */; };
-		8426AD4AB2C8DEA642F47DACB8C10034 /* openiconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83233F32DA5E2125AE50F0F23A82974C /* openiconic.ttf */; };
-		89675FFAAB9F1FC82BA1AEAB9F156F92 /* typicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 763C72C6DB96B493670F6C916FFE0B4C /* typicons.ttf */; };
-		8BE70244510B2476273D7AFBF28301CF /* Pods-EFIconFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A106AD80CBB27527D747C751345F9389 /* Pods-EFIconFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AF95B28002788BC2DE55910D272B73F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		9B72F2FC9A2420EE6EF6C7102C5800B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		9D0B5E2E554B0AD1722242F4B2EC08CE /* Pods-EFIconFont_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A30395B122D3BC751E22F5F001D4C7 /* Pods-EFIconFont_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8A9E603DB0A4A6C8D658B3ED8686583 /* Pods-EFIconFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 937073647BB7F0670464C6AB8FCF9C27 /* Pods-EFIconFont_Example-dummy.m */; };
-		ACAB3A1A3D75861D383E38AC11E500A3 /* EFIconFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81522A77E68815053E28B24CCE5310B2 /* EFIconFont-dummy.m */; };
-		B0883C12462AD72FE0A5D3915C61D9F5 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C38D42F179CA96CA09F1F8B6BFE90271 /* ionicons.ttf */; };
-		C76CF5388D78C9CABE3535804C7364B0 /* elusiveicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E3AE6D85310F1DDF7E3047A0C4309B8 /* elusiveicons.ttf */; };
-		CE1C796DCF64512F00D4C574CA87A5F0 /* fontawesomebrands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C395F5996C27E15622128347DEAE12C /* fontawesomebrands.ttf */; };
-		D5AEBE245D78F4F86815E5B7BF950B20 /* metrizeicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 725A21B7D6DFAF3A840BBBBC02FA6E47 /* metrizeicons.ttf */; };
-		DAC075FCB015330C539DCEADD8A9538A /* EFIconFontFontAwesomeRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F3E542176E3AF728A28ED3CD929DC /* EFIconFontFontAwesomeRegular.swift */; };
-		E3436FC07D15E4149A3F8B1540D493D1 /* Pods-EFIconFont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 016EAE6971EF0EC078AA6329867DB039 /* Pods-EFIconFont_Tests-dummy.m */; };
-		E439586AEE64F04F9C00B31AC87F4268 /* EFIconFontFontAwesomeBrands.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF249FD8A5D5D28E301BD5807D47740A /* EFIconFontFontAwesomeBrands.swift */; };
-		EF198356F4AD8244D9FDD9C64AB08384 /* EFIconFontMeteocons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C6C6F911A4BD2FE090CFD8726A617 /* EFIconFontMeteocons.swift */; };
-		EFB22965790D96311F76125B515A906D /* EFIconFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1541A0A33CD50B6CD14BB2173C55FF79 /* EFIconFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1C54E78D5D9CC15E7C6D552500DDF7B /* EFIconFontAntDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430AA301D1D5805B821BD2415A2F4B30 /* EFIconFontAntDesign.swift */; };
-		F76FF2530115FF4E089BA1B417FE588D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		14EF999584EDD0BC47796C4264487DC6 /* EFIconFontElusiveIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4358E75D6409F299331E53BA5FBB3852 /* EFIconFontElusiveIcons.swift */; };
+		1715E34134C71A681447F5F9918E745B /* fontawesomeregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B482B0706FB43555223E4E183D92515 /* fontawesomeregular.ttf */; };
+		29E9181B1AF9FA5C4DEFDC38FE73B2B1 /* Pods-EFIconFont_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD4E7EF3D45C6953E905DCD77B0ADFD /* Pods-EFIconFont_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C186789063317F2FDD9432FD0C5E898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		337404F57209AEBAC85C4A2F041F6E97 /* EFIconFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9930C9B0C4340AF944BB2D341186D7 /* EFIconFont-dummy.m */; };
+		3C926E8BE42CB49215A09CCD42D9166E /* EFIconFontAntDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B3B177B2332099421C4595F78700D /* EFIconFontAntDesign.swift */; };
+		49999B68689D3B8071D4F6C2D305BCE7 /* EFIconFontCaseIterableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC4F3EA3CC5FFBCABE1E934ADEF2A6 /* EFIconFontCaseIterableProtocol.swift */; };
+		49DBFDE010F0B3E166C878626F9EAC9C /* EFIconFontFontAwesomeSolid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FE61E4946D514CBB2F38B14AEA63B9 /* EFIconFontFontAwesomeSolid.swift */; };
+		51CA8AADAED77EBFC4D6B8082D71004D /* openiconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A61E90AAFAEE44DBC6D03B6739B6F /* openiconic.ttf */; };
+		53BB69928397DA16681F6279578ABF7A /* EFIconFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBDFC3EA9D6C8C60E58FEA052A4D85B /* EFIconFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A80D24B0AB703DFC9C1CA1892D2A092 /* Pods-EFIconFont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D78D542610153EA51D957E4BE6C1885 /* Pods-EFIconFont_Tests-dummy.m */; };
+		5C96DC8F8A6433D26027128973993337 /* metrizeicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF5DA085C58158BFB58092B88E9BE060 /* metrizeicons.ttf */; };
+		624D70CF67DC81705C9F938D66AB43BD /* EFIconFontMeteocons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14EE4CACEBA6BC373B1321D03A8E4A6 /* EFIconFontMeteocons.swift */; };
+		6E3BD513D1E52784738A7D3797AC008D /* EFIconFontMetrizeIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85150F1AB248A95754B1E687074AE882 /* EFIconFontMetrizeIcons.swift */; };
+		9C135A7315798846878E51CCC0C25206 /* fontawesomebrands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E45EC989C9DC930068550D744FD1B60 /* fontawesomebrands.ttf */; };
+		A2F9943D4D18AE351915136C35795012 /* EFIconFontOpenIconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41258695BF5957EC45748B3C453D223 /* EFIconFontOpenIconic.swift */; };
+		A8B86A0E5C5C0BFF15BA086E65223749 /* elusiveicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E7EFEF2C6E6F0B9C028C2AF229449CD /* elusiveicons.ttf */; };
+		B022F5BFF9A650935E1829FE804A5B6F /* EFIconIcoMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A567C757EA18C520FE7A4228E2063 /* EFIconIcoMoon.swift */; };
+		B1436556043DE2D0990D533AE8670D2B /* typicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE105A54E47F30AF44BEAE63E821ED86 /* typicons.ttf */; };
+		B37C8CA73B3B7D9C88971F9B2889C00B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B931360A8AFBE4CA6D53C1540F39CC73 /* Material Icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35F079116EA8B9CFEB7F48F7498B454A /* Material Icons.ttf */; };
+		BE184A3191F768B999F84163BC3CB80A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C0112630894C06FDC28FA59C83363038 /* EFIconFontTypicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C2C48891B8323144B4BAC64FA2BA38 /* EFIconFontTypicons.swift */; };
+		C3252BA842FF5F1A36FB16435E01B53A /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B38289454F889C97B666597D786B2EF /* icomoon.ttf */; };
+		C5E38354525A7BAA8EA23DF69BBE902E /* EFIconFontIonicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDE6159233E9E4B9D0DB6DD3963E81F /* EFIconFontIonicons.swift */; };
+		CDC4CCDDEAB186C81BE24304221C0766 /* fontawesomesolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41B20F9020C1FDA16A27102EC128CF9D /* fontawesomesolid.ttf */; };
+		D63C2C919625070507F70FF0FC2A44CC /* EFIconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA152BC1142CF884239281978EF8A028 /* EFIconFont.swift */; };
+		D7AECA567470DE7F8D3F9E3A9D4C696E /* Pods-EFIconFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 382E16A483BA5C1440F57E339B860A42 /* Pods-EFIconFont_Example-dummy.m */; };
+		E07AC9B5617C0096AA2289DA62CE7DF6 /* EFIconFontProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA094DDD541F9E03A98EC06509E1673 /* EFIconFontProtocol.swift */; };
+		E2FEC71AACDE9C3E01576831009C486C /* meteocons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B16265F07F3338A0CFF861484CF9C0A /* meteocons.ttf */; };
+		E8F43A7CC50D1DE491A0D166275B73CD /* EFIconFontFontAwesomeRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027EA7E874D1863DE2C5141A2A822C8 /* EFIconFontFontAwesomeRegular.swift */; };
+		EAD884DDDCCDC6EF69473BC85BDF97B3 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F865E4A9ABF4017EB195C3A4A504568A /* ionicons.ttf */; };
+		ED9E084050A64040B31EC95A346A44E6 /* EFIconFontMaterialIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C8980C84BC019B466931F1360B170 /* EFIconFontMaterialIcons.swift */; };
+		EFA31239C6771B4281C64D09F63F1A09 /* Pods-EFIconFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1322951303A8BE8F43BD0CE64C50E52 /* Pods-EFIconFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F38C48BFE8BA5368A5E5D8520DE71C96 /* antdesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48A93D06E1CF3AC270C8BB4CAAB61F9A /* antdesign.ttf */; };
+		F8850A3CB61AD1DBC3B14126A37D8515 /* EFIconFontFontAwesomeBrands.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA081C740B0338222CFE681CECFEFECF /* EFIconFontFontAwesomeBrands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C22EE2CDBBEB3E4DDE6CE67389A852F9 /* PBXContainerItemProxy */ = {
+		095E5E3D83E5FFD4A6EA8F5DC94EF820 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E2D12D721D363613138F7D8FF3D82C8;
-			remoteInfo = "Pods-EFIconFont_Example";
-		};
-		CE4D6438A8180AA8C49E3B98D33E4505 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 90F4B7E2D8E59A8D6A6DBB0F8E9D650B;
+			remoteGlobalIDString = 025428E16539DDA945E1822F3647434A;
 			remoteInfo = EFIconFont;
+		};
+		9F604ECAA5EA2E31706C40578E1891B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FAE5B3F9750CD94D1608AF0C2DB7765;
+			remoteInfo = "Pods-EFIconFont_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		016EAE6971EF0EC078AA6329867DB039 /* Pods-EFIconFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFIconFont_Tests-dummy.m"; sourceTree = "<group>"; };
-		03B04D30ACDB4CD09A880EBFCBFC1790 /* Pods-EFIconFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFIconFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		050DD7496C63769C37E00C7E1119D477 /* EFIconFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EFIconFont-Info.plist"; sourceTree = "<group>"; };
-		088FB4C1ED3EF57F00AB9429207637EA /* EFIconFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFIconFont-prefix.pch"; sourceTree = "<group>"; };
-		09A8991E2AC1ECF95759FEFEFC594CFF /* antdesign.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = antdesign.ttf; path = EFIconFont/Assets/AntDesign/antdesign.ttf; sourceTree = "<group>"; };
-		0A5D2436E220C58EBA025BD112BD173B /* EFIconFontFontAwesomeSolid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontFontAwesomeSolid.swift; path = EFIconFont/Classes/FontAwesome/EFIconFontFontAwesomeSolid.swift; sourceTree = "<group>"; };
-		0C395F5996C27E15622128347DEAE12C /* fontawesomebrands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = fontawesomebrands.ttf; path = EFIconFont/Assets/FontAwesome/fontawesomebrands.ttf; sourceTree = "<group>"; };
-		0E3AE6D85310F1DDF7E3047A0C4309B8 /* elusiveicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = elusiveicons.ttf; path = EFIconFont/Assets/ElusiveIcons/elusiveicons.ttf; sourceTree = "<group>"; };
-		0F49F6F57ECB07EA7D03041F01FF1A26 /* Pods_EFIconFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFIconFont_Tests.framework; path = "Pods-EFIconFont_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1541A0A33CD50B6CD14BB2173C55FF79 /* EFIconFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFIconFont-umbrella.h"; sourceTree = "<group>"; };
-		19500E563E6490499F32E8FD1FC5DBFD /* Pods-EFIconFont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFIconFont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21B4B59D72436D9C6D0423B90B90EA77 /* EFIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFont.swift; path = EFIconFont/Classes/Core/EFIconFont.swift; sourceTree = "<group>"; };
-		21F54D950C3EF5011086247D33E4655E /* EFIconFontMetrizeIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontMetrizeIcons.swift; path = EFIconFont/Classes/MetrizeIcons/EFIconFontMetrizeIcons.swift; sourceTree = "<group>"; };
-		231B939DC1FED1CF2B1A41CF8CBD3BB7 /* Pods-EFIconFont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFIconFont_Tests.modulemap"; sourceTree = "<group>"; };
-		294BB5954C6CFBBBDB9546B4E045A9BC /* meteocons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = meteocons.ttf; path = EFIconFont/Assets/Meteocons/meteocons.ttf; sourceTree = "<group>"; };
-		2EFB4D86EF84045AF36FFD53379CDB18 /* EFIconFontTypicons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontTypicons.swift; path = EFIconFont/Classes/Typicons/EFIconFontTypicons.swift; sourceTree = "<group>"; };
-		3528DEBB8C03260927DBB1D2B99A1CE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3F9B0078B27B4811F2EBA5000EBC0FE1 /* EFIconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFIconFont.xcconfig; sourceTree = "<group>"; };
-		430AA301D1D5805B821BD2415A2F4B30 /* EFIconFontAntDesign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontAntDesign.swift; path = EFIconFont/Classes/AntDesign/EFIconFontAntDesign.swift; sourceTree = "<group>"; };
-		47F5133DCF9EA1AF3C1297849D556873 /* fontawesomeregular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = fontawesomeregular.ttf; path = EFIconFont/Assets/FontAwesome/fontawesomeregular.ttf; sourceTree = "<group>"; };
-		551F3E542176E3AF728A28ED3CD929DC /* EFIconFontFontAwesomeRegular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontFontAwesomeRegular.swift; path = EFIconFont/Classes/FontAwesome/EFIconFontFontAwesomeRegular.swift; sourceTree = "<group>"; };
-		61BA5947C573C4697B5E1D5F77E64B93 /* Pods-EFIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6228168324730D4925AE62D005BFBE0D /* EFIconFontProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontProtocol.swift; path = EFIconFont/Classes/Core/EFIconFontProtocol.swift; sourceTree = "<group>"; };
-		69408759385723E43BA207C1C4E34AB0 /* Pods-EFIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6ADF62AD78FF31996A3C77F36271C282 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6BE97115E4DBB08BEC23E680A30E492E /* EFIconFontIonicons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontIonicons.swift; path = EFIconFont/Classes/Ionicons/EFIconFontIonicons.swift; sourceTree = "<group>"; };
-		725A21B7D6DFAF3A840BBBBC02FA6E47 /* metrizeicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = metrizeicons.ttf; path = EFIconFont/Assets/MetrizeIcons/metrizeicons.ttf; sourceTree = "<group>"; };
-		73F94D6EDCBEBE4638A327C8767F239D /* EFIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFIconFont.framework; path = EFIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		763C72C6DB96B493670F6C916FFE0B4C /* typicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = typicons.ttf; path = EFIconFont/Assets/Typicons/typicons.ttf; sourceTree = "<group>"; };
-		768B053E997384064DE6AD99C6E3D362 /* Pods_EFIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFIconFont_Example.framework; path = "Pods-EFIconFont_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76A30395B122D3BC751E22F5F001D4C7 /* Pods-EFIconFont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFIconFont_Tests-umbrella.h"; sourceTree = "<group>"; };
-		81522A77E68815053E28B24CCE5310B2 /* EFIconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFIconFont-dummy.m"; sourceTree = "<group>"; };
-		83233F32DA5E2125AE50F0F23A82974C /* openiconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = openiconic.ttf; path = EFIconFont/Assets/OpenIconic/openiconic.ttf; sourceTree = "<group>"; };
-		8BCEDA43544A445A8C667DD555C02C6C /* EFIconFontCaseIterableProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontCaseIterableProtocol.swift; path = EFIconFont/Classes/Core/EFIconFontCaseIterableProtocol.swift; sourceTree = "<group>"; };
-		8F09282402D90908D32D8FB13479D584 /* Pods-EFIconFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIconFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		937073647BB7F0670464C6AB8FCF9C27 /* Pods-EFIconFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFIconFont_Example-dummy.m"; sourceTree = "<group>"; };
+		06085E86B02AE067DF4BCF04C76B8022 /* Pods-EFIconFont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFIconFont_Tests.modulemap"; sourceTree = "<group>"; };
+		0B3A61E90AAFAEE44DBC6D03B6739B6F /* openiconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = openiconic.ttf; path = EFIconFont/Assets/OpenIconic/openiconic.ttf; sourceTree = "<group>"; };
+		0D8A78539F96BC7629CC22D7BECC40AB /* EFIconFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EFIconFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0E94C75BDE3EA9D1B5D0FBF0A0D1BFA3 /* Pods-EFIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		12C2C48891B8323144B4BAC64FA2BA38 /* EFIconFontTypicons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontTypicons.swift; path = EFIconFont/Classes/Typicons/EFIconFontTypicons.swift; sourceTree = "<group>"; };
+		1680CCA1C84B3BD38659AB018076422B /* Pods-EFIconFont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFIconFont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D78D542610153EA51D957E4BE6C1885 /* Pods-EFIconFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFIconFont_Tests-dummy.m"; sourceTree = "<group>"; };
+		23D9236A3D23EF38FA1A4A9AE9C88C3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2B1C8980C84BC019B466931F1360B170 /* EFIconFontMaterialIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontMaterialIcons.swift; path = EFIconFont/Classes/MaterialIcons/EFIconFontMaterialIcons.swift; sourceTree = "<group>"; };
+		2E1705ACDE180E887818CE000BE685A6 /* EFIconFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFIconFont.modulemap; sourceTree = "<group>"; };
+		30FE61E4946D514CBB2F38B14AEA63B9 /* EFIconFontFontAwesomeSolid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontFontAwesomeSolid.swift; path = EFIconFont/Classes/FontAwesome/EFIconFontFontAwesomeSolid.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35F079116EA8B9CFEB7F48F7498B454A /* Material Icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material Icons.ttf"; path = "EFIconFont/Assets/MaterialIcons/Material Icons.ttf"; sourceTree = "<group>"; };
+		382E16A483BA5C1440F57E339B860A42 /* Pods-EFIconFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFIconFont_Example-dummy.m"; sourceTree = "<group>"; };
+		3E7EFEF2C6E6F0B9C028C2AF229449CD /* elusiveicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = elusiveicons.ttf; path = EFIconFont/Assets/ElusiveIcons/elusiveicons.ttf; sourceTree = "<group>"; };
+		416B3B177B2332099421C4595F78700D /* EFIconFontAntDesign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontAntDesign.swift; path = EFIconFont/Classes/AntDesign/EFIconFontAntDesign.swift; sourceTree = "<group>"; };
+		41B20F9020C1FDA16A27102EC128CF9D /* fontawesomesolid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = fontawesomesolid.ttf; path = EFIconFont/Assets/FontAwesome/fontawesomesolid.ttf; sourceTree = "<group>"; };
+		4358E75D6409F299331E53BA5FBB3852 /* EFIconFontElusiveIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontElusiveIcons.swift; path = EFIconFont/Classes/ElusiveIcons/EFIconFontElusiveIcons.swift; sourceTree = "<group>"; };
+		48A93D06E1CF3AC270C8BB4CAAB61F9A /* antdesign.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = antdesign.ttf; path = EFIconFont/Assets/AntDesign/antdesign.ttf; sourceTree = "<group>"; };
+		4B16265F07F3338A0CFF861484CF9C0A /* meteocons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = meteocons.ttf; path = EFIconFont/Assets/Meteocons/meteocons.ttf; sourceTree = "<group>"; };
+		52E07B6AA70CC353B63EF3CE1EB05359 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6A1588F2CF35FBEE32DAD6EAA155F50E /* EFIconFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFIconFont-prefix.pch"; sourceTree = "<group>"; };
+		6AA7B66C1DA43D82E19928EF8CDEACD2 /* Pods-EFIconFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFIconFont_Example.modulemap"; sourceTree = "<group>"; };
+		6B38289454F889C97B666597D786B2EF /* icomoon.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = icomoon.ttf; path = EFIconFont/Assets/IcoMoon/icomoon.ttf; sourceTree = "<group>"; };
+		6E45EC989C9DC930068550D744FD1B60 /* fontawesomebrands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = fontawesomebrands.ttf; path = EFIconFont/Assets/FontAwesome/fontawesomebrands.ttf; sourceTree = "<group>"; };
+		7B9930C9B0C4340AF944BB2D341186D7 /* EFIconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFIconFont-dummy.m"; sourceTree = "<group>"; };
+		7D06F5C72D97C8F05099039AAB06D0C1 /* Pods-EFIconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7FDE6159233E9E4B9D0DB6DD3963E81F /* EFIconFontIonicons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontIonicons.swift; path = EFIconFont/Classes/Ionicons/EFIconFontIonicons.swift; sourceTree = "<group>"; };
+		85150F1AB248A95754B1E687074AE882 /* EFIconFontMetrizeIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontMetrizeIcons.swift; path = EFIconFont/Classes/MetrizeIcons/EFIconFontMetrizeIcons.swift; sourceTree = "<group>"; };
+		8B482B0706FB43555223E4E183D92515 /* fontawesomeregular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = fontawesomeregular.ttf; path = EFIconFont/Assets/FontAwesome/fontawesomeregular.ttf; sourceTree = "<group>"; };
+		8EA094DDD541F9E03A98EC06509E1673 /* EFIconFontProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontProtocol.swift; path = EFIconFont/Classes/Core/EFIconFontProtocol.swift; sourceTree = "<group>"; };
+		91E4FA019739754709AB0154DFECC8F7 /* Pods-EFIconFont_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIconFont_Tests-Info.plist"; sourceTree = "<group>"; };
+		95873A1965828D956243F4994EF9825B /* EFIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFIconFont.framework; path = EFIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9BE464B544578305C43D1E65725A2D /* Pods-EFIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9CD4E7EF3D45C6953E905DCD77B0ADFD /* Pods-EFIconFont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFIconFont_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A106AD80CBB27527D747C751345F9389 /* Pods-EFIconFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFIconFont_Example-umbrella.h"; sourceTree = "<group>"; };
-		A3AF5AEDA0870467151993AA87C2E205 /* EFIconFontOpenIconic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontOpenIconic.swift; path = EFIconFont/Classes/OpenIconic/EFIconFontOpenIconic.swift; sourceTree = "<group>"; };
-		AF249FD8A5D5D28E301BD5807D47740A /* EFIconFontFontAwesomeBrands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontFontAwesomeBrands.swift; path = EFIconFont/Classes/FontAwesome/EFIconFontFontAwesomeBrands.swift; sourceTree = "<group>"; };
-		B58C6C6F911A4BD2FE090CFD8726A617 /* EFIconFontMeteocons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontMeteocons.swift; path = EFIconFont/Classes/Meteocons/EFIconFontMeteocons.swift; sourceTree = "<group>"; };
-		B6CDDD0831950C0CE27CF1E3767B5CCD /* Pods-EFIconFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFIconFont_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BF8365FCE5B9FC1CB9B46A9D2FAE5526 /* EFIconFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EFIconFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C38D42F179CA96CA09F1F8B6BFE90271 /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = EFIconFont/Assets/Ionicons/ionicons.ttf; sourceTree = "<group>"; };
-		C46BD78A160A47E46CACD1AAED8877A5 /* Material Icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material Icons.ttf"; path = "EFIconFont/Assets/MaterialIcons/Material Icons.ttf"; sourceTree = "<group>"; };
-		C7FCABC789F9561AA18C16CB9D4F5AAE /* Pods-EFIconFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIconFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C913027A3132D704B47038C000C0699D /* EFIconFontElusiveIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontElusiveIcons.swift; path = EFIconFont/Classes/ElusiveIcons/EFIconFontElusiveIcons.swift; sourceTree = "<group>"; };
-		CA6A6F5FC7BD5B7F0300C687BA465A7D /* Pods-EFIconFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFIconFont_Example.modulemap"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CDA4722A0C21F076409DAFEF7D7AE2AD /* EFIconFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFIconFont.modulemap; sourceTree = "<group>"; };
-		D37086F99251012EA0185862E3CB0EDA /* fontawesomesolid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = fontawesomesolid.ttf; path = EFIconFont/Assets/FontAwesome/fontawesomesolid.ttf; sourceTree = "<group>"; };
-		D53F9F9F548AAE3E81F56D60CB27EA1D /* Pods-EFIconFont_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIconFont_Example-Info.plist"; sourceTree = "<group>"; };
-		E9EE80524C23117A0324FB34483449AF /* Pods-EFIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EA3326E2969F277880FA5057599089DB /* Pods-EFIconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EC4741888BD2D6AAD7793530E5A2EE8D /* EFIconFontMaterialIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontMaterialIcons.swift; path = EFIconFont/Classes/MaterialIcons/EFIconFontMaterialIcons.swift; sourceTree = "<group>"; };
-		F1D0576E32F70E5ED20B6F8CFC384359 /* Pods-EFIconFont_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIconFont_Tests-Info.plist"; sourceTree = "<group>"; };
+		9DBA14E72F17BA2A39D4116331D157E6 /* Pods-EFIconFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIconFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2A640298E8414367ACFE381A39FCBE3 /* Pods_EFIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFIconFont_Example.framework; path = "Pods-EFIconFont_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DC4F3EA3CC5FFBCABE1E934ADEF2A6 /* EFIconFontCaseIterableProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontCaseIterableProtocol.swift; path = EFIconFont/Classes/Core/EFIconFontCaseIterableProtocol.swift; sourceTree = "<group>"; };
+		B01A567C757EA18C520FE7A4228E2063 /* EFIconIcoMoon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconIcoMoon.swift; path = EFIconFont/Classes/IcoMoon/EFIconIcoMoon.swift; sourceTree = "<group>"; };
+		BF5DA085C58158BFB58092B88E9BE060 /* metrizeicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = metrizeicons.ttf; path = EFIconFont/Assets/MetrizeIcons/metrizeicons.ttf; sourceTree = "<group>"; };
+		BFDE1EA94766C405275E6C877BAB5C77 /* Pods-EFIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C027EA7E874D1863DE2C5141A2A822C8 /* EFIconFontFontAwesomeRegular.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontFontAwesomeRegular.swift; path = EFIconFont/Classes/FontAwesome/EFIconFontFontAwesomeRegular.swift; sourceTree = "<group>"; };
+		C0821A653834F83EE19FF15E2BB35AA0 /* EFIconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFIconFont.xcconfig; sourceTree = "<group>"; };
+		C14EE4CACEBA6BC373B1321D03A8E4A6 /* EFIconFontMeteocons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontMeteocons.swift; path = EFIconFont/Classes/Meteocons/EFIconFontMeteocons.swift; sourceTree = "<group>"; };
+		CA081C740B0338222CFE681CECFEFECF /* EFIconFontFontAwesomeBrands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontFontAwesomeBrands.swift; path = EFIconFont/Classes/FontAwesome/EFIconFontFontAwesomeBrands.swift; sourceTree = "<group>"; };
+		CA48EFDDEBAB05F70A3B5FD57873D5DC /* Pods-EFIconFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFIconFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA152BC1142CF884239281978EF8A028 /* EFIconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFont.swift; path = EFIconFont/Classes/Core/EFIconFont.swift; sourceTree = "<group>"; };
+		DC5F44A03B3F7AFC93BB89AA1B436147 /* Pods-EFIconFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFIconFont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E2AE818433BEF4486F790C0EA4E13BD8 /* Pods_EFIconFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFIconFont_Tests.framework; path = "Pods-EFIconFont_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBDFC3EA9D6C8C60E58FEA052A4D85B /* EFIconFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFIconFont-umbrella.h"; sourceTree = "<group>"; };
+		F1322951303A8BE8F43BD0CE64C50E52 /* Pods-EFIconFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFIconFont_Example-umbrella.h"; sourceTree = "<group>"; };
+		F41258695BF5957EC45748B3C453D223 /* EFIconFontOpenIconic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFIconFontOpenIconic.swift; path = EFIconFont/Classes/OpenIconic/EFIconFontOpenIconic.swift; sourceTree = "<group>"; };
+		F67B1E5FF83610F3276978060A78E2A2 /* Pods-EFIconFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIconFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F865E4A9ABF4017EB195C3A4A504568A /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = EFIconFont/Assets/Ionicons/ionicons.ttf; sourceTree = "<group>"; };
+		FCC4C7099E89C4B93A66E339C2BEC116 /* EFIconFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EFIconFont-Info.plist"; sourceTree = "<group>"; };
+		FE105A54E47F30AF44BEAE63E821ED86 /* typicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = typicons.ttf; path = EFIconFont/Assets/Typicons/typicons.ttf; sourceTree = "<group>"; };
+		FFB7E9F1E71A20C991068DE643F33790 /* Pods-EFIconFont_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIconFont_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B3235AEE2167BDFBE34BCA932344AA2 /* Frameworks */ = {
+		26977FE438DF5EC7B5939C8EF32FAC0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B72F2FC9A2420EE6EF6C7102C5800B1 /* Foundation.framework in Frameworks */,
+				B37C8CA73B3B7D9C88971F9B2889C00B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6035EC468D936B46A8C4DB14F9D6EFA8 /* Frameworks */ = {
+		2E26D1B7C3C90F2AFE4F77D8A288585B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF95B28002788BC2DE55910D272B73F /* Foundation.framework in Frameworks */,
+				2C186789063317F2FDD9432FD0C5E898 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4BE5BF0B56693538D4F83B08D44D088 /* Frameworks */ = {
+		4705DB9970AE93DFE94F1B38A697C829 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F76FF2530115FF4E089BA1B417FE588D /* Foundation.framework in Frameworks */,
+				BE184A3191F768B999F84163BC3CB80A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0241FD00AD4E9404B74D38C9DDD878B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E45EC989C9DC930068550D744FD1B60 /* fontawesomebrands.ttf */,
+				8B482B0706FB43555223E4E183D92515 /* fontawesomeregular.ttf */,
+				41B20F9020C1FDA16A27102EC128CF9D /* fontawesomesolid.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		06636671219A46CF4CBCD144B5363F9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73F94D6EDCBEBE4638A327C8767F239D /* EFIconFont.framework */,
-				768B053E997384064DE6AD99C6E3D362 /* Pods_EFIconFont_Example.framework */,
-				0F49F6F57ECB07EA7D03041F01FF1A26 /* Pods_EFIconFont_Tests.framework */,
+				95873A1965828D956243F4994EF9825B /* EFIconFont.framework */,
+				A2A640298E8414367ACFE381A39FCBE3 /* Pods_EFIconFont_Example.framework */,
+				E2AE818433BEF4486F790C0EA4E13BD8 /* Pods_EFIconFont_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0698AB6FF27EC739F4517A81AD5DCDA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A61E90AAFAEE44DBC6D03B6739B6F /* openiconic.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		11F2A104FD0B63491CF4380A30353D03 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ECB2781E61981C250719F891A8002986 /* Pods-EFIconFont_Example */,
-				DB92701C8ACA219798FC54C18B6E0FD1 /* Pods-EFIconFont_Tests */,
+				98DB744D4E975673E2C7C70CE263EB1C /* Pods-EFIconFont_Example */,
+				EFA9A2C5592EB6868CA1A6F6678204E4 /* Pods-EFIconFont_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2467917BBA0D6D7DFE0AC4CCE814E78E /* Core */ = {
+		2718C0E2E5A971F3990C11AF5A90AD96 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				21B4B59D72436D9C6D0423B90B90EA77 /* EFIconFont.swift */,
-				8BCEDA43544A445A8C667DD555C02C6C /* EFIconFontCaseIterableProtocol.swift */,
-				6228168324730D4925AE62D005BFBE0D /* EFIconFontProtocol.swift */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		25F7FA184849CA97C621ED7F794D7017 /* Typicons */ = {
-			isa = PBXGroup;
-			children = (
-				2EFB4D86EF84045AF36FFD53379CDB18 /* EFIconFontTypicons.swift */,
-				39DCB3E8096EAC42E1C5D67977A9975A /* Resources */,
-			);
-			name = Typicons;
-			sourceTree = "<group>";
-		};
-		2EB3D1E2A0C2E6AE0D6ACBA8D259ED56 /* Meteocons */ = {
-			isa = PBXGroup;
-			children = (
-				B58C6C6F911A4BD2FE090CFD8726A617 /* EFIconFontMeteocons.swift */,
-				64519D1A90EB46A8FC729D91163CEEA0 /* Resources */,
-			);
-			name = Meteocons;
-			sourceTree = "<group>";
-		};
-		318C7D1F22A38730E7EB01283CFEC915 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				09A8991E2AC1ECF95759FEFEFC594CFF /* antdesign.ttf */,
+				3E7EFEF2C6E6F0B9C028C2AF229449CD /* elusiveicons.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		39DCB3E8096EAC42E1C5D67977A9975A /* Resources */ = {
+		35B9CDF788346A23A51EAADC8F506719 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				763C72C6DB96B493670F6C916FFE0B4C /* typicons.ttf */,
+				35F079116EA8B9CFEB7F48F7498B454A /* Material Icons.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		4656CE623490B131B5F278B594C10FA6 /* AntDesign */ = {
+		6CC9912E5CDCE3A89197359D211ADCA1 /* EFIconFont */ = {
 			isa = PBXGroup;
 			children = (
-				430AA301D1D5805B821BD2415A2F4B30 /* EFIconFontAntDesign.swift */,
-				318C7D1F22A38730E7EB01283CFEC915 /* Resources */,
-			);
-			name = AntDesign;
-			sourceTree = "<group>";
-		};
-		609F4232E20C853903B4319E522465B6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C46BD78A160A47E46CACD1AAED8877A5 /* Material Icons.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		64519D1A90EB46A8FC729D91163CEEA0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				294BB5954C6CFBBBDB9546B4E045A9BC /* meteocons.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		6B5F0BB9F531F191AA0D88404EF06F4C /* MetrizeIcons */ = {
-			isa = PBXGroup;
-			children = (
-				21F54D950C3EF5011086247D33E4655E /* EFIconFontMetrizeIcons.swift */,
-				EDFF5494AF63E419CD8D0FE749D292DB /* Resources */,
-			);
-			name = MetrizeIcons;
-			sourceTree = "<group>";
-		};
-		7A5C08F83B57F08DAB7AF0A8CF196FF3 /* FontAwesome */ = {
-			isa = PBXGroup;
-			children = (
-				AF249FD8A5D5D28E301BD5807D47740A /* EFIconFontFontAwesomeBrands.swift */,
-				551F3E542176E3AF728A28ED3CD929DC /* EFIconFontFontAwesomeRegular.swift */,
-				0A5D2436E220C58EBA025BD112BD173B /* EFIconFontFontAwesomeSolid.swift */,
-				B174B2BA8560640EFE73DE80984F70F7 /* Resources */,
-			);
-			name = FontAwesome;
-			sourceTree = "<group>";
-		};
-		7D817FB94B740754DC2D2CEA1D326D72 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C38D42F179CA96CA09F1F8B6BFE90271 /* ionicons.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		830666F31275A9291F987E43E7E0128B /* OpenIconic */ = {
-			isa = PBXGroup;
-			children = (
-				A3AF5AEDA0870467151993AA87C2E205 /* EFIconFontOpenIconic.swift */,
-				B4B7DA459465553F3C69EA6D0D0E28B0 /* Resources */,
-			);
-			name = OpenIconic;
-			sourceTree = "<group>";
-		};
-		95AB0627672D517BA08CB2D1CA7E2008 /* Ionicons */ = {
-			isa = PBXGroup;
-			children = (
-				6BE97115E4DBB08BEC23E680A30E492E /* EFIconFontIonicons.swift */,
-				7D817FB94B740754DC2D2CEA1D326D72 /* Resources */,
-			);
-			name = Ionicons;
-			sourceTree = "<group>";
-		};
-		95ACA5845BD0901371EF24DA0A37BAAC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CDA4722A0C21F076409DAFEF7D7AE2AD /* EFIconFont.modulemap */,
-				3F9B0078B27B4811F2EBA5000EBC0FE1 /* EFIconFont.xcconfig */,
-				81522A77E68815053E28B24CCE5310B2 /* EFIconFont-dummy.m */,
-				050DD7496C63769C37E00C7E1119D477 /* EFIconFont-Info.plist */,
-				088FB4C1ED3EF57F00AB9429207637EA /* EFIconFont-prefix.pch */,
-				1541A0A33CD50B6CD14BB2173C55FF79 /* EFIconFont-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EFIconFont";
-			sourceTree = "<group>";
-		};
-		962E735707CCB9F55AA36E733C45D3B4 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AB821423776B15410163857D1F8FA1E3 /* EFIconFont */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		AB821423776B15410163857D1F8FA1E3 /* EFIconFont */ = {
-			isa = PBXGroup;
-			children = (
-				4656CE623490B131B5F278B594C10FA6 /* AntDesign */,
-				2467917BBA0D6D7DFE0AC4CCE814E78E /* Core */,
-				BEB734BE55BF9562C758EF269D2DD690 /* ElusiveIcons */,
-				7A5C08F83B57F08DAB7AF0A8CF196FF3 /* FontAwesome */,
-				95AB0627672D517BA08CB2D1CA7E2008 /* Ionicons */,
-				D680BCA5E55446160756A513A85073DC /* MaterialIcons */,
-				2EB3D1E2A0C2E6AE0D6ACBA8D259ED56 /* Meteocons */,
-				6B5F0BB9F531F191AA0D88404EF06F4C /* MetrizeIcons */,
-				830666F31275A9291F987E43E7E0128B /* OpenIconic */,
-				F9CF3748CC3D8121198F52A30BD21FE7 /* Pod */,
-				95ACA5845BD0901371EF24DA0A37BAAC /* Support Files */,
-				25F7FA184849CA97C621ED7F794D7017 /* Typicons */,
+				FCC52099B659B49EE1AAF406413012B0 /* AntDesign */,
+				9EF348FDF4E74CEA139D35E9A1787135 /* Core */,
+				F2CEDF4393D88ACE165228FC26E94717 /* ElusiveIcons */,
+				C3AACBA7CFBF8942DBEE0EBF840B1BFD /* FontAwesome */,
+				88128CF40D362ED7A94400448F37F398 /* IcoMoon */,
+				9F4B5AB41E46A15A7A7D491B556366EF /* Ionicons */,
+				C51E032C1CB7CA71461A6020BFDA8FBE /* MaterialIcons */,
+				8FF01CD910D16AF2491A21E87E5A77BC /* Meteocons */,
+				6D17682048F76BA2AC4A115F61BE3363 /* MetrizeIcons */,
+				863F3A833C49CE6C25C3F01C8B84CA3C /* OpenIconic */,
+				BA620BEE16A6F4D65185CB033878A97B /* Pod */,
+				FC8DEE60C4E993D68BF0995CB7454FA5 /* Support Files */,
+				81118D2ACF6387162735E07082C14CEF /* Typicons */,
 			);
 			name = EFIconFont;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		B174B2BA8560640EFE73DE80984F70F7 /* Resources */ = {
+		6D17682048F76BA2AC4A115F61BE3363 /* MetrizeIcons */ = {
 			isa = PBXGroup;
 			children = (
-				0C395F5996C27E15622128347DEAE12C /* fontawesomebrands.ttf */,
-				47F5133DCF9EA1AF3C1297849D556873 /* fontawesomeregular.ttf */,
-				D37086F99251012EA0185862E3CB0EDA /* fontawesomesolid.ttf */,
+				85150F1AB248A95754B1E687074AE882 /* EFIconFontMetrizeIcons.swift */,
+				F13FB747E77F377397D4070DE07FC7A4 /* Resources */,
+			);
+			name = MetrizeIcons;
+			sourceTree = "<group>";
+		};
+		6D5211E1BA2D1A2A75FD5B0DC306D21E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F865E4A9ABF4017EB195C3A4A504568A /* ionicons.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		B4B7DA459465553F3C69EA6D0D0E28B0 /* Resources */ = {
+		81118D2ACF6387162735E07082C14CEF /* Typicons */ = {
 			isa = PBXGroup;
 			children = (
-				83233F32DA5E2125AE50F0F23A82974C /* openiconic.ttf */,
+				12C2C48891B8323144B4BAC64FA2BA38 /* EFIconFontTypicons.swift */,
+				CD2D24300AA8B0A349CF32731CBB8A70 /* Resources */,
+			);
+			name = Typicons;
+			sourceTree = "<group>";
+		};
+		863F3A833C49CE6C25C3F01C8B84CA3C /* OpenIconic */ = {
+			isa = PBXGroup;
+			children = (
+				F41258695BF5957EC45748B3C453D223 /* EFIconFontOpenIconic.swift */,
+				0698AB6FF27EC739F4517A81AD5DCDA1 /* Resources */,
+			);
+			name = OpenIconic;
+			sourceTree = "<group>";
+		};
+		88128CF40D362ED7A94400448F37F398 /* IcoMoon */ = {
+			isa = PBXGroup;
+			children = (
+				B01A567C757EA18C520FE7A4228E2063 /* EFIconIcoMoon.swift */,
+				9C8E24FFF9688A5B50E015B272F9AE90 /* Resources */,
+			);
+			name = IcoMoon;
+			sourceTree = "<group>";
+		};
+		8FF01CD910D16AF2491A21E87E5A77BC /* Meteocons */ = {
+			isa = PBXGroup;
+			children = (
+				C14EE4CACEBA6BC373B1321D03A8E4A6 /* EFIconFontMeteocons.swift */,
+				ED189481EB5A358429AD583922F6CE1A /* Resources */,
+			);
+			name = Meteocons;
+			sourceTree = "<group>";
+		};
+		98DB744D4E975673E2C7C70CE263EB1C /* Pods-EFIconFont_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6AA7B66C1DA43D82E19928EF8CDEACD2 /* Pods-EFIconFont_Example.modulemap */,
+				CA48EFDDEBAB05F70A3B5FD57873D5DC /* Pods-EFIconFont_Example-acknowledgements.markdown */,
+				9DBA14E72F17BA2A39D4116331D157E6 /* Pods-EFIconFont_Example-acknowledgements.plist */,
+				382E16A483BA5C1440F57E339B860A42 /* Pods-EFIconFont_Example-dummy.m */,
+				DC5F44A03B3F7AFC93BB89AA1B436147 /* Pods-EFIconFont_Example-frameworks.sh */,
+				FFB7E9F1E71A20C991068DE643F33790 /* Pods-EFIconFont_Example-Info.plist */,
+				F1322951303A8BE8F43BD0CE64C50E52 /* Pods-EFIconFont_Example-umbrella.h */,
+				BFDE1EA94766C405275E6C877BAB5C77 /* Pods-EFIconFont_Example.debug.xcconfig */,
+				9C9BE464B544578305C43D1E65725A2D /* Pods-EFIconFont_Example.release.xcconfig */,
+			);
+			name = "Pods-EFIconFont_Example";
+			path = "Target Support Files/Pods-EFIconFont_Example";
+			sourceTree = "<group>";
+		};
+		9C8E24FFF9688A5B50E015B272F9AE90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B38289454F889C97B666597D786B2EF /* icomoon.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		BEB734BE55BF9562C758EF269D2DD690 /* ElusiveIcons */ = {
+		9EF348FDF4E74CEA139D35E9A1787135 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C913027A3132D704B47038C000C0699D /* EFIconFontElusiveIcons.swift */,
-				E1D6019752F25022C553DB0ACAB5A772 /* Resources */,
+				DA152BC1142CF884239281978EF8A028 /* EFIconFont.swift */,
+				A5DC4F3EA3CC5FFBCABE1E934ADEF2A6 /* EFIconFontCaseIterableProtocol.swift */,
+				8EA094DDD541F9E03A98EC06509E1673 /* EFIconFontProtocol.swift */,
 			);
-			name = ElusiveIcons;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9F4B5AB41E46A15A7A7D491B556366EF /* Ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				7FDE6159233E9E4B9D0DB6DD3963E81F /* EFIconFontIonicons.swift */,
+				6D5211E1BA2D1A2A75FD5B0DC306D21E /* Resources */,
+			);
+			name = Ionicons;
+			sourceTree = "<group>";
+		};
+		BA620BEE16A6F4D65185CB033878A97B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0D8A78539F96BC7629CC22D7BECC40AB /* EFIconFont.podspec */,
+				52E07B6AA70CC353B63EF3CE1EB05359 /* LICENSE */,
+				23D9236A3D23EF38FA1A4A9AE9C88C3A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3AACBA7CFBF8942DBEE0EBF840B1BFD /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				CA081C740B0338222CFE681CECFEFECF /* EFIconFontFontAwesomeBrands.swift */,
+				C027EA7E874D1863DE2C5141A2A822C8 /* EFIconFontFontAwesomeRegular.swift */,
+				30FE61E4946D514CBB2F38B14AEA63B9 /* EFIconFontFontAwesomeSolid.swift */,
+				0241FD00AD4E9404B74D38C9DDD878B2 /* Resources */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		C51E032C1CB7CA71461A6020BFDA8FBE /* MaterialIcons */ = {
+			isa = PBXGroup;
+			children = (
+				2B1C8980C84BC019B466931F1360B170 /* EFIconFontMaterialIcons.swift */,
+				35B9CDF788346A23A51EAADC8F506719 /* Resources */,
+			);
+			name = MaterialIcons;
+			sourceTree = "<group>";
+		};
+		CC4ADFAB1F12E48E72D36918FD10D0DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48A93D06E1CF3AC270C8BB4CAAB61F9A /* antdesign.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD2D24300AA8B0A349CF32731CBB8A70 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE105A54E47F30AF44BEAE63E821ED86 /* typicons.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				962E735707CCB9F55AA36E733C45D3B4 /* Development Pods */,
+				DDDD6DC71F55403D1F11753A5D09FA3C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				06636671219A46CF4CBCD144B5363F9E /* Products */,
 				11F2A104FD0B63491CF4380A30353D03 /* Targets Support Files */,
@@ -372,155 +390,121 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D680BCA5E55446160756A513A85073DC /* MaterialIcons */ = {
+		DDDD6DC71F55403D1F11753A5D09FA3C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EC4741888BD2D6AAD7793530E5A2EE8D /* EFIconFontMaterialIcons.swift */,
-				609F4232E20C853903B4319E522465B6 /* Resources */,
+				6CC9912E5CDCE3A89197359D211ADCA1 /* EFIconFont */,
 			);
-			name = MaterialIcons;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		DB92701C8ACA219798FC54C18B6E0FD1 /* Pods-EFIconFont_Tests */ = {
+		ED189481EB5A358429AD583922F6CE1A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				231B939DC1FED1CF2B1A41CF8CBD3BB7 /* Pods-EFIconFont_Tests.modulemap */,
-				19500E563E6490499F32E8FD1FC5DBFD /* Pods-EFIconFont_Tests-acknowledgements.markdown */,
-				C7FCABC789F9561AA18C16CB9D4F5AAE /* Pods-EFIconFont_Tests-acknowledgements.plist */,
-				016EAE6971EF0EC078AA6329867DB039 /* Pods-EFIconFont_Tests-dummy.m */,
-				F1D0576E32F70E5ED20B6F8CFC384359 /* Pods-EFIconFont_Tests-Info.plist */,
-				76A30395B122D3BC751E22F5F001D4C7 /* Pods-EFIconFont_Tests-umbrella.h */,
-				69408759385723E43BA207C1C4E34AB0 /* Pods-EFIconFont_Tests.debug.xcconfig */,
-				EA3326E2969F277880FA5057599089DB /* Pods-EFIconFont_Tests.release.xcconfig */,
+				4B16265F07F3338A0CFF861484CF9C0A /* meteocons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EFA9A2C5592EB6868CA1A6F6678204E4 /* Pods-EFIconFont_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				06085E86B02AE067DF4BCF04C76B8022 /* Pods-EFIconFont_Tests.modulemap */,
+				1680CCA1C84B3BD38659AB018076422B /* Pods-EFIconFont_Tests-acknowledgements.markdown */,
+				F67B1E5FF83610F3276978060A78E2A2 /* Pods-EFIconFont_Tests-acknowledgements.plist */,
+				1D78D542610153EA51D957E4BE6C1885 /* Pods-EFIconFont_Tests-dummy.m */,
+				91E4FA019739754709AB0154DFECC8F7 /* Pods-EFIconFont_Tests-Info.plist */,
+				9CD4E7EF3D45C6953E905DCD77B0ADFD /* Pods-EFIconFont_Tests-umbrella.h */,
+				0E94C75BDE3EA9D1B5D0FBF0A0D1BFA3 /* Pods-EFIconFont_Tests.debug.xcconfig */,
+				7D06F5C72D97C8F05099039AAB06D0C1 /* Pods-EFIconFont_Tests.release.xcconfig */,
 			);
 			name = "Pods-EFIconFont_Tests";
 			path = "Target Support Files/Pods-EFIconFont_Tests";
 			sourceTree = "<group>";
 		};
-		E1D6019752F25022C553DB0ACAB5A772 /* Resources */ = {
+		F13FB747E77F377397D4070DE07FC7A4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0E3AE6D85310F1DDF7E3047A0C4309B8 /* elusiveicons.ttf */,
+				BF5DA085C58158BFB58092B88E9BE060 /* metrizeicons.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		ECB2781E61981C250719F891A8002986 /* Pods-EFIconFont_Example */ = {
+		F2CEDF4393D88ACE165228FC26E94717 /* ElusiveIcons */ = {
 			isa = PBXGroup;
 			children = (
-				CA6A6F5FC7BD5B7F0300C687BA465A7D /* Pods-EFIconFont_Example.modulemap */,
-				03B04D30ACDB4CD09A880EBFCBFC1790 /* Pods-EFIconFont_Example-acknowledgements.markdown */,
-				8F09282402D90908D32D8FB13479D584 /* Pods-EFIconFont_Example-acknowledgements.plist */,
-				937073647BB7F0670464C6AB8FCF9C27 /* Pods-EFIconFont_Example-dummy.m */,
-				B6CDDD0831950C0CE27CF1E3767B5CCD /* Pods-EFIconFont_Example-frameworks.sh */,
-				D53F9F9F548AAE3E81F56D60CB27EA1D /* Pods-EFIconFont_Example-Info.plist */,
-				A106AD80CBB27527D747C751345F9389 /* Pods-EFIconFont_Example-umbrella.h */,
-				E9EE80524C23117A0324FB34483449AF /* Pods-EFIconFont_Example.debug.xcconfig */,
-				61BA5947C573C4697B5E1D5F77E64B93 /* Pods-EFIconFont_Example.release.xcconfig */,
+				4358E75D6409F299331E53BA5FBB3852 /* EFIconFontElusiveIcons.swift */,
+				2718C0E2E5A971F3990C11AF5A90AD96 /* Resources */,
 			);
-			name = "Pods-EFIconFont_Example";
-			path = "Target Support Files/Pods-EFIconFont_Example";
+			name = ElusiveIcons;
 			sourceTree = "<group>";
 		};
-		EDFF5494AF63E419CD8D0FE749D292DB /* Resources */ = {
+		FC8DEE60C4E993D68BF0995CB7454FA5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				725A21B7D6DFAF3A840BBBBC02FA6E47 /* metrizeicons.ttf */,
+				2E1705ACDE180E887818CE000BE685A6 /* EFIconFont.modulemap */,
+				C0821A653834F83EE19FF15E2BB35AA0 /* EFIconFont.xcconfig */,
+				7B9930C9B0C4340AF944BB2D341186D7 /* EFIconFont-dummy.m */,
+				FCC4C7099E89C4B93A66E339C2BEC116 /* EFIconFont-Info.plist */,
+				6A1588F2CF35FBEE32DAD6EAA155F50E /* EFIconFont-prefix.pch */,
+				EBBDFC3EA9D6C8C60E58FEA052A4D85B /* EFIconFont-umbrella.h */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EFIconFont";
 			sourceTree = "<group>";
 		};
-		F9CF3748CC3D8121198F52A30BD21FE7 /* Pod */ = {
+		FCC52099B659B49EE1AAF406413012B0 /* AntDesign */ = {
 			isa = PBXGroup;
 			children = (
-				BF8365FCE5B9FC1CB9B46A9D2FAE5526 /* EFIconFont.podspec */,
-				6ADF62AD78FF31996A3C77F36271C282 /* LICENSE */,
-				3528DEBB8C03260927DBB1D2B99A1CE4 /* README.md */,
+				416B3B177B2332099421C4595F78700D /* EFIconFontAntDesign.swift */,
+				CC4ADFAB1F12E48E72D36918FD10D0DB /* Resources */,
 			);
-			name = Pod;
+			name = AntDesign;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		01833BD28EBEED1C20535E227F2E982B /* Headers */ = {
+		1720B88C2059DF83ABAD94E43181859C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BE70244510B2476273D7AFBF28301CF /* Pods-EFIconFont_Example-umbrella.h in Headers */,
+				53BB69928397DA16681F6279578ABF7A /* EFIconFont-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		578B3949057452AF0E74C10AA9BAA2A7 /* Headers */ = {
+		2CE9E9CA1BDAFF949A8169EB59AB49FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0B5E2E554B0AD1722242F4B2EC08CE /* Pods-EFIconFont_Tests-umbrella.h in Headers */,
+				29E9181B1AF9FA5C4DEFDC38FE73B2B1 /* Pods-EFIconFont_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCA80B983FE3A29DFFAAC3371C1EFA0A /* Headers */ = {
+		57FFB8CD9DDB00DF68C26C99998519FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB22965790D96311F76125B515A906D /* EFIconFont-umbrella.h in Headers */,
+				EFA31239C6771B4281C64D09F63F1A09 /* Pods-EFIconFont_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8E2D12D721D363613138F7D8FF3D82C8 /* Pods-EFIconFont_Example */ = {
+		025428E16539DDA945E1822F3647434A /* EFIconFont */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9ACC571D57CF3D78B22DF8CD8EA3503D /* Build configuration list for PBXNativeTarget "Pods-EFIconFont_Example" */;
+			buildConfigurationList = 30442AE056C8746241B377D6F8063398 /* Build configuration list for PBXNativeTarget "EFIconFont" */;
 			buildPhases = (
-				01833BD28EBEED1C20535E227F2E982B /* Headers */,
-				4CF43B848B979E8E2AC11BFE566849C3 /* Sources */,
-				C4BE5BF0B56693538D4F83B08D44D088 /* Frameworks */,
-				6F4341160CB7E84D75C30B5D0C0EE762 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8E6AD774D98BD12E8A9E64B9BDFCB392 /* PBXTargetDependency */,
-			);
-			name = "Pods-EFIconFont_Example";
-			productName = "Pods-EFIconFont_Example";
-			productReference = 768B053E997384064DE6AD99C6E3D362 /* Pods_EFIconFont_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		906EA68DBFAA97BC90B233675BDE10F7 /* Pods-EFIconFont_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4C3784C29B6F243F37E40177777496A /* Build configuration list for PBXNativeTarget "Pods-EFIconFont_Tests" */;
-			buildPhases = (
-				578B3949057452AF0E74C10AA9BAA2A7 /* Headers */,
-				6EC44DFE160A37A3FBC95C8CBB7D5004 /* Sources */,
-				0B3235AEE2167BDFBE34BCA932344AA2 /* Frameworks */,
-				B59B5CF1FAAFD665F5BC26A292446C8B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2397592C73E4E2C3E426F8BC86F3EA6B /* PBXTargetDependency */,
-			);
-			name = "Pods-EFIconFont_Tests";
-			productName = "Pods-EFIconFont_Tests";
-			productReference = 0F49F6F57ECB07EA7D03041F01FF1A26 /* Pods_EFIconFont_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		90F4B7E2D8E59A8D6A6DBB0F8E9D650B /* EFIconFont */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0C379EDE4F1D96A2D1B3D334C67AFAB /* Build configuration list for PBXNativeTarget "EFIconFont" */;
-			buildPhases = (
-				FCA80B983FE3A29DFFAAC3371C1EFA0A /* Headers */,
-				D24309F7DF2D70BE5AA6D79CDC260454 /* Sources */,
-				6035EC468D936B46A8C4DB14F9D6EFA8 /* Frameworks */,
-				BDC5BC28C2AA8D233E3334D3BDE85417 /* Resources */,
+				1720B88C2059DF83ABAD94E43181859C /* Headers */,
+				06C88E5B24A36429F53272ED0DAD703B /* Sources */,
+				2E26D1B7C3C90F2AFE4F77D8A288585B /* Frameworks */,
+				38028AD5ACACD0A14D9851C036AAEAE8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -528,7 +512,45 @@
 			);
 			name = EFIconFont;
 			productName = EFIconFont;
-			productReference = 73F94D6EDCBEBE4638A327C8767F239D /* EFIconFont.framework */;
+			productReference = 95873A1965828D956243F4994EF9825B /* EFIconFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FAE5B3F9750CD94D1608AF0C2DB7765 /* Pods-EFIconFont_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ED5FFB41E61073522756BA57B8210C /* Build configuration list for PBXNativeTarget "Pods-EFIconFont_Example" */;
+			buildPhases = (
+				57FFB8CD9DDB00DF68C26C99998519FA /* Headers */,
+				17EADE8CA069034C7F0CE13B87E4A5C7 /* Sources */,
+				4705DB9970AE93DFE94F1B38A697C829 /* Frameworks */,
+				3744A6B6A56B4C8A7BC0C7B379C196AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6634046C0481BB9330ACD35721D04CC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-EFIconFont_Example";
+			productName = "Pods-EFIconFont_Example";
+			productReference = A2A640298E8414367ACFE381A39FCBE3 /* Pods_EFIconFont_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C205DE695FF73654AFB185D4CBBDC0BE /* Pods-EFIconFont_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467C2737D12DB0E02ED1C02B1BFA9A00 /* Build configuration list for PBXNativeTarget "Pods-EFIconFont_Tests" */;
+			buildPhases = (
+				2CE9E9CA1BDAFF949A8169EB59AB49FC /* Headers */,
+				A80663A5E81D764328DBE658499802FD /* Sources */,
+				26977FE438DF5EC7B5939C8EF32FAC0D /* Frameworks */,
+				86FA81F826DF983D0F1D3E8BD2E0517C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACABC01BA17F0BC1CFBE746FBF72260E /* PBXTargetDependency */,
+			);
+			name = "Pods-EFIconFont_Tests";
+			productName = "Pods-EFIconFont_Tests";
+			productReference = E2AE818433BEF4486F790C0EA4E13BD8 /* Pods_EFIconFont_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -537,12 +559,12 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -552,106 +574,108 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90F4B7E2D8E59A8D6A6DBB0F8E9D650B /* EFIconFont */,
-				8E2D12D721D363613138F7D8FF3D82C8 /* Pods-EFIconFont_Example */,
-				906EA68DBFAA97BC90B233675BDE10F7 /* Pods-EFIconFont_Tests */,
+				025428E16539DDA945E1822F3647434A /* EFIconFont */,
+				4FAE5B3F9750CD94D1608AF0C2DB7765 /* Pods-EFIconFont_Example */,
+				C205DE695FF73654AFB185D4CBBDC0BE /* Pods-EFIconFont_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F4341160CB7E84D75C30B5D0C0EE762 /* Resources */ = {
+		3744A6B6A56B4C8A7BC0C7B379C196AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B59B5CF1FAAFD665F5BC26A292446C8B /* Resources */ = {
+		38028AD5ACACD0A14D9851C036AAEAE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38C48BFE8BA5368A5E5D8520DE71C96 /* antdesign.ttf in Resources */,
+				A8B86A0E5C5C0BFF15BA086E65223749 /* elusiveicons.ttf in Resources */,
+				9C135A7315798846878E51CCC0C25206 /* fontawesomebrands.ttf in Resources */,
+				1715E34134C71A681447F5F9918E745B /* fontawesomeregular.ttf in Resources */,
+				CDC4CCDDEAB186C81BE24304221C0766 /* fontawesomesolid.ttf in Resources */,
+				C3252BA842FF5F1A36FB16435E01B53A /* icomoon.ttf in Resources */,
+				EAD884DDDCCDC6EF69473BC85BDF97B3 /* ionicons.ttf in Resources */,
+				B931360A8AFBE4CA6D53C1540F39CC73 /* Material Icons.ttf in Resources */,
+				E2FEC71AACDE9C3E01576831009C486C /* meteocons.ttf in Resources */,
+				5C96DC8F8A6433D26027128973993337 /* metrizeicons.ttf in Resources */,
+				51CA8AADAED77EBFC4D6B8082D71004D /* openiconic.ttf in Resources */,
+				B1436556043DE2D0990D533AE8670D2B /* typicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDC5BC28C2AA8D233E3334D3BDE85417 /* Resources */ = {
+		86FA81F826DF983D0F1D3E8BD2E0517C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA9518D17CA84C743C9547493C3A554 /* antdesign.ttf in Resources */,
-				C76CF5388D78C9CABE3535804C7364B0 /* elusiveicons.ttf in Resources */,
-				CE1C796DCF64512F00D4C574CA87A5F0 /* fontawesomebrands.ttf in Resources */,
-				15FD26965ACA74E2E6F0781B826917B7 /* fontawesomeregular.ttf in Resources */,
-				333C8E0C7F4C6856B2FAA01033F832AA /* fontawesomesolid.ttf in Resources */,
-				B0883C12462AD72FE0A5D3915C61D9F5 /* ionicons.ttf in Resources */,
-				67B11240AF6036813D2897EAF92523EB /* Material Icons.ttf in Resources */,
-				41EABF7059830277593657169BE39B36 /* meteocons.ttf in Resources */,
-				D5AEBE245D78F4F86815E5B7BF950B20 /* metrizeicons.ttf in Resources */,
-				8426AD4AB2C8DEA642F47DACB8C10034 /* openiconic.ttf in Resources */,
-				89675FFAAB9F1FC82BA1AEAB9F156F92 /* typicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4CF43B848B979E8E2AC11BFE566849C3 /* Sources */ = {
+		06C88E5B24A36429F53272ED0DAD703B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8A9E603DB0A4A6C8D658B3ED8686583 /* Pods-EFIconFont_Example-dummy.m in Sources */,
+				337404F57209AEBAC85C4A2F041F6E97 /* EFIconFont-dummy.m in Sources */,
+				D63C2C919625070507F70FF0FC2A44CC /* EFIconFont.swift in Sources */,
+				3C926E8BE42CB49215A09CCD42D9166E /* EFIconFontAntDesign.swift in Sources */,
+				49999B68689D3B8071D4F6C2D305BCE7 /* EFIconFontCaseIterableProtocol.swift in Sources */,
+				14EF999584EDD0BC47796C4264487DC6 /* EFIconFontElusiveIcons.swift in Sources */,
+				F8850A3CB61AD1DBC3B14126A37D8515 /* EFIconFontFontAwesomeBrands.swift in Sources */,
+				E8F43A7CC50D1DE491A0D166275B73CD /* EFIconFontFontAwesomeRegular.swift in Sources */,
+				49DBFDE010F0B3E166C878626F9EAC9C /* EFIconFontFontAwesomeSolid.swift in Sources */,
+				C5E38354525A7BAA8EA23DF69BBE902E /* EFIconFontIonicons.swift in Sources */,
+				ED9E084050A64040B31EC95A346A44E6 /* EFIconFontMaterialIcons.swift in Sources */,
+				624D70CF67DC81705C9F938D66AB43BD /* EFIconFontMeteocons.swift in Sources */,
+				6E3BD513D1E52784738A7D3797AC008D /* EFIconFontMetrizeIcons.swift in Sources */,
+				A2F9943D4D18AE351915136C35795012 /* EFIconFontOpenIconic.swift in Sources */,
+				E07AC9B5617C0096AA2289DA62CE7DF6 /* EFIconFontProtocol.swift in Sources */,
+				C0112630894C06FDC28FA59C83363038 /* EFIconFontTypicons.swift in Sources */,
+				B022F5BFF9A650935E1829FE804A5B6F /* EFIconIcoMoon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EC44DFE160A37A3FBC95C8CBB7D5004 /* Sources */ = {
+		17EADE8CA069034C7F0CE13B87E4A5C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3436FC07D15E4149A3F8B1540D493D1 /* Pods-EFIconFont_Tests-dummy.m in Sources */,
+				D7AECA567470DE7F8D3F9E3A9D4C696E /* Pods-EFIconFont_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D24309F7DF2D70BE5AA6D79CDC260454 /* Sources */ = {
+		A80663A5E81D764328DBE658499802FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACAB3A1A3D75861D383E38AC11E500A3 /* EFIconFont-dummy.m in Sources */,
-				4B8969B2FA3A47D2328BD60953355CEB /* EFIconFont.swift in Sources */,
-				F1C54E78D5D9CC15E7C6D552500DDF7B /* EFIconFontAntDesign.swift in Sources */,
-				4652721541BBE0F7200C37CE2EE50C82 /* EFIconFontCaseIterableProtocol.swift in Sources */,
-				2C5406543C72988A6E16C9D3FC5CD038 /* EFIconFontElusiveIcons.swift in Sources */,
-				E439586AEE64F04F9C00B31AC87F4268 /* EFIconFontFontAwesomeBrands.swift in Sources */,
-				DAC075FCB015330C539DCEADD8A9538A /* EFIconFontFontAwesomeRegular.swift in Sources */,
-				3D8A8CF0EF74E729C113FE2CBD686C4C /* EFIconFontFontAwesomeSolid.swift in Sources */,
-				25ADEAB5371D5E564540C3118DD04AAA /* EFIconFontIonicons.swift in Sources */,
-				3AFEA8ADFBFD126010EB1057D627FE18 /* EFIconFontMaterialIcons.swift in Sources */,
-				EF198356F4AD8244D9FDD9C64AB08384 /* EFIconFontMeteocons.swift in Sources */,
-				33B29473C3A10EC4EF24057D661E3768 /* EFIconFontMetrizeIcons.swift in Sources */,
-				7F463F2DEB621C0C68DA6451F1D7F720 /* EFIconFontOpenIconic.swift in Sources */,
-				3727CC00853C03E1A8022EE6E1B22CD5 /* EFIconFontProtocol.swift in Sources */,
-				12ECAEE56A012AE24271545EFB0CC726 /* EFIconFontTypicons.swift in Sources */,
+				5A80D24B0AB703DFC9C1CA1892D2A092 /* Pods-EFIconFont_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2397592C73E4E2C3E426F8BC86F3EA6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-EFIconFont_Example";
-			target = 8E2D12D721D363613138F7D8FF3D82C8 /* Pods-EFIconFont_Example */;
-			targetProxy = C22EE2CDBBEB3E4DDE6CE67389A852F9 /* PBXContainerItemProxy */;
-		};
-		8E6AD774D98BD12E8A9E64B9BDFCB392 /* PBXTargetDependency */ = {
+		6634046C0481BB9330ACD35721D04CC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EFIconFont;
-			target = 90F4B7E2D8E59A8D6A6DBB0F8E9D650B /* EFIconFont */;
-			targetProxy = CE4D6438A8180AA8C49E3B98D33E4505 /* PBXContainerItemProxy */;
+			target = 025428E16539DDA945E1822F3647434A /* EFIconFont */;
+			targetProxy = 095E5E3D83E5FFD4A6EA8F5DC94EF820 /* PBXContainerItemProxy */;
+		};
+		ACABC01BA17F0BC1CFBE746FBF72260E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EFIconFont_Example";
+			target = 4FAE5B3F9750CD94D1608AF0C2DB7765 /* Pods-EFIconFont_Example */;
+			targetProxy = 9F604ECAA5EA2E31706C40578E1891B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -706,16 +730,15 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		32B9EDEB437BB4D051704A2A7AC279C3 /* Debug */ = {
+		5C22343BB3AAB33443B5ED1321D22D46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69408759385723E43BA207C1C4E34AB0 /* Pods-EFIconFont_Tests.debug.xcconfig */;
+			baseConfigurationReference = C0821A653834F83EE19FF15E2BB35AA0 /* EFIconFont.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -725,52 +748,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EFIconFont_Tests/Pods-EFIconFont_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/EFIconFont/EFIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFIconFont/EFIconFont-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFIconFont_Tests/Pods-EFIconFont_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/EFIconFont/EFIconFont.modulemap";
+				PRODUCT_MODULE_NAME = EFIconFont;
+				PRODUCT_NAME = EFIconFont;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		393553E7D080A20BBF209F90236A6E79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61BA5947C573C4697B5E1D5F77E64B93 /* Pods-EFIconFont_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -778,40 +767,7 @@
 			};
 			name = Release;
 		};
-		3B84C93F29BA106079891E3FBBC40768 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9EE80524C23117A0324FB34483449AF /* Pods-EFIconFont_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -870,14 +826,112 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		510157CB0ADEA550B30412FC0EE95D27 /* Release */ = {
+		85CB794ECBDB1852A55793DFBF610954 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA3326E2969F277880FA5057599089DB /* Pods-EFIconFont_Tests.release.xcconfig */;
+			baseConfigurationReference = 0E94C75BDE3EA9D1B5D0FBF0A0D1BFA3 /* Pods-EFIconFont_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFIconFont_Tests/Pods-EFIconFont_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFIconFont_Tests/Pods-EFIconFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8806AC6301944C5B6962DDD18C65B4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0821A653834F83EE19FF15E2BB35AA0 /* EFIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFIconFont/EFIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFIconFont/EFIconFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFIconFont/EFIconFont.modulemap";
+				PRODUCT_MODULE_NAME = EFIconFont;
+				PRODUCT_NAME = EFIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A991B004576284782C8720D4FD8BFEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9BE464B544578305C43D1E65725A2D /* Pods-EFIconFont_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA2D899FDF552CF5509B20B361FBA2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D06F5C72D97C8F05099039AAB06D0C1 /* Pods-EFIconFont_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -909,10 +963,11 @@
 			};
 			name = Release;
 		};
-		DC7B2D3CF71F56336AFA81A5118BDD9B /* Release */ = {
+		FA90F36237108CD7ED34A2E0D4DE3C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F9B0078B27B4811F2EBA5000EBC0FE1 /* EFIconFont.xcconfig */;
+			baseConfigurationReference = BFDE1EA94766C405275E6C877BAB5C77 /* Pods-EFIconFont_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -922,50 +977,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EFIconFont/EFIconFont-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EFIconFont/EFIconFont-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EFIconFont/EFIconFont.modulemap";
-				PRODUCT_MODULE_NAME = EFIconFont;
-				PRODUCT_NAME = EFIconFont;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFIconFont_Example/Pods-EFIconFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F01924E5930F5263D4D5EC7F6BC6F68D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F9B0078B27B4811F2EBA5000EBC0FE1 /* EFIconFont.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EFIconFont/EFIconFont-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EFIconFont/EFIconFont-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EFIconFont/EFIconFont.modulemap";
-				PRODUCT_MODULE_NAME = EFIconFont;
-				PRODUCT_NAME = EFIconFont;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -975,38 +999,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		30442AE056C8746241B377D6F8063398 /* Build configuration list for PBXNativeTarget "EFIconFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8806AC6301944C5B6962DDD18C65B4A2 /* Debug */,
+				5C22343BB3AAB33443B5ED1321D22D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467C2737D12DB0E02ED1C02B1BFA9A00 /* Build configuration list for PBXNativeTarget "Pods-EFIconFont_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CB794ECBDB1852A55793DFBF610954 /* Debug */,
+				DA2D899FDF552CF5509B20B361FBA2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9ACC571D57CF3D78B22DF8CD8EA3503D /* Build configuration list for PBXNativeTarget "Pods-EFIconFont_Example" */ = {
+		81ED5FFB41E61073522756BA57B8210C /* Build configuration list for PBXNativeTarget "Pods-EFIconFont_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B84C93F29BA106079891E3FBBC40768 /* Debug */,
-				393553E7D080A20BBF209F90236A6E79 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4C3784C29B6F243F37E40177777496A /* Build configuration list for PBXNativeTarget "Pods-EFIconFont_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32B9EDEB437BB4D051704A2A7AC279C3 /* Debug */,
-				510157CB0ADEA550B30412FC0EE95D27 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0C379EDE4F1D96A2D1B3D334C67AFAB /* Build configuration list for PBXNativeTarget "EFIconFont" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F01924E5930F5263D4D5EC7F6BC6F68D /* Debug */,
-				DC7B2D3CF71F56336AFA81A5118BDD9B /* Release */,
+				FA90F36237108CD7ED34A2E0D4DE3C88 /* Debug */,
+				A991B004576284782C8720D4FD8BFEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

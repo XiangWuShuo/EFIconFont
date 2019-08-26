@@ -1,33 +1,36 @@
 PODS:
-  - EFIconFont/AntDesign (0.4.5):
+  - EFIconFont/AntDesign (0.5.1):
     - EFIconFont/Core
-  - EFIconFont/Complete (0.4.5):
+  - EFIconFont/Complete (0.5.1):
     - EFIconFont/AntDesign
     - EFIconFont/Core
     - EFIconFont/ElusiveIcons
     - EFIconFont/FontAwesome
+    - EFIconFont/IcoMoon
     - EFIconFont/Ionicons
     - EFIconFont/MaterialIcons
     - EFIconFont/Meteocons
     - EFIconFont/MetrizeIcons
     - EFIconFont/OpenIconic
     - EFIconFont/Typicons
-  - EFIconFont/Core (0.4.5)
-  - EFIconFont/ElusiveIcons (0.4.5):
+  - EFIconFont/Core (0.5.1)
+  - EFIconFont/ElusiveIcons (0.5.1):
     - EFIconFont/Core
-  - EFIconFont/FontAwesome (0.4.5):
+  - EFIconFont/FontAwesome (0.5.1):
     - EFIconFont/Core
-  - EFIconFont/Ionicons (0.4.5):
+  - EFIconFont/IcoMoon (0.5.1):
     - EFIconFont/Core
-  - EFIconFont/MaterialIcons (0.4.5):
+  - EFIconFont/Ionicons (0.5.1):
     - EFIconFont/Core
-  - EFIconFont/Meteocons (0.4.5):
+  - EFIconFont/MaterialIcons (0.5.1):
     - EFIconFont/Core
-  - EFIconFont/MetrizeIcons (0.4.5):
+  - EFIconFont/Meteocons (0.5.1):
     - EFIconFont/Core
-  - EFIconFont/OpenIconic (0.4.5):
+  - EFIconFont/MetrizeIcons (0.5.1):
     - EFIconFont/Core
-  - EFIconFont/Typicons (0.4.5):
+  - EFIconFont/OpenIconic (0.5.1):
+    - EFIconFont/Core
+  - EFIconFont/Typicons (0.5.1):
     - EFIconFont/Core
 
 DEPENDENCIES:
@@ -38,8 +41,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EFIconFont: f2af2a08d6b3ada6368c11b25c606c72d32b4004
+  EFIconFont: 8f06f55508c681f057806da7ed798c67318180a3
 
 PODFILE CHECKSUM: 377b34526d3e9857b28e9885a58c59c640f11ab8
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.5

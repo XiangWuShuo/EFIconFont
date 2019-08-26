@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'EFIconFont'
-    s.version          = '0.5.0'
+    s.version          = '0.5.1'
     s.summary          = 'Yet another stupid wrapper of icon font.'
     
     s.description      = <<-DESC
@@ -37,6 +37,12 @@ Pod::Spec.new do |s|
         fontawesome.source_files = 'EFIconFont/Classes/FontAwesome/**/*'
         fontawesome.resources = 'EFIconFont/Assets/FontAwesome/**/*'
         fontawesome.dependency 'EFIconFont/Core'
+    end
+
+    s.subspec 'IcoMoon' do |icomoon|
+        icomoon.source_files = 'EFIconFont/Classes/IcoMoon/**/*'
+        icomoon.resources = 'EFIconFont/Assets/IcoMoon/**/*'
+        icomoon.dependency 'EFIconFont/Core'
     end
 
     s.subspec 'Ionicons' do |ionicons|
@@ -80,6 +86,7 @@ Pod::Spec.new do |s|
         complete.dependency 'EFIconFont/AntDesign'
         complete.dependency 'EFIconFont/ElusiveIcons'
         complete.dependency 'EFIconFont/FontAwesome'
+        complete.dependency 'EFIconFont/IcoMoon'
         complete.dependency 'EFIconFont/Ionicons'
         complete.dependency 'EFIconFont/MaterialIcons'
         complete.dependency 'EFIconFont/Meteocons'
